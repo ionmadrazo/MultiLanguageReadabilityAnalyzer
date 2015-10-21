@@ -5,11 +5,11 @@ import java.util.ArrayList;
 public class Text  extends TaggedObject{
 
 	private ArrayList<Paragraph> paragraphs = new ArrayList<>();
+	private String rawText;
 	
-	
-	public Text()
+	public Text(String rawText)
 	{
-		
+		this.rawText= rawText;
 	}
 	
 	public void appendParagraph(Paragraph p)
@@ -22,5 +22,11 @@ public class Text  extends TaggedObject{
 	{
 		return this.paragraphs;
 	}
+
+	public String getRawText() {
+		return rawText;
+	}
+
+	
 	
 }

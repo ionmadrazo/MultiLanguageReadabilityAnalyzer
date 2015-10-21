@@ -1,0 +1,15 @@
+<General>
+Type orthographic
+Dictionary ./dicc.src
+<General>
+
+<Distance>
+CostMatrix ../common/alternatives/cost-ort
+Threshold 2000
+MaxSizeDiff 3
+</Distance>
+
+<Target>
+UnkownWords yes
+KnownWords none
+</Target>
