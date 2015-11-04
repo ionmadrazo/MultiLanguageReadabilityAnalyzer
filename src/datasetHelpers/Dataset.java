@@ -6,6 +6,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Properties;
 
+import constants.TagKeys;
 import ioHelpers.FileHelpers;
 
 public class Dataset extends TaggedObject{
@@ -39,6 +40,34 @@ private String log;
 	public void loadFromDirectory(String directoryPath) throws IOException
 	{
 		this.loadLogFile(directoryPath);
+		
+		//Load raws
+		
+		String rawDirectoryPath = directoryPath+"/"+"raw";
+		
+		File[] directories = new File(rawDirectoryPath).listFiles();
+		
+		
+		for(File directory : directories)
+		{
+			  if (directory.isDirectory()) {
+				  File[] files = directory.listFiles();
+				  for(File f : files)
+					{
+					  Text text = new Text(FileHelpers.fileToString(f.getAbsolutePath()));
+					  Tag folderTag = new Tag(TagKeys.TAG_FOLDER, directory.getName());
+					  Tag filenameTag = new Tag(TagKeys.TAG_FILENAME, f.getName());
+					  text.addTag(folderTag);
+					  text.addTag(filenameTag);
+					  this.appendText(text);
+					}
+				  
+				  
+				  
+			  }
+		}
+		
+		
 	}
 	
 	public void saveToDirectory(String directoryPath)
@@ -63,6 +92,18 @@ private String log;
 		
 		FileHelpers.StringToFile(logFile, this.log);
 	}
+
+	public void setLanguage(String value) {
+		Tag languageTag = new Tag(TagKeys.TAG_LANGUAGE, value);
+		this.addTag(languageTag);
+		
+	}
+	
+	public String getLanguage()
+	{
+		return this.getTag(TagKeys.TAG_LANGUAGE).getValue();
+	}
+	
 	
 	
 	

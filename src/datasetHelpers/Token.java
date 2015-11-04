@@ -1,11 +1,20 @@
 package datasetHelpers;
 
+import edu.upc.freeling.Word;
+
 public class Token extends TaggedObject{
 
-	
-	public Token(String wordForm)
+	private Word freelingInformation;
+	public Token()
 	{
-		this.addTag(new Tag(constants.TagKeys.TAG_WORDFORM, wordForm));
+		
 	}
+	public Word getFreelingInformation() {
+		return freelingInformation;
+	}
+	public void setFreelingInformation(Word freelingInformation) {
+		this.freelingInformation = freelingInformation;
+	}
+	
 	
 }
