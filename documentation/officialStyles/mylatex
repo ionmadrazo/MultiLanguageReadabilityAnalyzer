@@ -1,0 +1,8 @@
+#!/bin/sh
+
+
+name=`basename $1 .tex`
+latex $name.tex
+latex $name.tex
+dvips -t letter $name.dvi -o
+ps2pdf $name.ps

@@ -1,0 +1,190 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.28)  18 NOV 2015 00:11
+entering extended mode
+**main.tex
+
+(D:\eclipse2\workspace\MultiLanguageReadabilityAnalyzer\documentation\proposal\
+main.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tree-dvips\lingmacros.sty"
+\c@enums=\count87
+\widelabel=\dimen103
+\c@tempcnt=\count88
+\c@enumsi=\count89
+\eeindent=\dimen104
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tree-dvips\tree-dvips.sty"
+tree-dvips version .91 of May 16, 1995
+\nodemargin=\dimen105
+\treelinewidth=\dimen106
+\dashlength=\dimen107
+\arrowwidth=\dimen108
+\arrowlength=\dimen109
+\arrowinset=\dimen110
+\pos@t=\toks14
+\pos@b=\toks15
+\pos@l=\toks16
+\pos@r=\toks17
+\pos@tl=\toks18
+\pos@tr=\toks19
+\pos@bl=\toks20
+\pos@br=\toks21
+\@arrow=\count90
+\@tempdimc=\dimen111
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\datetime\datetime.sty"
+Package: datetime 2015/03/20 v2.60 Date Time Package
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\misc\etex.sty"
+Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
+\et@xins=\count91
+)
+\etb@tempcnta=\count92
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fmtcount\fmtcount.sty"
+Package: fmtcount 2015/05/05 v3.01
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+Package: xkeyval 2012/10/14 v2.6b package option processing (HA)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+\XKV@toks=\toks22
+\XKV@tempa@toks=\toks23
+\XKV@depth=\count93
+File: xkeyval.tex 2012/10/14 v2.6b key=value parser (HA)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\keyval.tex")))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fmtcount\fcprefix.sty"
+Package: fcprefix 2012/09/28
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fmtcount\fcnumparser.sty"
+Package: fcnumparser 2012/09/28
+\fc@digit@counter=\count94
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks24
+\ex@=\dimen112
+)
+\c@padzeroesN=\count95
+\fc@tmpcatcode=\count96
+\@DT@modctr=\count97
+\@ordinalctr=\count98
+\@orgargctr=\count99
+\@strctr=\count100
+\@tmpstrctr=\count101
+\@DT@loopN=\count102
+\@DT@X=\count103
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fmtcount\fc-english.def"
+File: fc-english.def 2013/08/17
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\datetime\datetime-defaults.sty"
+Package: datetime-defaults 2013/09/10
+)
+\@day=\count104
+\@month=\count105
+\@year=\count106
+\c@HOUR=\count107
+\c@HOURXII=\count108
+\c@MINUTE=\count109
+\c@TOHOUR=\count110
+\c@TOMINUTE=\count111
+\c@SECOND=\count112
+\currenthour=\count113
+\currentminute=\count114
+\currentsecond=\count115
+Package datetime Info: No datetime.cfg file found, using default settings on in
+put line 308.
+\@dtctr=\count116
+\dayofyear=\count117
+\dayofweek=\count118
+LaTeX Info: Redefining \today on input line 736.
+\dt@a=\toks25
+\dt@b=\toks26
+)
+(D:\eclipse2\workspace\MultiLanguageReadabilityAnalyzer\documentation\proposal\
+main.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 11.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 11.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 14.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 14.
+
+[1
+
+
+Non-PDF special ignored!{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+[2] [3]
+(D:\eclipse2\workspace\MultiLanguageReadabilityAnalyzer\documentation\proposal\
+main.aux) ) 
+Here is how much of TeX's memory you used:
+ 1684 strings out of 493921
+ 22999 string characters out of 3144858
+ 91576 words of memory out of 3000000
+ 4999 multiletter control sequences out of 15000+200000
+ 6627 words of font info for 24 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 35i,6n,21p,1017b,189s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+bx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.p
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (3 pages, 63802 bytes).
+PDF statistics:
+ 32 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

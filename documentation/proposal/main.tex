@@ -1,0 +1,90 @@
+\documentclass[12pt]{article}
+\usepackage{lingmacros}
+\usepackage{tree-dvips}
+\usepackage{datetime}
+\title{Master thesis proposal}
+\author{Ion Madrazo Azpiazu}
+\date{\today}
+\begin{document}
+
+
+\maketitle
+\section{Introduction}
+\begin{itemize}
+\item What is a readability score?
+\item What are the uses of a readability score?
+
+\end{itemize}
+\section{Related work}
+\subsection{Historical readability measures}
+Description of basic readability scores. When and where were they used? Fleisch etc...
+\subsection{General State of the art}
+
+\subsection{State of the art for English}
+\subsection{State of the art for Spanish}
+\subsection{State of the art for Basque}
+
+
+
+\section{Methodology}
+\subsection{Pipeline decription}
+Describe the whole process for prediction. Texts processing, feature extraction, feature processing, prediction.
+
+\subsection{Text processing}
+Description of Freeling NLPTools, which modules are we using. Description of each module with a general description and examples. Generate hypotheses of why this module should add valuable information to the text.
+
+\subsection{Feature extraction}
+Description of all the features used. Why should this feature be valuable, give hypotheses and intuition behind the use of each feature. Give examples when needed.
+
+\subsection{Feature processing and selection}
+Describe algorithms used for feature processing and selection, why should they help get better results?
+
+\subsection{Learning and prediction}
+Describe algorithms for learning and prediction. Pros an cons of each algorithm, why should this algorithm adapt better to our problem?
+
+\section{Evaluation}
+
+\subsection{Datasets}
+Information about how we get and extract the datasets.
+\subsubsection{English}
+\begin{itemize}
+\item Lexile
+\end{itemize}
+\subsubsection{Spanish}
+\begin{itemize}
+\item Lexile
+\end{itemize}
+\subsubsection{Basque}
+\begin{itemize}
+\item Ikasbil
+\end{itemize}
+\subsection{Tests}
+
+\begin{itemize}
+\item \textbf{Comparison} of the system vs \textbf{baselines} such as fleish for each language individually.
+
+\item Comparison \textbf{vs state of the art} systems for each language.
+
+\item Which features add the most value? Correlation, information gain etc.
+
+\item Do features correlate similarly with the readability score for each language?
+
+\item Feature preprocessing, does it help?
+	\begin{itemize}
+	\item Discretization
+	\item Feature subset selection techniques
+	\end{itemize}
+	
+\item Comparison of learning models, which learning model fits best the problem?
+	\begin{itemize}
+	\item KNN
+	\item Bayesian models
+	\item SVM
+	\item Neural network
+	\item Ordinal classification
+	\end{itemize}
+
+\item If we take a bilingual corpus, does the system predict same values? And if we take a text and translate it to another language? Does the readability values mantain using an automatic translator?
+\end{itemize}
+
+\end{document}
