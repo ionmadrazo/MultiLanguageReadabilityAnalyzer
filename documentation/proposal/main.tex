@@ -11,8 +11,22 @@
 \maketitle
 \section{Introduction}
 \begin{itemize}
-\item What is a readability score?
-\item What are the uses of a readability score?
+\item \textbf{Context} What is a readability score?
+\item \textbf{Audience} Text and book recommendation for children or for language learners. Automatic text simplification, for summary generation, for people with reading difficulties. Literacy assessment. Political or medical document complexity assessment. 
+\item \textbf{What is the problem?} 
+\begin{itemize}
+\item Historically used metrics are not precise enough. They base they work on very simple or shallow features, such as word length or sentence length.
+\item Tools developed for readability prediction are usually monolingual. They tend to be monolingual because the tools and datasets used are so too.
+\end{itemize}  
+\item \textbf{What do we propose?} An exploration of new features that fit most of the languages and that fit specific languages. A multilingual tool that is able to detect the input language on the fly and use the best set of features for that specific language for prediction.
+
+\item \textbf{In doing so we will contribute to}
+\begin{itemize}
+\item \textbf{An application} that will help people with different profiles in selecting texts and books in different languages.
+\item \textbf{Several datasets}, that will be created as a byproduct of the development and the testing of the applications. 
+\end{itemize}
+
+\item \textbf{Case study} Even if the application will be able to work in many more languages, for practical purposes, the application will be tested in three different languages. English, for state of the art comparison purposes and as reference of germanic languages. Spanish, as a reference for latin languages, and Basque as an example of a non-indoeuropean language.
 
 \end{itemize}
 \section{Related work}
@@ -24,7 +38,7 @@ Description of basic readability scores. When and where were they used? Fleisch 
 \subsection{State of the art for Spanish}
 \subsection{State of the art for Basque}
 
-
+\subsection{State of the art for multilingual predictors}
 
 \section{Methodology}
 \subsection{Pipeline decription}
@@ -49,21 +63,29 @@ Information about how we get and extract the datasets.
 \subsubsection{English}
 \begin{itemize}
 \item Lexile
+\item List all for proposal...
 \end{itemize}
 \subsubsection{Spanish}
 \begin{itemize}
 \item Lexile
+\item List all for proposal...
 \end{itemize}
 \subsubsection{Basque}
 \begin{itemize}
 \item Ikasbil
 \end{itemize}
+
+\subsection{Metrics}
+
+\begin{itemize}
+\item Error rate, accuracy
+\item Adjacent accuracy, double adjacent accuracy...
+\item Average error distance
+\end{itemize}
+
 \subsection{Tests}
 
 \begin{itemize}
-\item \textbf{Comparison} of the system vs \textbf{baselines} such as fleish for each language individually.
-
-\item Comparison \textbf{vs state of the art} systems for each language.
 
 \item Which features add the most value? Correlation, information gain etc.
 
@@ -84,6 +106,11 @@ Information about how we get and extract the datasets.
 	\item Ordinal classification
 	\end{itemize}
 
+\item \textbf{Comparison} of the system vs \textbf{baselines} such as fleish for each language individually.
+
+\item Comparison \textbf{vs state of the art} systems for each language.
+
+\item Multi vs monolingual
 \item If we take a bilingual corpus, does the system predict same values? And if we take a text and translate it to another language? Does the readability values mantain using an automatic translator?
 \end{itemize}
 
