@@ -13,31 +13,23 @@
 
 \maketitle
 \section{Introduction}
-\begin{itemize}
-\item \textbf{Context} What is a readability score?
-\item \textbf{Audience} Searching books at suitable comprehension levels for children or for language learners. Teachers would be the main stakeholders here, since they would get the most benefit of a tool that would help them obtaining new materials and for curriculum design. Automatic text simplification, for summary generation, for people with reading difficulties. Literacy assessment. Political or medical document complexity assessment. 
-\item \textbf{What is the problem?} 
-\begin{itemize}
-\item Historically used metrics are not precise enough. They base they work on very simple or shallow features, such as word length or sentence length.
-\item Tools developed for readability prediction are usually monolingual. They tend to be monolingual because the tools and datasets used are so too.
-\end{itemize}  
-\item \textbf{What do we propose?} An exploration of new features that fit most of the languages and that fit specific languages. A multilingual tool that is able to detect the input language on the fly and use the best set of features for that specific language for prediction. {\color{red}Why isn't monolingual enough?}
+A readability score refers to the degree of ease with which a reader can understand a given text, which is usually conditioned by features such as vocabulary or syntax. Historically, teachers have been the main stakeholders of the use of this score. Using this score for obtaining new materials for their courses and curriculum design. However, lately, readability scores have been discovered to have more uses than the ones in academic environments. Automatic text simplification or summarizing for people with reading difficulties, literacy assessment, or even political and medical document complexity assessment are examples of the benefits a readability score can provide.\\
 
-\item \textbf{In doing so we will contribute to}
-\begin{itemize}
-\item \textbf{An application} that will help people with different profiles in selecting texts and books in different languages.
-\item \textbf{An analysis} of current tools and methods developed.
-\item \textbf{Several datasets}, that will be created as a byproduct of the development and the testing of the applications. 
-\end{itemize}
+However, historically used readability measures have shown poor performance. Due to the lack of computational power readability measured used to be based on shallow features such as average sentence or word length. Even if those features have showed to be a good baseline for readability assessment, they are not precise enough for certain tasks. Recent developments in the area have made use of both machine learning and natural language techniques, that make good use of the current computational capabilities, showing an significant improvement in precision. However, these tools tend to make use of language specific features that make them only useful for one specific language.\\
 
-\item \textbf{Case study} Even if the application will be able to work in many more languages, for practical purposes, the application will be tested in three different languages. English, for state of the art comparison purposes and as reference of germanic languages. Spanish, as a reference for latin languages, and Basque as an example of a non-indoeuropean language.
+The system we propose would try to solve the two issues discussed above. We aim to develop a multilingual tool that is able to detect the input language of a text on the fly and use the best set of features for that specific language for predicting its readability. This tool would both significantly improve precision over the baseline and be multilingual.\\
 
-\end{itemize}
+In doing so we will contribute to (1) the development of \textbf{an application} that will help people with different profiles selecting texts and books in different languages, (2) an \textbf{analysis} of current features and tools used in the literature and (3) several \textbf{datasets} that will be created as a byproduct of the development and the testing of the application.\\
+
+Even if the application will be able to work in many more languages, for practical purposes, the application will be tested in three different languages. English, for state of the art comparison purposes and as reference of germanic languages. Spanish, as a reference for latin languages, and Basque as an example of a non-indoeuropean language.
+
+
 
 \section{Thesis statement}
 \begin{itemize}
-\item Develop a survey of currently used readability tools and methods
 \item Develop a multilingual readability predictor taking advantage of machine learning techniques and features extracted using natural language processing techniques.
+\item Develop a survey of currently used readability tools and methods, together with a comparison of features and their importance in the readability prediction for each language.
+
 \end{itemize}
 
 \section{Related work}
