@@ -1,0 +1,31 @@
+[imadrazo@onyx project]$ submit tim 557 project
+
+*****************************************************
+Right now this program is collecting the following directory
+
+    /home/students/imadrazo/Courses/ArtificialIntelligence/project
+
+Make sure that the directory is the right one!!!!
+
+If you are trying to submit the previous program (late),
+ this program will time-stamp your submission.
+
+press Enter to continue.
+
+
+Here are the files that will be submitted. If that is not correct,
+then you can resubmit with the right files in place.
+
+Directory: /home/students/imadrazo/Courses/ArtificialIntelligence/project
+
+Files:
+./
+./IonMadrazoAzpiazu_ProjectPaper_AutomaticReadabilityAssessment.pdf
+
+Submission of Programming Assignment project is now COMPLETE.
+You will be informed of your grade
+after the deadline (via e-mail).
+
+Current timestamp: Fri May  1 15:16:35 2015
+
+*****************************************************
