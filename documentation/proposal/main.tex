@@ -4,6 +4,7 @@
 \usepackage{datetime}
 \usepackage{color}
 \usepackage{graphicx}
+\usepackage{cite}
 \graphicspath{ {images/} }
 \title{Master thesis proposal}
 \author{Ion Madrazo Azpiazu}
@@ -13,7 +14,11 @@
 
 \maketitle
 \section{Introduction}
-A readability score refers to the degree of ease with which a reader can understand a given text, which is usually conditioned by features such as vocabulary or syntax. Historically, teachers have been the main stakeholders of the use of this score. Using this score for obtaining new materials for their courses and curriculum design. However, lately, readability scores have been discovered to have more uses than the ones in academic environments. Automatic text simplification or summarizing for people with reading difficulties, literacy assessment, or even political and medical document complexity assessment are examples of the benefits a readability score can provide.\\
+
+Reading is an important skill of not only in the educational context, but in daily tasks. People that get good understanding from the texts they read, tend to take better decisions when they face medical or educational problems, which can lead to better career opportunities in the future. Studies\cite{medicalReadability1} show that even medical resources that are supposed to be suited for average readers, tend to have too specialized vocabulary that even well educated adults have trouble understanding. Therefore, it is important no only to provide students with encouraging texts for improving their reading skills, but also to be able to produce texts, in medical or legal contexts, that are simple enough to be understood by people with average or poor reading skills.  That is where the readability assessment formulas take place, providing a simple way of assessing a text's complexity level, so that they can be adequate to a public as broad as possible. \\
+
+
+A readability score refers to the degree of ease with which a reader can understand a given text, which is usually conditioned by features such as vocabulary or syntax. Historically, teachers have been the main stakeholders of the use of readability formulas, making use of it for obtaining new materials for their courses and curriculum design. However, lately, readability scores have been discovered to have more uses than the ones in academic environments. Automatic text simplification or summarizing for people with reading difficulties, literacy assessment, or even political and medical document complexity assessment are examples of the benefits a readability score can provide.\\
 
 However, historically used readability measures have shown poor performance. Due to the lack of computational power readability measured used to be based on shallow features such as average sentence or word length. Even if those features have showed to be a good baseline for readability assessment, they are not precise enough for certain tasks. Recent developments in the area have made use of both machine learning and natural language techniques, that make good use of the current computational capabilities, showing an significant improvement in precision. However, these tools tend to make use of language specific features that make them only useful for one specific language.\\
 
@@ -141,7 +146,11 @@ Information about how we get and extract the datasets.
 \item Comparison \textbf{vs state of the art} systems for each language.
 
 \item Multi vs monolingual
-\item If we take a bilingual corpus, does the system predict same values? And if we take a text and translate it to another language? Does the readability values mantain using an automatic translator?
+\item If we take a bilingual corpus, does the system predict same values? And if we take a text and translate it to another language? Does the readability values maintain using an automatic translator?
 \end{itemize}
 
+
+
+\bibliography{bibliography}{}
+\bibliographystyle{plain}
 \end{document}
