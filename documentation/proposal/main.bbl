@@ -1,9 +1,88 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{albright1996readability}
+Judith Albright, Carol de~Guzman, Patrick Acebo, Dorothy Paiva, Mary Faulkner,
+  and Janice Swanson.
+\newblock Readability of patient education materials: implications for clinical
+  practice.
+\newblock {\em Applied Nursing Research}, 9(3):139--143, 1996.
+
+\bibitem{aluisio2010readability}
+Sandra Aluisio, Lucia Specia, Caroline Gasperin, and Carolina Scarton.
+\newblock Readability assessment for text simplification.
+\newblock In {\em Proceedings of the NAACL HLT 2010 Fifth Workshop on
+  Innovative Use of NLP for Building Educational Applications}, pages 1--9.
+  Association for Computational Linguistics, 2010.
+
+\bibitem{chall1995readability}
+Jeanne~Sternlicht Chall and Edgar Dale.
+\newblock {\em Readability revisited: The new Dale-Chall readability formula}.
+\newblock Brookline Books, 1995.
+
+\bibitem{textsimplificationWithDisabilities1}
+Lijun Feng.
+\newblock Automatic readability assessment for people with intellectual
+  disabilities.
+\newblock {\em ACM SIGACCESS Accessibility and Computing}, (93):84--91, 2009.
+
+\bibitem{flesch1948new}
+Rudolph Flesch.
+\newblock A new readability yardstick.
+\newblock {\em Journal of applied psychology}, 32(3):221, 1948.
+
+\bibitem{franccois2012ai}
+Thomas Fran{\c{c}}ois and C{\'e}drick Fairon.
+\newblock An ai readability formula for french as a foreign language.
+\newblock In {\em Proceedings of the 2012 Joint Conference on Empirical Methods
+  in Natural Language Processing and Computational Natural Language Learning},
+  pages 466--477. Association for Computational Linguistics, 2012.
 
 \bibitem{medicalReadability1}
 Ahmed~MS Ibrahim, Christina~R Vargas, Pieter~GL Koolen, Danielle~J Chuang,
   Samuel~J Lin, and Bernard~T Lee.
 \newblock Readability of online patient resources for melanoma.
 \newblock {\em Melanoma research}, 26(1):58--65, 2016.
+
+\bibitem{legalreadability}
+James~RP Ogloff and Randy~K Otto.
+\newblock Are research participants truly informed? readability of informed
+  consent forms used in research.
+\newblock {\em Ethics \& Behavior}, 1(4):239--252, 1991.
+
+\bibitem{medicalReadability3}
+Chirag~R Patel, Saurin Sanghvi, Deepa~V Cherla, Soly Baredes, and Jean~Anderson
+  Eloy.
+\newblock Readability assessment of internet-based patient education materials
+  related to parathyroid surgery.
+\newblock {\em Annals of Otology, Rhinology \& Laryngology}, page
+  0003489414567938, 2015.
+
+\bibitem{medicalReadability2}
+Jennifer Petkovic, Jonathan Epstein, Rachelle Buchbinder, Vivian Welch, Tamara
+  Rader, Anne Lyddiatt, Rosemary Clerehan, Robin Christensen, Annelies Boonen,
+  Niti Goel, et~al.
+\newblock Toward ensuring health equity: Readability and cultural equivalence
+  of omeract patient-reported outcome measures.
+\newblock {\em The Journal of rheumatology}, 42(12):2448--2459, 2015.
+
+\bibitem{textsimplification2}
+Horacio Saggion, Sanja {\v{S}}tajner, Stefan Bott, Simon Mille, Luz Rello, and
+  Biljana Drndarevic.
+\newblock Making it simplext: Implementation and evaluation of a text
+  simplification system for spanish.
+\newblock {\em ACM Transactions on Accessible Computing (TACCESS)}, 6(4):14,
+  2015.
+
+\bibitem{textsimplification1}
+Sanja {\v{S}}tajner, Ruslan Mitkov, and Gloria~Corpas Pastor.
+\newblock Simple or not simple? a readability question.
+\newblock In {\em Language Production, Cognition, and the Lexicon}, pages
+  379--398. Springer, 2015.
+
+\bibitem{literacy1}
+Barry~D Weiss, Mary~Z Mays, William Martz, Kelley~Merriam Castro, Darren~A
+  DeWalt, Michael~P Pignone, Joy Mockbee, and Frank~A Hale.
+\newblock Quick assessment of literacy in primary care: the newest vital sign.
+\newblock {\em The Annals of Family Medicine}, 3(6):514--522, 2005.
 
 \end{thebibliography}
