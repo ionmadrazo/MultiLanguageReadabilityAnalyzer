@@ -18,37 +18,45 @@
 Reading is an important skill of not only in the educational context, but in daily tasks. People that get good understanding from the texts they read, tend to take better decisions when they face medical or educational problems, which can lead to better career opportunities in the future. Studies\cite{medicalReadability1}\cite{medicalReadability2}\cite{medicalReadability3} show that even medical resources that are supposed to be suited for average readers, tend to be too specialized and even well educated adults have trouble understanding. Therefore, it is important no only to provide students with encouraging texts for improving their reading skills, but also to be able to produce texts, in medical or legal contexts, that are simple enough to be understood by people with average or poor reading skills.  That is where the readability assessment formulas take place, providing a simple way of assessing a text's complexity level, so that the public for each text can be determined. \\
 
 
-A readability score refers to the degree of ease with which a reader can understand a given text, which is usually conditioned by features such as vocabulary or syntax. Historically, teachers have been the main stakeholders of the use of readability formulas, making use of it for obtaining new materials for their courses and curriculum design. However, lately, readability scores have been discovered to have more uses than the ones in academic environments. Automatic text simplification\cite{textsimplification1}\cite{textsimplification2} or summarizing for people with reading difficulties\cite{textsimplificationWithDisabilities1}, literacy assessment\cite{literacy1}, or even legal\cite{legalreadability} and medical document complexity assessment\cite{medicalReadability1}\cite{medicalReadability2}\cite{medicalReadability3} are examples of the benefits a readability score can provide.\\
+A readability score refers to the degree of ease with which a reader can understand a given text, which is usually conditioned by features such as vocabulary or syntax. Historically, teachers have been the main stakeholders of the use of readability formulas, making use of it for obtaining new materials for their courses and curriculum design. However, lately, readability scores have been discovered to have more uses than the ones in academic environments. Automatic text simplification\cite{textsimplification1}\cite{textsimplification2} or summarizing for people with reading difficulties\cite{textsimplificationWithDisabilities1}, book recommendation \cite{pera2014automating}, literacy assessment\cite{literacy1}, or even legal\cite{legalreadability} and medical document complexity assessment\cite{medicalReadability1}\cite{medicalReadability2}\cite{medicalReadability3} are examples of the benefits a readability score can provide.\\
 
 
 At the early stages of readability, formulas such as Flesh \cite{flesch1948new}, Dale-Chall \cite{chall1995readability} and Gunning FOG  \cite{albright1996readability} showed up as the most used formulas by educators for manually determining text difficulty. Most of those formulas made use of shallow features such as, average word length or average sentence length. However, they soon left place to more complex formulas\cite{franccois2012ai}\cite{aluisio2010readability}, that started to put together both natural language processing and machine learning techniques. The new formulas usually continued using the shallow  features  mentioned above, but added new more complex features based on syntax or semantics of the text. With the addition of new features, the tools became more precise, but more constrained, making them difficult to port to other languages than the one they were designed for, making the multilingualism that was possible in the early stages disappear.  \\
 
 
-The system we propose would try to solve the two issues discussed above. We aim to develop a multilingual tool that is able to detect the input language of a text on the fly and use the best set of features for that specific language for predicting its readability. This tool would both significantly improve precision over the baseline and be multilingual.\\
+Having seen the lack of multilingualism among the state of the art systems for readability prediction, we pursue to develop a multilingual readability assessment tool . This tool should both show results comparable to monolingual state of the art systems,  and  maintain the multilingualism the early tools in the readability field had. For doing so we will make a exploration of the features and methods used in literature, and adapt them to be multilingual. Furthermore, we will develop novel features that will aim at suiting the lack systems in the literature have regarding some languages. In doing so, we will produce a system that will adapt itself to the input text language, and use an adequate subset of features for that certain language for giving a prediction, creating, to the best of our knowledge, the first multilingual readability assessment system.\\
 
-In doing so we will contribute to (1) the development of \textbf{an application} that will help people with different profiles selecting texts and books in different languages, (2) an \textbf{analysis} of current features and tools used in the literature and (3) several \textbf{datasets} that will be created as a byproduct of the development and the testing of the application.\\
+{\color{red}Should I explain something about evaluation here? About the comparison of features and analysis of their influence in each language?}\\
 
-Even if the application will be able to work in many more languages, for practical purposes, the application will be tested in three different languages. English, for state of the art comparison purposes and as reference of germanic languages. Spanish, as a reference for latin languages, and Basque as an example of a non-indoeuropean language.
+It is important to note, that for practical purposes, the application will only be tested in three different languages. \textit{English}, for state of the art comparison purposes and as reference of germanic languages. \textit{Spanish}, as a reference for latin languages, and \textit{Basque} as an example of a non-indoeuropean language.
 
 
 
 \section{Thesis statement}
-\begin{itemize}
-\item Develop a multilingual readability predictor taking advantage of machine learning techniques and features extracted using natural language processing techniques.
-\item Develop a survey of currently used readability tools and methods, together with a comparison of features and their importance in the readability prediction for each language.
+ In this project we aim to develop a multilingual readability predictor taking advantage of machine learning techniques and features extracted using natural language processing techniques. As a secondary goal, we will survey the features and methods currently used in the state of the art, and create a comparison features and their importance in the readability prediction for each language. As a byproduct of the development and testing, we will create various datasets that can be of good use for other researchers in the area.
 
-\end{itemize}
 
 \section{Related work}
-\subsection{Historical readability measures}
-Description of basic readability scores. When and where were they used? Fleisch etc...
-\subsection{General State of the art}
+In the recent years, different RA systems have been developed with high diversity regarding both languages and features. \\
 
-\subsection{State of the art for English}
-\subsection{State of the art for Spanish}
-\subsection{State of the art for Basque}
+For \textbf{English}, \cite{feng2010comparison} presented a comparison of the common readability features used for English. \cite{aluisio2010readability} aimed their system for evaluating text simplification methods with a system, that made use of some more elaborated features such as ambiguity in terms. \cite{feng2009automatic} oriented their system for assessing the difficulty level of a text for people with intellectual disabilities, developing some features that were intended to detect how well a text was structured.{\color{red} TO DO} \\  
 
-\subsection{State of the art for multilingual predictors}
+For \textbf{Spanish} \cite{vstajner2013readability} \cite{drndarevic2013automatic} ... {\color{red} TO DO} \\
+
+
+For \textbf{Basque}, for the best of our knowledge, only one system have been developed. Due to the fact that Basque is considered a minority language and shares very little similarities with the most spoken languages. Very little research have been done in the area. Therefore, currently, Errexail \cite{gonzalez2014simple} is the only system created for Basque readability assessment. This system was aimed for text simplification purposes and was developed to predict two different values, simple or complex. The aim for this was to detect which texts needed some simplification and which texts did not. The system makes use of simple features mostly based on ratios of common Natural language processing tags.\\
+
+
+
+For \textbf{Chinese}, \cite{chen2011chinese} developed a RA system only based on lexical metrics based on the TF-Idf measure. This metric in conjunction with a mutual information measure was able to determine which terms were most relevant for each of the readability levels. These terms were afterwards used to predict the level of readability for the inputs texts. However, this technique was not topic independent, as once trained for a certain topic the terms were no longer useful for other topics. Previously, \cite{collins2004language} developed a system that already tried to solve, the topic dependence problem for Chinese. This system was based on Tf-Idf too and as the authors stated, removing some top scoring words of the Tf-Idf ranking, lead the system to be more independent of the topic. Apparently, the top scoring words were highly specialized words to the topic selected for training.\\
+
+For \textbf{Arabic}, \cite{al2008towards} developed a readability assessment told based on only two features. The features were based on simple ratios based on sentence,terms and letter counts. Those, features were used with a SVM classifier in order to be able to classify text as simple or complex.\\
+
+For \textbf{Italian}, \cite{dell2011read} presented a readability assessment system aimed for text simplification. Since the text simplification tool the authors were developing was based on sentences. The authors of this system decided,that rather than developing a system for determining text readability, their system would work at sentence level. Therefore, the text simplification tool, would have more information of which sentence needed simplification and which did not. The model generated for sentence level is shown to be generalizable to full text level, by the use of simple averages. The more complex sentences a text have, the more probabilities it have to be complex in overall.\\
+
+For \textbf{French},\cite{franccois2012ai} developed a readability assessment system with the foreign language learners in mind. The objective was to determine which features were more important for a foreign language learner to understand a text. In addition, they provided a metric new to the area called adjacent accuracy that tried to measure systems' performance in a more accurate and relevant. \\
+
+
 
 \section{Methodology}
 The proposed method relies in two different areas of data science, Natural language processing and machine learning. Advantage of one or both areas is taken in each of the steps that conform the pipeline of the algorithm explained below.
@@ -154,5 +162,5 @@ Information about how we get and extract the datasets.
 
 
 \bibliography{bibliography}{}
-\bibliographystyle{plain}
+\bibliographystyle{apalike}
 \end{document}
