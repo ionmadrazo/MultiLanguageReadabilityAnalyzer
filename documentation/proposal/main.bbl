@@ -21,6 +21,13 @@ Aluisio, S., Specia, L., Gasperin, C., and Scarton, C. (2010).
   Innovative Use of NLP for Building Educational Applications}, pages 1--9.
   Association for Computational Linguistics.
 
+\bibitem[Anula, 2007]{anula2007tipos}
+Anula, A. (2007).
+\newblock Tipos de textos, complejidad ling{\"u}{\i}stica y facilicitaci{\'o}n
+  lectora.
+\newblock In {\em Actas del Sexto Congreso de Hispanistas de Asia}, pages
+  45--61.
+
 \bibitem[Chall and Dale, 1995]{chall1995readability}
 Chall, J.~S. and Dale, E. (1995).
 \newblock {\em Readability revisited: The new Dale-Chall readability formula}.
@@ -129,6 +136,11 @@ Saggion, H., {\v{S}}tajner, S., Bott, S., Mille, S., Rello, L., and Drndarevic,
 \newblock Making it simplext: Implementation and evaluation of a text
   simplification system for spanish.
 \newblock {\em ACM Transactions on Accessible Computing (TACCESS)}, 6(4):14.
+
+\bibitem[Spaulding, 1956]{spaulding1956spanish}
+Spaulding, S. (1956).
+\newblock A spanish readability formula.
+\newblock {\em The Modern Language Journal}, 40(8):433--441.
 
 \bibitem[{\v{S}}tajner et~al., 2015]{textsimplification1}
 {\v{S}}tajner, S., Mitkov, R., and Pastor, G.~C. (2015).
