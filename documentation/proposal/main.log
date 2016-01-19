@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.28)  18 JAN 2016 00:54
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.28)  19 JAN 2016 10:18
 entering extended mode
 **main.tex
 
@@ -210,6 +210,11 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 15.
 
+
+LaTeX Warning: Citation `robinson2000issues' on page 1 undefined on input line 
+18.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
@@ -252,12 +257,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
-[3]
+
 Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
-
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
@@ -296,18 +301,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
-[5]
 
-LaTeX Warning: Citation `freelingNLP' on page 6 undefined on input line 82.
+LaTeX Warning: Citation `freelingNLP' on page 5 undefined on input line 82.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
+[5]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
+
 
 LaTeX Warning: Citation `flesch' on page 6 undefined on input line 84.
 
@@ -351,10 +357,10 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2736 strings out of 493921
- 37732 string characters out of 3144858
+ 2737 strings out of 493921
+ 37752 string characters out of 3144858
  108702 words of memory out of 3000000
- 6008 multiletter control sequences out of 15000+200000
+ 6009 multiletter control sequences out of 15000+200000
  6974 words of font info for 25 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  35i,6n,32p,1562b,271s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -364,7 +370,7 @@ Here is how much of TeX's memory you used:
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program
  Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (12 pages, 188696 bytes).
+Output written on main.pdf (12 pages, 188571 bytes).
 PDF statistics:
  68 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

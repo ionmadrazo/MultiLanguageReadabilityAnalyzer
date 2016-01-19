@@ -46,7 +46,7 @@
 % For tracking purposes - this is V2.0 - May 2012
 
 \documentclass{sig-alternate-05-2015}
-
+\usepackage{color}
 
 \begin{document}
 
@@ -139,9 +139,7 @@ G.K.M. Tobin\\
 % author on the opening page (as the 'third row') but we ask,
 % for aesthetic reasons that you place these 'additional authors'
 % in the \additional authors block, viz.
-\additionalauthors{Additional authors: John Smith (The Th{\o}rv{\"a}ld Group,
-email: {\texttt{jsmith@affiliation.org}}) and Julius P.~Kumquat
-(The Kumquat Consortium, email: {\texttt{jpkumquat@consortium.net}}).}
+
 \date{30 July 1999}
 % Just remember to make sure that the TOTAL number of authors
 % is the number that will appear on the first page PLUS the
@@ -149,19 +147,7 @@ email: {\texttt{jsmith@affiliation.org}}) and Julius P.~Kumquat
 
 \maketitle
 \begin{abstract}
-
-Ideas:
-
-Website oriented to instructors:
-1-Can be used for retrieving documents for the students from the school database, or from google itself
-2-Analysing text or exercises that are for students to see if the readability level is the adequate.
-
-Website for students:
-1- Follow the readability of a student during its learning process
-2- Personalize the search results for himself, using google query, surf the internet making sure the texts are adequate to his level
-3- Personalize the reading material to find encouraging books from school library. Some students need lower or higher level books, compared to the class.
-4- A student can determine the quality of an essay written himself, analysing 
-it with the web application.
+Students can find themselves discouraged when presented with a text that is outside their reading skills. At the same time, finding adequate reading material for students with different reading skills is not a lightweight task for educators. In this paper we present a web application that aims at making this task easier for instructors. The system we propose keeps track of each students reading skills and takes advantage of a search engine that is filtered by a readability formula for retrieving materials that are suitable for each student in an more efficient way.
 
 
 
@@ -219,6 +205,28 @@ it with the web application.
 \keywords{ACM proceedings; \LaTeX; text tagging}
 
 \section{Introduction}
+Reading is an important skill in the academic environment, a skill that can have a high impact for a student's educational opportunities and their career \cite{robinson2000issues}. However, students can get discouraged to read, when the texts provided are outside of their comprehension level, whether being too easy to read  or too difficult for them. Furthermore, even in a same grade class, students' reading skills can differ significantly, so not all students in the same class can be provided with same texts. This supposes a personalization need that the instructor needs to handle day to day, which, when the amount of students in class is high, becomes impossible to handle and deficient. All of these reasons, make instructors spend a significant amount of their time finding adequate materials for their students, a time that could be reduced with the help of specialized software.\\
 
 
+We {\color{red}propose/present?} a system oriented to both instructors and students in the process of finding materials that suit the students reading level. The system is centered on a readability formula that together with a search engine makes looking for leveled reading material easier and more efficient. The system lets students log in in the web application, which keeps track of the texts read by the logged student and the feed-back received for each text(too ease/OK/too complex). This enables the application to make suggestions about the readability level for each students. Both the student and the teacher are able too see the readability score in order to see how it evolves. Furthermore, both the students and instructors can use the included search engine which retrieves personalized results regarding the readability score. The search engine can be personalized for each education center, so that it makes searches on its library database or in the internet itself. \\
+
+Apart from the search engine, the instructors have access to an analysis page, where they can submit texts they found outside the application for determining their readability score. This tool, together with the track of readability scores of each students, helps them make sure the materials they found are adequate or not for the class.
+{\color{red}
+\section{Ideas}
+Ideas:
+
+Website oriented to instructors:
+1-Can be used for retrieving documents for the students from the school database, or from google itself
+2-Analysing text or exercises that are for students to see if the readability level is the adequate.
+
+Website for students:
+1- Follow the readability of a student during its learning process
+2- Personalize the search results for himself, using google query, surf the internet making sure the texts are adequate to his level
+3- Personalize the reading material to find encouraging books from school library. Some students need lower or higher level books, compared to the class.
+4- A student can determine the quality of an essay written himself, analysing 
+it with the web application.
+}
+
+\bibliography{bibliography}{}
+\bibliographystyle{apalike}
 \end{document}
