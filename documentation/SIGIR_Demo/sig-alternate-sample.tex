@@ -61,7 +61,7 @@
 
 
 % DOI
-\doi{10.475/123_4}
+\doi{10.475/123_4} 
 
 % ISBN
 \isbn{123-4567-24-567/08/06}
@@ -78,7 +78,7 @@
 %\crdata{0-12345-67-8/90/01}  % Allows default copyright data (0-89791-88-6/97/05) to be over-ridden - IF NEED BE.
 % --- End of Author Metadata ---
 
-\title{ Readability assessment demo}
+\title{YouUnderstood.me? Making students and educators understand each other}
 
 %
 % You need the command \numberofauthors to handle the 'placement
@@ -105,7 +105,7 @@
 % without further effort on your part as the last section in
 % the body of your article BEFORE References or any Appendices.
 
-\numberofauthors{8} %  in this sample file, there are a *total*
+\numberofauthors{2} %  in this sample file, there are a *total*
 % of EIGHT authors. SIX appear on the 'first-page' (for formatting
 % reasons) and the remaining two appear in the \additionalauthors section.
 %
@@ -122,18 +122,18 @@
 %
 % 1st. author
 \alignauthor
-Ben Trovato\\
-       \affaddr{Institute for Clarity in Documentation}\\
-       \affaddr{1932 Wallamaloo Lane}\\
-       \affaddr{Wallamaloo, New Zealand}\\
-       \email{trovato@corporation.com}
+Ion Madrazo\\
+       \affaddr{Computer Science Department}\\
+       \affaddr{Boise State University}\\
+       \affaddr{Boise, Idaho, USA}\\
+       \email{ionmadrazo@boisestate.edu}
 % 2nd. author
 \alignauthor
-G.K.M. Tobin\\
-       \affaddr{Institute for Clarity in Documentation}\\
-       \affaddr{P.O. Box 1212}\\
-       \affaddr{Dublin, Ohio 43017-6221}\\
-       \email{webmaster@marysville-ohio.com}
+Sole Pera\\
+       \affaddr{Computer Science Department}\\
+       \affaddr{Boise State University}\\
+       \affaddr{Boise, Idaho, USA}\\
+       \email{solepera@boisestate.edu}
 }
 % There's nothing stopping you putting the seventh, eighth, etc.
 % author on the opening page (as the 'third row') but we ask,
@@ -151,16 +151,6 @@ G.K.M. Tobin\\
 K-12 students make use of online resources to fulfill their academic information needs on a daily basis. However, sometimes, they can get discouraged because the contents they retrieve are outside their comprehension level, whether being too easy or too difficult  for them to read. On the other side, educators find several challenges in finding materials for their classes that suit the students reading skills. Those reasons, make both students and educators a significant amount of time looking for suitable materials, a time that could be reduced with the use of specialized software.
 
  In this paper, we present a multidisciplinary system, that makes use of natural language processing, machine learning and information retrieval techniques, to help both students and educator in the process of finding materials that suit the reading skills of the students in a faster and more efficient way. For this purpose, the web application we present, puts together, a search engine that is filtered by a readability assessment tool and a readability tracking system that enables both the educator and the student see how the reading skills of the student are evolving with time.
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -218,7 +208,7 @@ K-12 students make use of online resources to fulfill their academic information
 % We no longer use \terms command
 %\terms{Theory}
 
-\keywords{ACM proceedings; \LaTeX; text tagging}
+\keywords{Search engines; Filtering; Readability assessment; Student tracking}
 
 \section{Introduction}
 
@@ -227,7 +217,7 @@ K-12 students make use of the internet in a daily basis to fulfill their informa
 %Reading is an important skill in the academic environment, a skill that can have a high impact for a student's educational opportunities and their career \cite{robinson2000issues}. However, students can get discouraged to read, when the texts provided are outside of their comprehension level, whether being too easy to read  or too difficult for them.
 
 
-On the academic environment students are not the only one facing the problem of retrieving adequate contents in terms reading abilities and information needs. For example, even in a same grade class, students' reading skills can differ significantly, so not all students in the same class can be provided with same texts. This supposes a personalization need that the instructor needs to handle day to day. However with the hihg number of students in class this task impossible to handle and deficient. All of these reasons, make instructors spend a significant amount of their time finding adequate materials for their students, a time that could be reduced with the help of specialized software.\\
+On the academic environment students are not the only one facing the problem of retrieving adequate contents in terms reading abilities and information needs. For example, even in a same grade class, students' reading skills can differ significantly, so not all students in the same class can be provided with same texts. This supposes a personalization need that the instructor needs to handle day to day. However with the high number of students in class this task impossible to handle and deficient. All of these reasons, make instructors spend a significant amount of their time finding adequate materi als for their students, a time that could be reduced with the help of specialized software.\\
 
 
 We have developed a system oriented to both instructors and students in the process of finding materials that suit the students reading level. The system is centered on a readability formula that together with a search engine makes looking for leveled reading material easier and more efficient. The system lets students log in in the web application, which keeps track of the materials read by the logged student and the feed-back received for each material(too easy/OK/too complex). This enables the application to make suggestions about the readability level for each student. Both the student and the teacher are able too see the readability score in order to see how it evolves. Furthermore, both the students and instructors can use the included search engine which retrieves results tailored to the readability score. The search engine can be connected to different data sources depending on education center. Apart from being connected to the internet itself, it can be connected to material catalogs, such as the ones from school libraries or online libraries such as AR or Lexile. Some other educative sites such as Wikipedia or other online encyclopedias can act as data sources too. \\
@@ -237,19 +227,22 @@ Apart from the search engine, the instructors have access to an analysis page, w
 
 
 
-
-
-
 \section{Material analysis}
 
 
 \section{Search engine}
 
+
+\section{Tracking students}
+
 \section{User Experience}
 
 \begin{itemize}
-\item \textbf{Looking for new materials.}
 \item \textbf{Analyzing materials.} An analysis page is provided to instructors, so that they can make use of the readability assessment algorithm with materials from outside the application. This page provides an input form where the instructor can submit the material, and receive a readability level prediction for the material.
+\item \textbf{Looking for new materials.} 
+
+
+
 \item \textbf{Tracking students.} The educator can see a table with data about all his/her students, where the number of materials read and the readability score for each student can be seen. The instructor can go deeper if needed, and see each of the materials each students has read and the individual readability scores for each material, as well as, the feed back given by the student. The data is also presented in a summarized way, so that the educator can see the average, maximum and minimum reading skills of the students in class.
 
 \end{itemize}
@@ -262,7 +255,7 @@ Apart from the search engine, the instructors have access to an analysis page, w
 \begin{itemize}
 \item YouUnderstood.me?
 \item YouUnderstood.me? A readability filtered search engine for students and educators
-\item  YouUnderstood.me? Making sure students and educators understand each other
+\item  YouUnderstood.me? Making sure student s and educators understand each other
 \item  YouUnderstood.me? Making students and educators understand each other
 \end{itemize}
 
