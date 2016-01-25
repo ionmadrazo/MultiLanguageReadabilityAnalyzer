@@ -78,7 +78,7 @@
 %\crdata{0-12345-67-8/90/01}  % Allows default copyright data (0-89791-88-6/97/05) to be over-ridden - IF NEED BE.
 % --- End of Author Metadata ---
 
-\title{YouUnderstood.me? Academic material retrieval for students and educators
+\title{YouUnderstood.me? Academic material retrieval for students and educators}
 
 %
 % You need the command \numberofauthors to handle the 'placement
@@ -148,9 +148,10 @@ Sole Pera\\
 \maketitle
 \begin{abstract}
 
-K-12 students make use of online resources to fulfill their academic information needs on a daily basis. However, sometimes, they can get discouraged because the contents they retrieve are outside their comprehension level, whether being too easy or too difficult  for them to read. On the other side, educators find several challenges in finding materials for their classes that suit the students reading skills. Those reasons, make both students and educators a significant amount of time looking for suitable materials, a time that could be reduced with the use of specialized software.
 
- In this paper, we present a multidisciplinary system, that makes use of natural language processing, machine learning and information retrieval techniques, to help both students and educator in the process of finding materials that suit the reading skills of the students in a faster and more efficient way. For this purpose, the web application we present, puts together, a search engine that is filtered by a readability assessment tool and a readability tracking system that enables both the educator and the student see how the reading skills of the student are evolving with time.
+K-12 students make use of online resources to fulfill their academic information needs on a daily basis. However, they can often get discouraged because the contents they retrieve are outside their comprehension level, whether being too easy or too difficult  for them to read. On the other side, educators find several challenges in finding materials for their classes that suit the students reading skills. Those reasons, make both students and educators spend a reasonably large  amount of time seeking for adequate materials.
+
+ In this paper, we present a web application, that makes use of multidisciplinary techniques, such as, natural language processing, machine learning and information retrieval techniques, to help both students and educators in the process of finding materials that suit the reading skills of the students in a faster and more efficient way. For this purpose, the web application we present, puts together: (1) a material searcher that by combining a search engine and a readability formula, permits the fast retrieval of documents from different sources, (2)  a readability tracking system that enables both types of users to see how the reading skills of the student are evolving with time and (3) an analysis tool that enables educators to analyse materials from outside the application for determining their complexity level.
 
 
 
@@ -165,35 +166,41 @@ K-12 students make use of online resources to fulfill their academic information
 % http://dl.acm.org/ccs.cfm
 % Please copy and paste the code instead of the example below. 
 %
-\begin{CCSXML}
+
+
+
+ \begin{CCSXML}
 <ccs2012>
- <concept>
-  <concept_id>10010520.10010553.10010562</concept_id>
-  <concept_desc>Computer systems organization~Embedded systems</concept_desc>
-  <concept_significance>500</concept_significance>
- </concept>
- <concept>
-  <concept_id>10010520.10010575.10010755</concept_id>
-  <concept_desc>Computer systems organization~Redundancy</concept_desc>
-  <concept_significance>300</concept_significance>
- </concept>
- <concept>
-  <concept_id>10010520.10010553.10010554</concept_id>
-  <concept_desc>Computer systems organization~Robotics</concept_desc>
-  <concept_significance>100</concept_significance>
- </concept>
- <concept>
-  <concept_id>10003033.10003083.10003095</concept_id>
-  <concept_desc>Networks~Network reliability</concept_desc>
-  <concept_significance>100</concept_significance>
- </concept>
-</ccs2012>  
+<concept>
+<concept_id>10002951.10003317.10003331.10003271</concept_id>
+<concept_desc>Information systems~Personalization</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+<concept>
+<concept_id>10002951.10003317.10003331.10003336</concept_id>
+<concept_desc>Information systems~Search interfaces</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+<concept>
+<concept_id>10002951.10003317.10003347.10003356</concept_id>
+<concept_desc>Information systems~Clustering and classification</concept_desc>
+<concept_significance>300</concept_significance>
+</concept>
+<concept>
+<concept_id>10010147.10010178.10010179</concept_id>
+<concept_desc>Computing methodologies~Natural language processing</concept_desc>
+<concept_significance>500</concept_significance>
+</concept>
+</ccs2012>
 \end{CCSXML}
 
-\ccsdesc[500]{Computer systems organization~Embedded systems}
-\ccsdesc[300]{Computer systems organization~Redundancy}
-\ccsdesc{Computer systems organization~Robotics}
-\ccsdesc[100]{Networks~Network reliability}
+\ccsdesc[500]{Information systems~Personalization}
+\ccsdesc[500]{Information systems~Search interfaces}
+\ccsdesc[300]{Information systems~Clustering and classification}
+\ccsdesc[500]{Computing methodologies~Natural language processing}
+
+
+
 
 
 %
@@ -212,19 +219,23 @@ K-12 students make use of online resources to fulfill their academic information
 
 \section{Introduction}
 
-K-12 students make use of the internet in a daily basis to fulfill their information needs for their academic tasks, mostly using search engines for retrieving contents such as, news articles, books or term definitions. However, sometimes, they can get discouraged because the contents they retrieve are outside their comprehension level, whether being too easy or too difficult  for them to read.\\
+K-12 students make use of the internet in a daily basis to fulfill their information needs for completing their academic tasks, such as, finding information for a class presentation or discovering the meaning of a new word. For this purpose, they mostly use search engines and online available catalogues for retrieving contents such as, news articles, books or term definitions. However, they can often get discouraged because the contents they retrieve are outside their comprehension level, whether being too easy or too difficult  for them to read.\\
 
 %Reading is an important skill in the academic environment, a skill that can have a high impact for a student's educational opportunities and their career \cite{robinson2000issues}. However, students can get discouraged to read, when the texts provided are outside of their comprehension level, whether being too easy to read  or too difficult for them.
 
 
-On the academic environment students are not the only one facing the problem of retrieving adequate contents in terms reading abilities and information needs. For example, even in a same grade class, students' reading skills can differ significantly, so not all students in the same class can be provided with same texts. This supposes a personalization need that the instructor needs to handle day to day. However with the high number of students in class this task impossible to handle and deficient. All of these reasons, make instructors spend a significant amount of their time finding adequate materi als for their students, a time that could be reduced with the help of specialized software.\\
+In the academic environment students are not the only ones facing the problem of retrieving adequate contents in terms of reading abilities and information needs. For example, even in a same grade class, students' reading skills can differ significantly, so not all students in the same class can be provided with same texts. This supposes a personalization need that the instructor needs to handle on a daily basis. However with the high number of students in class this task becomes impossible to tackle. All of these reasons, make instructors spend a significant amount of their time seeking adequate materials for their students, a time that could be reduced with the help of an specialized application.\\
 
 
-We have developed a system oriented to both instructors and students in the process of finding materials that suit the students reading level. The system is centered on a readability formula that together with a search engine makes looking for leveled reading material easier and more efficient. The system lets students log in in the web application, which keeps track of the materials read by the logged student and the feed-back received for each material(too easy/OK/too complex). This enables the application to make suggestions about the readability level for each student. Both the student and the teacher are able too see the readability score in order to see how it evolves. Furthermore, both the students and instructors can use the included search engine which retrieves results tailored to the readability score. The search engine can be connected to different data sources depending on education center. Apart from being connected to the internet itself, it can be connected to material catalogs, such as the ones from school libraries or online libraries such as AR or Lexile. Some other educative sites such as Wikipedia or other online encyclopedias can act as data sources too. \\
+We have developed an application oriented to both instructors and students in the process of finding materials that suit the students reading level. The system is centered on a readability formula that together with a search engine makes looking for leveled reading material easier and more efficient. The system lets students log in in the web application, which keeps track of the materials read by each student and his feed-back for each or the read materials(too easy/OK/too complex). This enables the application to make suggestions about the readability level for each student. Both the student and the teacher are able too see the readability score in order to see how it evolves. Furthermore, the application users can use the included material searcher which retrieves results tailored to the readability score. The material searcher can act as an interface for various types of material sources depending on the capabilities of the education center that makes use of the application. Internal sources such as, school libraries or external resources such as online book catalogues like AR\footnote{http://www.acceleratelearning.com} or Lexile\footnote{http://lexile.com} or encyclopaedias such as Wikipedia.Moreover, even the internet can act as a source for the application, enabling it to be used as a conventional search engine, which filters results depending on the readability score. {\color{red} Cannot find a way of structuring this last part, beginning at "The material searcher..."}
+
+
+
+
 
 Apart from the search engine, the instructors have access to an analysis page, where they can submit texts they found outside the application for determining their readability score. This tool, together with the track of readability scores of each students, helps them make sure the materials they found are adequate or not for the class.
 
-
+,
 
 
 \section{Material analysis}
@@ -238,12 +249,11 @@ Apart from the search engine, the instructors have access to an analysis page, w
 \section{User Experience}
 
 \begin{itemize}
-\item \textbf{Analyzing materials.} An analysis page is provided to instructors, so that they can make use of the readability assessment algorithm with materials from outside the application. This page provides an input form where the instructor can submit the material, and receive a readability level prediction for the material.
-\item \textbf{Looking for new materials.} 
+\item \textbf{Analyzing materials.} An analysis page is provided to instructors, so that they can make use of the readability assessment algorithm \cite{imadrazo2016readability} with materials from outside the application. This page provides an input form where the instructor can submit the material, and receive a readability level prediction for the it.
+\item \textbf{Looking for new materials.} A material search page is provided so that the user can insert text queries for looking for materials. The user can select a certain readability level he wants to look for, of leave it blank letting the application choose the best level for the logger user. Furthermore, the material source can be selected, depending on the user needs. In case of students, they can select a material for reading and provide feed-back on it. This feed-back will be used for tracking purposes.
 
 
-
-\item \textbf{Tracking students.} The educator can see a table with data about all his/her students, where the number of materials read and the readability score for each student can be seen. The instructor can go deeper if needed, and see each of the materials each students has read and the individual readability scores for each material, as well as, the feed back given by the student. The data is also presented in a summarized way, so that the educator can see the average, maximum and minimum reading skills of the students in class.
+\item \textbf{Tracking students.} The educator can see a table with data about all his students, where the number of materials read and the readability score for each student are provided. The instructor can go deeper if needed, and see each of the materials each students has read and the individual readability scores for each material, as well as, the feed-back given by the student. The data is also presented in a summarized way, so that the educator can see the average, maximum and minimum reading skills of the students in class.
 
 \end{itemize}
 
@@ -254,28 +264,16 @@ Apart from the search engine, the instructors have access to an analysis page, w
 \section{Title ideas}
 \begin{itemize}
 \item YouUnderstood.me?
-\item YouUnderstood.me? A readability filtered search engine for students and educators
+\item YouUnderstood.me? Academic material retrieval for students and educators
+\item YouUnderstood.me? A readability filtered material searcher for students and educators
 \item  YouUnderstood.me? Making sure student s and educators understand each other
 \item  YouUnderstood.me? Making students and educators understand each other
 \end{itemize}
 
-
 }
-{\color{red}
-\section{Ideas}
-Ideas:
 
-Website oriented to instructors:
-1-Can be used for retrieving documents for the students from the school database, or from google itself
-2-Analysing text or exercises that are for students to see if the readability level is the adequate.
-
-Website for students:
-1- Follow the readability of a student during its learning process
-2- Personalize the search results for himself, using google query, surf the internet making sure the texts are adequate to his level
-3- Personalize the reading material to find encouraging books from school library. Some students need lower or higher level books, compared to the class.
-
-}
 
 \bibliography{bibliography}{}
 \bibliographystyle{apalike}
+\nocite{*}
 \end{document}
