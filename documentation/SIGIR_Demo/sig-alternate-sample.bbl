@@ -1,5 +1,11 @@
 \begin{thebibliography}{}
 
+\bibitem[Denning et~al., 2015]{denning2015readability}
+Denning, J., Pera, M.~S., and Ng, Y.-K. (2015).
+\newblock A readability level prediction tool for k-12 books.
+\newblock {\em Journal of the Association for Information Science and
+  Technology}.
+
 \bibitem[Madrazo and Pera, ress]{imadrazo2016readability}
 Madrazo, I. and Pera, S. (In press).
 \newblock Steps towards multilingual readability assessment tool.
