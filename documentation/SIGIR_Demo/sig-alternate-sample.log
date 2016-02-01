@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.1.12)  1 FEB 2016 11:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.1.12)  1 FEB 2016 14:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -347,12 +347,47 @@ OMS/cmsy/m/n/9 ^^O\T1/aer/bx/n/9 Computing method-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+Underfull \hbox (badness 10000) in paragraph at lines 218--220
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--228
+Underfull \hbox (badness 10000) in paragraph at lines 218--220
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--220
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--220
+
+ []
+
+<SearchScreenshot2.png, id=1, 549.85425pt x 337.26pt>
+File: SearchScreenshot2.png Graphic file (type png)
+
+<use SearchScreenshot2.png>
+Package pdftex.def Info: SearchScreenshot2.png used on input line 223.
+(pdftex.def)             Requested size: 504.0pt x 309.13536pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--229
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
 
  []
 
@@ -360,53 +395,65 @@ Underfull \hbox (badness 10000) in paragraph at lines 227--228
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
+Underfull \hbox (badness 10000) in paragraph at lines 245--246
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--248
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
 
  []
 
 
-Overfull \hbox (7.47562pt too wide) in paragraph at lines 254--255
+Overfull \hbox (7.47562pt too wide) in paragraph at lines 257--258
 \T1/aer/m/n/9 read-ing ma-te-rial, tra-di-tional for-mu-las such as Flesh[Ref],
 
  []
 
 
-Overfull \hbox (3.5517pt too wide) in paragraph at lines 254--255
+Overfull \hbox (3.5517pt too wide) in paragraph at lines 257--258
 \T1/aer/m/n/9 Fog[Ref] and Flesh-Kincaid[Ref], are sup-ported by \T1/aer/m/it/9
  You-
  []
 
-Excluding 'comment' comment. (./sig-alternate-sample.bbl) [2]
-(./sig-alternate-sample.aux) ) 
+[2 <./SearchScreenshot2.png>]
+<AnaliseScreenShot2.png, id=24, 443.85825pt x 283.0575pt>
+File: AnaliseScreenShot2.png Graphic file (type png)
+
+<use AnaliseScreenShot2.png>
+Package pdftex.def Info: AnaliseScreenShot2.png used on input line 294.
+(pdftex.def)             Requested size: 252.0pt x 160.70953pt.
+
+Overfull \hbox (12.0pt too wide) in paragraph at lines 294--295
+ [][] 
+ []
+
+Excluding 'comment' comment. (./sig-alternate-sample.bbl) [3 <./AnaliseScreenSh
+ot2.png>] (./sig-alternate-sample.aux) ) 
 Here is how much of TeX's memory you used:
- 3252 strings out of 494957
- 41892 string characters out of 6180028
+ 3264 strings out of 494957
+ 42155 string characters out of 6180028
  111690 words of memory out of 5000000
- 6382 multiletter control sequences out of 15000+600000
+ 6391 multiletter control sequences out of 15000+600000
  57125 words of font info for 80 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 41i,11n,35p,1541b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/ba
-se/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helveti
-c/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on sig-alternate-sample.pdf (2 pages, 141701 bytes).
+ 41i,11n,35p,1177b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/en
+c/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
+rw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
+b8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on sig-alternate-sample.pdf (3 pages, 196207 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 68 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
