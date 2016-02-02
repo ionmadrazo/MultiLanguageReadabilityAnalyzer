@@ -149,9 +149,9 @@ Sole Pera\\
 \begin{abstract}
 
 
-K-12 students make use of online resources to fulfill their academic information needs on a daily basis. However, they can often get discouraged because the contents they retrieve are outside their comprehension level, whether being too easy or too difficult  for them to read. On the other side, educators find several challenges in finding materials for their classes that suit the students reading skills. Those reasons, make both students and educators spend a reasonably large  amount of time seeking for adequate materials.
+K-12 students make use of online resources to fulfill their academic information needs on a daily basis. However, they can often get discouraged because the contents they retrieve are outside their comprehension level, whether being too easy or too difficult  for them to read. At the same time, educators also find several challenges locating materials for curriculum development that suit the students' reading skills. Those reasons, make both students and educators spend a reasonably large  amount of time seeking for adequate materials.
 
- In this paper, we present a web application, that makes use of multidisciplinary techniques, such as, natural language processing, machine learning and information retrieval techniques, to help both students and educators in the process of finding materials that suit the reading skills of the students in a faster and more efficient way. For this purpose, the web application we present, puts together: (1) a material searcher that by combining a search engine and a readability formula, permits the fast retrieval of documents from different sources, (2)  a readability tracking system that enables both types of users to see how the reading skills of the student are evolving with time and (3) an analysis tool that enables educators to analyse materials from outside the application for determining their complexity level.
+ In this paper, we present a web application that makes use of techniques, coming from natural language processing, machine learning and information retrieval areas, to help both students and educators in the process of finding materials that fit the reading skills of each individual student in a faster and more efficient way. For this purpose, the web application we present, combines: (1) a search interface that by combining a search engine and a readability formula, permits the fast retrieval of documents from different sources, (2)  a readability tracking system that enables both types of users to see how the reading skills of the student are evolving with time and (3) an analysis tool that enables educators to analyse materials from outside the application for determining their complexity level.
 
 
 
@@ -216,32 +216,35 @@ K-12 students make use of online resources to fulfill their academic information
 %\terms{Theory}
 
 \keywords{Search engines; Filtering; Readability assessment; Student tracking}
+\\\\\\\\
 
+\begin{figure*}[h]
+ \centering
+  \includegraphics[width=1\textwidth]{SearchScreenshot2}
+ \caption{Screenshot of the search interface}
+ \end{figure*}
 \section{Introduction}
 
-K-12 students make use of the internet in a daily basis to fulfill their information needs for completing their academic tasks, such as, finding information for a class presentation or discovering the meaning of a new word. For this purpose, they mostly use search engines and online available catalogues for retrieving contents such as, news articles, books or term definitions. However, they can often get discouraged because the contents they retrieve are outside their comprehension level, whether being too easy or too difficult  for them to read.\\
+K-12 students make use of the internet in a daily basis to fulfill their information needs for completing academic tasks, such as finding information for a class presentation or discovering the meaning of a new word. For this purpose, they often turn search engines and online available catalogues for retrieving reading materials that can satisfy their information needs, including news articles, books or term definitions. However, they can often get discouraged because the contents they retrieve are outside their comprehension level, whether being too easy or too difficult  for them to read. {\color{red}And why is that a problem?}\\
 
 %Reading is an important skill in the academic environment, a skill that can have a high impact for a student's educational opportunities and their career \cite{robinson2000issues}. However, students can get discouraged to read, when the texts provided are outside of their comprehension level, whether being too easy to read  or too difficult for them.
 
 
-In the academic environment students are not the only ones facing the problem of retrieving adequate contents in terms of reading abilities and information needs. For example, even in a same grade class, students' reading skills can differ significantly, so not all students in the same class can be provided with same texts. This supposes a personalization need that the instructor needs to handle on a daily basis. However with the high number of students in class this task becomes impossible to tackle. All of these reasons, make instructors spend a significant amount of their time seeking adequate materials for their students, a time that could be reduced with the help of an specialized application.\\
+In the academic environment students are not the only ones facing the problem of locating adequate reading materials that simultaneously match the information needs and reading abilities of an individual. For example, even in a same grade class, students' reading skills can differ significantly, so not all students in the same class can be provided with same texts. This supposes a personalization need that the instructor has to handle on a daily basis. However with the high number of students in class this task can become impossible to tackle. Due to the mentioned fact, instructors spend a significant amount of their time seeking adequate materials for their students, a time that could be reduced with the help of an specialized application.\\
 
 
-We have developed an application oriented to both instructors and students in the process of finding materials that suit the students reading level. The system is centered on a readability formula that together with a search engine makes looking for leveled reading material easier and more efficient. The system lets students log in in the web application, which keeps track of the materials read by each student and his feed-back for each or the read materials(too easy/OK/too complex). This enables the application to make suggestions about the readability level for each student. Both the student and the teacher are able too see the readability score in order to see how it evolves. Furthermore, the application users can use the included material searcher which retrieves results tailored to the readability score. The material searcher can act as an interface for various types of material sources depending on the capabilities of the education center that makes use of the application. Internal sources such as, school libraries or external resources such as online book catalogues like AR\footnote{http://www.acceleratelearning.com} or Lexile\footnote{http://lexile.com} or encyclopaedias such as Wikipedia.Moreover, even the internet can act as a source for the application, enabling it to be used as a conventional search engine, which filters results depending on the readability score. {\color{red} Cannot find a way of structuring this last part, beginning at "The material searcher..."}
+\textit{YouUnderstood.me} is a web application oriented to both instructors and students , that aims at helping them in the process of finding reading materials. The system is centred on the use of readability formulas that together with a search engine makes looking for levelled reading material fast and efficient. \textit{YouUnderstood.me} lets students log in in the web application, which keeps track of the materials read by individual students and their feed-back for each or the read materials(too easy/OK/too complex). This enables the application to make predictions about the readability score for each student. A score that, both the student and the teacher are able too see in order to keep track of how it evolves. Furthermore, the application contains a search engine that allows both students and educators to seek materials filtered by a their readability score from: (i) commercial search engines, such as google, (ii) public data sources, such as Wikipedia, AR\footnote{http://www.acceleratelearning.com} or Lexile\footnote{http://lexile.com}  and (iii) local resources, such as the catalogues of a school library.\\
+
+Finally, the instructors also have access to an analysis page, where they can submit texts they found outside the application for determining their readability score, being able to choose from a wide range of readability formulas provided within the application. This tool, together with the track of readability scores of each students, helps teachers make sure the reading materials they found are adequate or not for the class.
 
 
 
-
-
-Apart from the search engine, the instructors have access to an analysis page, where they can submit texts they found outside the application for determining their readability score. This tool, together with the track of readability scores of each students, helps them make sure the materials they found are adequate or not for the class.
-
-,
-
+ 
 
 \section{Readability assessment}
 Whether when a student is searching information for completing an assignment or when an educator uses the application for finding material for his course, a text's complexity needs to be determined.\\
 
-% \textbf{YouUnderstand.me} enables the use of different tools for that purpose.\\
+
 
 
 Different approaches have been followed in the literature for determining a text's complexity or readability. Most approaches, orient their work to determining the readability of a general text. Those systems vary, from the very simple ones[Ref], which make use of shallow features, such as, the average number of words per sentence or the average length of terms, to more complex ones [Ref], which are mostly based, on supervised learning techniques and features extracted using Natural language processing. However, those tools have shown to be of small use in contexts where the text of the reading material has reduced accessibility, both because the texts is not publicly accessible or because it shows a structure that is not as simple to tackle . Therefore, different works have been done in more specialized contexts such as book\cite{denning2015readability} or web page retrieval[Ref], where the systems presented made use other features apart from the ones in the text.\\
@@ -259,16 +262,7 @@ Different approaches have been followed in the literature for determining a text
 
 
 
-%However, our application needs to be more general in order to be able to adapt to the different needs of the education centres. Therefore, \textbf{YouUnderstand.me}
 
-
-
-%Lead-in Sea estudiante o profesor, lo que importa es medirle el texto usando algun sistema de classficiation standarizado. Hay escuelas que utilizan AR o lexile, pero eso solo sirve con esas herramientas. Existen herramientas apra solo libros y tambien apra solo web, pero encesitamos algo independiente. Algo simpre --> algo complejo, nuestor sistema.
-
-
-%Hay tools para books TROLL otro apra webs, el nuestro es independiente
-%Hay escuelas que usas ciertos sistemas de lectura AR Lexile
-%Sistema de lectura simples
 
 
 
@@ -283,7 +277,7 @@ Different approaches have been followed in the literature for determining a text
 
 
 
-\section{Material searcher}
+\section{Search Interface}
 %Where does it work, catalogs, internet, enciclopedias
 %How does it work, search filtering?
 
@@ -294,6 +288,12 @@ Different approaches have been followed in the literature for determining a text
 
 \begin{itemize}
 \item \textbf{Analyzing materials.} An analysis page is provided to instructors, so that they can make use of the readability assessment algorithm \cite{imadrazo2016readability} with materials from outside the application. This page provides an input form where the instructor can submit the material, and receive a readability level prediction for the it.
+
+\begin{figure}[h!]
+ \centering
+  \includegraphics[width=0.5\textwidth]{AnaliseScreenShot2}
+ \caption{Screen shot of analysis page}
+ \end{figure}
 \item \textbf{Looking for new materials.} A material search page is provided so that the user can insert text queries for looking for materials. The user can select a certain readability level he wants to look for, of leave it blank letting the application choose the best level for the logger user. Furthermore, the material source can be selected, depending on the user needs. In case of students, they can select a material for reading and provide feed-back on it. This feed-back will be used for tracking purposes.
 
 
