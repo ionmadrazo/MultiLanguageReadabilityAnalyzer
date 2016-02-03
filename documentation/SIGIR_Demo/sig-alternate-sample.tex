@@ -218,7 +218,7 @@ K-12 students make use of online resources to fulfill their academic information
 \keywords{Search engines; Filtering; Readability assessment; Student tracking}
 \\\\\\\\
 
-\begin{figure*}[h]
+\begin{figure*}[ht]
  \centering
   \includegraphics[width=1\textwidth]{SearchScreenshot2}
  \caption{Screenshot of the search interface}
@@ -247,14 +247,14 @@ Whether when a student is searching information for completing an assignment or 
 
 
 
-Different approaches have been followed in the literature for determining a text's complexity or readability. Most approaches, orient their work to determining the readability of a general text. Those systems vary, from the very simple ones[Ref], which make use of shallow features, such as, the average number of words per sentence or the average length of terms, to more complex ones [Ref], which are mostly based, on supervised learning techniques and features extracted using Natural language processing. However, those tools have shown to be of small use in contexts where the text of the reading material has reduced accessibility, both because the texts is not publicly accessible or because it shows a structure that is not as simple to tackle . Therefore, different works have been done in more specialized contexts such as book\cite{denning2015readability} or web page retrieval[Ref], where the systems presented made use other features apart from the ones in the text.\\
+Different approaches have been followed in the literature for determining a text's complexity or readability. Most approaches, orient their work to determining the readability of a general text. Those systems vary, from the very simple ones \cite{flesch1948new}, which make use of shallow features, such as, the average number of words per sentence or the average length of terms, to more complex ones \cite{gonzalez2014simple }\cite{dell2011read} \cite{franccois2012ai}, which are mostly based, on supervised learning techniques and features extracted using Natural language processing. However, those tools have shown to be of small use in contexts where the text of the reading material has reduced accessibility, both because the texts is not publicly accessible or because it shows a structure that is not as simple to tackle . Therefore, different works have been done in more specialized contexts such as book\cite{denning2015readability}\cite{pera2014automating} or web page retrieval[Ref], where the systems presented made use other features apart from the ones in the text.\\
 
 
 \textit{YouUnderstood.me} can make use of different readability assessment metrics and resources at the same time, aiming to be able to handle a more diverse amount of reading materials. The methods  which with \textit{YouUnderstood.me} can assess a reading material readability are the following:
 
 \begin{itemize}
 \item \textbf{External metrics.} \textit{YouUnderstood.me} is compatible with the most popular readability metrics among the American education centers and libraries, such as the ones that are used in material catalogs like AR or Lexile. The compatibility with those types of metrics allows the application to be able to retrieve books, which have been historically an issue for readability formulas, because of the inability to get access to the contents of copyrighted material \cite{denning2015readability}.
-\item \textbf{Traditional formulas.} Historically used by teachers for manually determining the readability level of a reading material, traditional formulas such as Flesh[Ref], Fog[Ref] and Flesh-Kincaid[Ref], are supported by \textit{YouUnderstood.me}. These formulas enable educators compare new materials with the old, hand-way measured materials they may have stored during their teaching career.
+\item \textbf{Traditional formulas.} Historically used by teachers for manually determining the readability level of a reading material, traditional formulas such as Flesh \cite{flesch1948new}, Fog\cite{gunning1952technique} and Flesh-Kincaid \cite{flesch1948new}, are supported by \textit{YouUnderstood.me}. These formulas enable educators compare new materials with the old, hand-way measured materials they may have stored during their teaching career.
 \item \textbf{MRAS.} MRAS\cite{imadrazo2016readability} (Multilingual Readability assessment system) is a state of the art readability assessment system, that is capable of detecting the input language of a text on the fly and providing a readability score for it. MRAS is based on a supervised learning paradigm, at the moment, makes use of more than a hundred features for learning and prediction. The features are extracted using Natural Language Processing tools, such as a tokenizer, a part of speech tagger and different semantic analyzers. Those features, are used to train a model that will later be used for predicting the readability score for new materials.
 
 
