@@ -1,54 +1,62 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{10}
 
-\bibitem[Dell'Orletta et~al., 2011]{dell2011read}
-Dell'Orletta, F., Montemagni, S., and Venturi, G. (2011).
+\bibitem{dell2011read}
+F.~Dell'Orletta, S.~Montemagni, and G.~Venturi.
 \newblock Read-it: Assessing readability of italian texts with a view to text
   simplification.
 \newblock In {\em Proceedings of the second workshop on speech and language
   processing for assistive technologies}, pages 73--83. Association for
-  Computational Linguistics.
+  Computational Linguistics, 2011.
 
-\bibitem[Denning et~al., 2015]{denning2015readability}
-Denning, J., Pera, M.~S., and Ng, Y.-K. (2015).
+\bibitem{denning2015readability}
+J.~Denning, M.~S. Pera, and Y.-K. Ng.
 \newblock A readability level prediction tool for k-12 books.
 \newblock {\em Journal of the Association for Information Science and
-  Technology}.
+  Technology}, 2015.
 
-\bibitem[Flesch, 1948]{flesch1948new}
-Flesch, R. (1948).
+\bibitem{flesch1948new}
+R.~Flesch.
 \newblock A new readability yardstick.
-\newblock {\em Journal of applied psychology}, 32(3):221.
+\newblock {\em Journal of applied psychology}, 32(3):221, 1948.
 
-\bibitem[Fran{\c{c}}ois and Fairon, 2012]{franccois2012ai}
-Fran{\c{c}}ois, T. and Fairon, C. (2012).
+\bibitem{franccois2012ai}
+T.~Fran{\c{c}}ois and C.~Fairon.
 \newblock An ai readability formula for french as a foreign language.
 \newblock In {\em Proceedings of the 2012 Joint Conference on Empirical Methods
   in Natural Language Processing and Computational Natural Language Learning},
-  pages 466--477. Association for Computational Linguistics.
+  pages 466--477. Association for Computational Linguistics, 2012.
 
-\bibitem[Gonzalez-Dios et~al., 2014]{gonzalez2014simple}
-Gonzalez-Dios, I., Aranzabe, M.~J., de~Ilarraza, A.~D., and Salaberri, H.
-  (2014).
+\bibitem{gonzalez2014simple}
+I.~Gonzalez-Dios, M.~J. Aranzabe, A.~D. de~Ilarraza, and H.~Salaberri.
 \newblock Simple or complex? assessing the readability of basque texts.
-\newblock In {\em Proceedings of COLING}, volume 2014.
+\newblock In {\em Proceedings of COLING}, volume 2014, 2014.
 
-\bibitem[Gunning, 1952]{gunning1952technique}
-Gunning, R. (1952).
+\bibitem{gunning1952technique}
+R.~Gunning.
 \newblock $\{$The Technique of Clear Writing$\}$.
+\newblock 1952.
 
-\bibitem[Madrazo and Pera, ress]{imadrazo2016readability}
-Madrazo, I. and Pera, S. (In press).
-\newblock Steps towards multilingual readability assessment tool.
+\bibitem{imadrazo2016readability}
+I.~Madrazo and S.~Pera.
+\newblock Steps towards multilingual readability assessment.
+\newblock In press.
 
-\bibitem[Pera and Ng, 2014]{pera2014automating}
-Pera, M.~S. and Ng, Y.-K. (2014).
+\bibitem{oakhill2012precursors}
+J.~V. Oakhill and K.~Cain.
+\newblock The precursors of reading ability in young readers: Evidence from a
+  four-year longitudinal study.
+\newblock {\em Scientific studies of reading}, 16(2):91--121, 2012.
+
+\bibitem{pera2014automating}
+M.~S. Pera and Y.-K. Ng.
 \newblock Automating readers' advisory to make book recommendations for k-12
   readers.
 \newblock In {\em Proceedings of the 8th ACM Conference on Recommender
-  systems}, pages 9--16. ACM.
+  systems}, pages 9--16. ACM, 2014.
 
-\bibitem[Robinson et~al., 2000]{robinson2000issues}
-Robinson, R.~D., McKenna, M.~C., and Wedman, J.~M. (2000).
+\bibitem{robinson2000issues}
+R.~D. Robinson, M.~C. McKenna, and J.~M. Wedman.
 \newblock Issues and trends in literacy education.
+\newblock 2000.
 
 \end{thebibliography}

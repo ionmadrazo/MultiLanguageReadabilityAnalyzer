@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.28)  8 FEB 2016 02:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.28)  11 FEB 2016 11:44
 entering extended mode
 **sig-alternate-sample.tex
 
@@ -307,50 +307,19 @@ File: omsaer.fd 1999/12/27
 LaTeX Font Info:    Font shape `OMS/aer/m/n' in size <9> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 211.
 
-Overfull \hbox (16.93964pt too wide) in paragraph at lines 211--212
-\T1/aer/bx/n/9 ter-faces; \T1/aer/m/it/9 Clus-ter-ing and clas-si-fi-ca-tion; \
-OMS/cmsy/m/n/9 \T1/aer/bx/n/9 Computing method-
- []
+<creatingFigures/Capture20.jpg, id=1, 708.84825pt x 316.7835pt>
+File: creatingFigures/Capture20.jpg Graphic file (type jpg)
 
-<SearchEngineStudent.jpg, id=1, 621.522pt x 333.6465pt>
-File: SearchEngineStudent.jpg Graphic file (type jpg)
+<use creatingFigures/Capture20.jpg>
+Package pdftex.def Info: creatingFigures/Capture20.jpg used on input line 221.
+(pdftex.def)             Requested size: 504.0pt x 225.23688pt.
 
-<use SearchEngineStudent.jpg>
-Package pdftex.def Info: SearchEngineStudent.jpg used on input line 221.
-(pdftex.def)             Requested size: 504.0pt x 270.56273pt.
+<creatingFigures/Capture18.jpg, id=2, 701.019pt x 291.489pt>
+File: creatingFigures/Capture18.jpg Graphic file (type jpg)
 
-<SearchEngineEducator.jpg, id=2, 590.205pt x 301.72725pt>
-File: SearchEngineEducator.jpg Graphic file (type jpg)
-
-<use SearchEngineEducator.jpg>
-Package pdftex.def Info: SearchEngineEducator.jpg used on input line 230.
-(pdftex.def)             Requested size: 504.0pt x 257.66179pt.
-
-<StudentList.jpg, id=3, 967.81575pt x 384.83775pt>
-File: StudentList.jpg Graphic file (type jpg)
- <use StudentList.jpg>
-Package pdftex.def Info: StudentList.jpg used on input line 239.
-(pdftex.def)             Requested size: 504.0pt x 200.40451pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 246--247
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 251--252
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 258--259
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 262--263
-
- []
-
+<use creatingFigures/Capture18.jpg>
+Package pdftex.def Info: creatingFigures/Capture18.jpg used on input line 230.
+(pdftex.def)             Requested size: 504.0pt x 209.56946pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -358,106 +327,70 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
-
+Overfull \hbox (6.812pt too wide) in paragraph at lines 274--275
+[]\T1/aer/m/it/9 YouUnderstood.me \T1/aer/m/n/9 in-te-grates a read-abil-ity as
+-sess-ment mod-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
-
+Overfull \hbox (3.1925pt too wide) in paragraph at lines 277--278
+\T1/aer/m/n/9 per-mits \T1/aer/m/it/9 You-Un-der-stood.me \T1/aer/m/n/9 re-trie
+ve books, which would
  []
 
 [2 <D:/eclipse2/workspace/MultiLanguageReadabilityAnalyzer/documentation/SIGIR_
-Demo/SearchEngineStudent.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 287--288
+Demo/creatingFigures/Capture20.jpg>]
+<creatingFigures/Capture19.jpg, id=22, 664.884pt x 186.6975pt>
+File: creatingFigures/Capture19.jpg Graphic file (type jpg)
 
- []
+<use creatingFigures/Capture19.jpg>
+Package pdftex.def Info: creatingFigures/Capture19.jpg used on input line 300.
+(pdftex.def)             Requested size: 504.0pt x 141.52122pt.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--293
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 297--298
-
- []
-
-
-Overfull \hbox (8.17986pt too wide) in paragraph at lines 299--300
+Overfull \hbox (8.17986pt too wide) in paragraph at lines 297--304
 []\T1/aer/m/n/9 The \T1/aer/bx/n/9 track-ing sys-tem \T1/aer/m/n/9 is cur-rentl
 y based on a triv-ial method
  []
 
+<creatingFigures/Capture22.jpg, id=23, 588.39825pt x 291.489pt>
+File: creatingFigures/Capture22.jpg Graphic file (type jpg)
 
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 303--304
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3 <D:/eclipse2/workspace/MultiLanguageReadabilityAnalyzer/documentation/SIGIR
-_Demo/SearchEngineEducator.jpg>]
-<AnaliseScreenShot2.png, id=25, 443.85825pt x 283.0575pt>
-File: AnaliseScreenShot2.png Graphic file (type png)
-
-<use AnaliseScreenShot2.png>
-Package pdftex.def Info: AnaliseScreenShot2.png used on input line 311.
-(pdftex.def)             Requested size: 252.0pt x 160.70953pt.
-
-Overfull \hbox (12.0pt too wide) in paragraph at lines 311--312
- [][] 
- []
-
-Excluding 'comment' comment.
+<use creatingFigures/Capture22.jpg>
+Package pdftex.def Info: creatingFigures/Capture22.jpg used on input line 315.
+(pdftex.def)             Requested size: 226.79846pt x 112.35481pt.
+ Excluding 'comment' comment. [3 <D:/eclipse2/workspace/MultiLanguageReadabilit
+yAnalyzer/documentation/SIGIR_Demo/creatingFigures/Capture18.jpg> <D:/eclipse2/
+workspace/MultiLanguageReadabilityAnalyzer/documentation/SIGIR_Demo/creatingFig
+ures/Capture22.jpg>]
 (D:\eclipse2\workspace\MultiLanguageReadabilityAnalyzer\documentation\SIGIR_Dem
-o\sig-alternate-sample.bbl [4 <D:/eclipse2/workspace/MultiLanguageReadabilityAn
-alyzer/documentation/SIGIR_Demo/StudentList.jpg> <D:/eclipse2/workspace/MultiLa
-nguageReadabilityAnalyzer/documentation/SIGIR_Demo/AnaliseScreenShot2.png>])
-[5
-
-]
+o\sig-alternate-sample.bbl) [4 <D:/eclipse2/workspace/MultiLanguageReadabilityA
+nalyzer/documentation/SIGIR_Demo/creatingFigures/Capture19.jpg>]
 (D:\eclipse2\workspace\MultiLanguageReadabilityAnalyzer\documentation\SIGIR_Dem
 o\sig-alternate-sample.aux) ) 
 Here is how much of TeX's memory you used:
- 2939 strings out of 493921
- 37474 string characters out of 3144858
- 102411 words of memory out of 3000000
- 6148 multiletter control sequences out of 15000+200000
- 54972 words of font info for 77 fonts, out of 3000000 for 9000
+ 2945 strings out of 493921
+ 37629 string characters out of 3144858
+ 102230 words of memory out of 3000000
+ 6150 multiletter control sequences out of 15000+200000
+ 57125 words of font info for 80 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 41i,11n,34p,1359b,476s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,11n,34p,1261b,476s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips
 /fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmbx9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
-9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.p
-fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
-type1/urw/times/utmri8a.pfb>
-Output written on sig-alternate-sample.pdf (5 pages, 399915 bytes).
+/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pf
+b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
+C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files (x86)
+/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/urw/times/utmri8a.pfb>
+Output written on sig-alternate-sample.pdf (4 pages, 438700 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
+ 68 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
