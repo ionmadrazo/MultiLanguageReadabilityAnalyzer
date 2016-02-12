@@ -78,7 +78,7 @@
 %\crdata{0-12345-67-8/90/01}  % Allows default copyright data (0-89791-88-6/97/05) to be over-ridden - IF NEED BE.
 % --- End of Author Metadata ---
 
-\title{YouUnderstood.me? Readability-based retrieval of online reading materials for students and educators}
+\title{YouUnderstood.me? Personalized Readability-based Retrieval of Online Materials for Students and Educators}
 
 %
 % You need the command \numberofauthors to handle the 'placement
@@ -147,15 +147,31 @@ Maria Soledad Pera\\
 
 \maketitle
 \begin{abstract}
-
-
-K-12 students and educators make use of online resources to satisfy their academic information needs on a daily basis. Unfortunately, they are forced to spend large amounts of time seeking for adequate materials. Students can often get discouraged because the contents they retrieve are outside their comprehension level. For educators, finding materials for curriculum development that suit their students' reading abilities can also be challenging.  In this paper, we present \textit{YouUnderstood.me}, a web application that makes use of natural language processing, machine learning and information retrieval techniques to help both students and educators in the process of finding materials that fit the reading skills of each individual student in a faster and more efficient way. \textit{YouUnderstood.me} combines: (1) a search interface that by putting together a search engine and a readability formula, permits the fast retrieval of documents from different sources, (2)  a tracking system that makes possible to  track the reading level of individual students  and (3) an analysis tool that enables educators to analyze the reading level of specific reading materials found outside \textit{YouUnderstood.me}.
-
-
-
-
-
-
+K-12 students and educators make use of online resources to satisfy
+their academic information needs on a daily basis. Unfortunately, they
+are forced to spend large amounts of time seeking for adequate
+materials. For students, retrieving materials that are outside their
+comprehension level can be discouraging. For educators, finding
+materials for curriculum development that suit their students'
+individual reading abilities can also be challenging.  We present
+\textit{YouUnderstood.me}, a web application that makes use of
+information retrieval, natural language processing, and machine
+learning to provide an enhanced web search environment that promotes
+the synergy between students and educators and helps them locate
+materials that match the reading abilities of individual students.
+% to help both students and educators in the process of seeking materials that fit the reading skills of each individual student.
+\textit{YouUnderstood.me} offers: (1) a search interface that combines
+a search module, a search intent module, and a readability-based
+filtering module, which leads to the fast retrieval of documents from
+different sources, (2) a tracking module that keeps records of
+students' feedback on retrieved results, in terms of degrees of
+comprehension accomplished, which in turn informs educators of the
+change in readability levels of their respective students over time,
+and (3) a readability analysis module that enables educators on
+estimate the reading level of snippets of texts. The combination of the described modules
+make \textit{YouUnderstood.me}, to the best of our knowledge, the
+first tool specifically designed for educational environments that
+simultaneously aids both teachers and students dealing with personalized online searches.
 \end{abstract}
 
 
@@ -180,13 +196,8 @@ K-12 students and educators make use of online resources to satisfy their academ
 <concept_significance>500</concept_significance>
 </concept>
 <concept>
-<concept_id>10010405.10010489.10010491</concept_id>
-<concept_desc>Applied computing~Interactive learning environments</concept_desc>
-<concept_significance>500</concept_significance>
-</concept>
-<concept>
-<concept_id>10010405.10010489.10010493</concept_id>
-<concept_desc>Applied computing~Learning management systems</concept_desc>
+<concept_id>10003456.10010927.10010930.10010931</concept_id>
+<concept_desc>Social and professional topics~Children</concept_desc>
 <concept_significance>500</concept_significance>
 </concept>
 </ccs2012>
@@ -194,10 +205,9 @@ K-12 students and educators make use of online resources to satisfy their academ
 
 \ccsdesc[500]{Information systems~Personalization}
 \ccsdesc[500]{Information systems~Search interfaces}
-\ccsdesc[500]{Applied computing~Interactive learning environments}
-\ccsdesc[500]{Applied computing~Learning management systems}
-
-
+%\ccsdesc[500]{Applied computing~Interactive learning environments}
+%\ccsdesc[500]{Applied computing~Learning management systems}
+\ccsdesc[500]{Social and professional topics~Children}
 
 
 
@@ -219,7 +229,7 @@ K-12 students and educators make use of online resources to satisfy their academ
 \begin{figure*}[ht]
  \centering
   \includegraphics[width=1\textwidth]{creatingFigures/Capture20}
- \caption{Screenshot of the search interface for students}
+ \caption{Screenshot of \textit{YouUnderstood.me}'s search interface for students}
  \label{fig:studentSearch}
  \end{figure*}
 
@@ -228,34 +238,36 @@ K-12 students and educators make use of online resources to satisfy their academ
 \begin{figure*}[ht]
  \centering
   \includegraphics[width=1\textwidth]{creatingFigures/Capture18}
- \caption{Screenshot of the search interface for educators}
+ \caption{Screenshot of \textit{YouUnderstood.me}'s search interface for educators}
   \label{fig:educatorSearch}
  \end{figure*}
- 
 
 
 
 
-
-K-12 students use the internet on a daily basis to seek materials that can help them with their academic tasks, such as finding information for a class presentation or discovering the meaning of a new word. For this purpose, they often turn to search engines and online catalogs to retrieve reading materials that can satisfy their information needs, including news articles, books or term definitions. However, students can often get discouraged because the contents they retrieve are outside their comprehension level, whether being too easy or too difficult  for them to understand. Therefore, providing them ways to seek for adequate materials they can actually comprehend is imperative.
+\section{Introduction}
+\noindent
+The use of Web technologies is increasingly becoming a relevant aspect for children education, both because it enhances the class environment and introduces children, from early stages of their lives, into today's information society \cite{sadaf2012exploring}. K-12\footnote{K-12 refers to the publicly-supported school grades prior to college in the education systems from United States of America, Canada and other countries. } students use the internet on a daily basis to locate materials that can help them with their academic tasks, from finding information for a class presentation to discovering the meaning of a new word. For this purpose, they often turn to search engines and online catalogs to retrieve materials that can satisfy their information needs, including news articles, books, or term definitions. However, even if search engines are successful in terms of retrieving relevant resources that are of interest to a general audience, they can be less so when used by niche users \cite{wang2013personalized}, such as K-12 students. Unlike average users, K-12 students have varied  reading abilities, a fact that is usually ignored by popular search engines. As a result, students can often get discouraged when they try to read retrieved contents that are outside their comprehension level, whether being too easy or too difficult  for them to understand. Therefore, providing them tools to seek for adequate materials they can actually understand is imperative.
 
 %Reading is an important skill in the academic environment, a skill that can have a high impact for a student's educational opportunities and their career \cite{robinson2000issues}. However, students can get discouraged to read, when the texts provided are outside of their comprehension level, whether being too easy to read  or too difficult for them.
 
 
-In the academic environment students are not the only ones facing the problem of locating adequate reading materials that simultaneously match their information needs and reading abilities. Educators also face several challenges when looking for materials for their classes, which makes them spend a significant amount of time doing so. For example, even in a same grade class, students' reading skills can differ significantly, so not all of them should be given the same texts. This entails a personalization need that the instructor has to handle on a daily basis. However with the high number of students in class this task can become impossible to tackle. 
+Within the academic environment, students are not the only ones facing the problem of locating adequate reading materials that simultaneously match information needs and reading abilities. Educators also face several challenges when looking for materials for their classes, which translates into unnecessary time spent online to accomplish this goal. For example, even in a same grade class, students' reading skills can differ significantly, so not all of them should be given the same texts. As a result, a fair amount of personalization is required which educators are expected to handle in a daily basis. Unfortunately, given the high number of students in each class, this task can become impossible to tackle. 
 
 
 
 %Due to the mentioned fact, instructors spend a significant amount of their time seeking adequate materials for their students, a time that could be reduced with the help of an specialized application.\\
 
 
-\textit{YouUnderstood.me} is a web application designed to help  both instructors and students in the process of finding reading materials. The system is centered on the use of readability formulas that together with a search engine makes looking for levelled reading material fast and efficient. \textit{YouUnderstood.me} lets students log in in the application, which keeps track of  feedback they give on retrieved materials (too easy/OK/too complex). This enables the application to make predictions about the readability score for each student, which can be used by both students and educators for speeding-up the process of searching adequate materials. Furthermore, the application integrates a search interface that allows both stakeholders to seek materials filtered by readability score from: (i) commercial search engines, such as Google, (ii) public data sources, such as Wikipedia and (iii) local resources, such as the catalogues of a school library.
+\textit{YouUnderstood.me} is a web application designed to help  both instructors and students in the process of finding online reading materials. The application is centered on the use of readability formulas that together with a search engine make the task of looking for leveled reading materials effective and efficient. By requiring students to log in prior to conducting searches \textit{YouUnderstood.me} can keep track of the feedback they give about the degree of understanding of the read materials (too easy/OK/too complicated). This enables the application to make predictions about the readability score for each student, which can be used by both students and educators for speeding-up the process of searching adequate materials. Furthermore, the application integrates a search interface that allows both stakeholders to seek materials filtered by readability scores from: (i) commercial search engines, such as Google, (ii) public data sources, such as Wikipedia and (iii) local resources, such schools' library catalogs.
 
 %, AR\footnote{http://www.acceleratelearning.com} or Lexile\footnote{http://lexile.com} 
 
-Besides the search interface, the instructors also have access to an analysis page, where they can submit texts they found outside the application for determining their readability score,based on a wide range of readability formulas provided within the application. This tool, together with the track of readability scores of students, helps teachers make sure the reading materials they select are adequate for the respective class.
+Besides the search interface, instructors also have access to an analysis page, where they can submit texts and estimate their readability score, based on a wide range of readability formulas provided within the application. This tool, together with the track of readability scores of students, helps teachers make sure the reading materials they select are adequate for the respective class or an individual student.
 
-The novelty of \textit{YouUnderstood.me} lays in how its different submodules are combined in order to create an application that becomes helpful in an academic environment. To the best of our knowledge, \textit{YouUnderstood.me} is the first application that tackles the issue of reading material retrieval as a whole. Starting from the assessment of an individual student's readability, and ending with the retrieval of adequate materials, all modules of \textit{YouUnderstood.me} work in cooperation to speed-up the process of reading material selection.
+The novelty of \textit{YouUnderstood.me} lays on how its different submodules are combined in order to create an enhanced, personalized, search environment that promotes the synergy between students and teachers to help them locate materials that match the reading abilities of each student.
+% an application that becomes helpful in an academic environment.
+To the best of our knowledge, \textit{YouUnderstood.me} is the first application that tackles the issue of reading material retrieval as a whole. Starting from the assessment of an individual student's readability, and ending with the retrieval of adequate materials, all modules of \textit{YouUnderstood.me} work in cooperation to improve the way reading materials are searched.
 
  
 
@@ -263,63 +275,64 @@ The novelty of \textit{YouUnderstood.me} lays in how its different submodules ar
 
 
 %Whether when a student is searching information for completing an assignment or an educator uses the application for finding material for his course, a text's complexity needs to be determined in order to evaluate if the material fits the needs of readability level.\\
-
+\noindent
 Regardless of the stakeholder or the task that needs to be performed, \textit{YouUnderstood.me}
-takes advantage of readability assessment formulas, for determining the level of difficulty of a reading material.
+takes advantage of readability assessment formulas, for determining the level of difficulty of a reading material. Different approaches have been followed in the literature for determining a text's complexity or readability. Most approaches, focus their work in determining the readability of text snippets. Those systems vary from very simple ones \cite{flesch1948new}, which make use of shallow features, such as the average number of words per sentence or the average length of terms, to more complex ones \cite{gonzalez2014simple,franccois2012ai,dell2011read} , which are mostly based on supervised learning techniques and features extracted using Natural language processing. Those tools, however,  have shown to be of little use in contexts where the text of the corresponding material has reduced accessibility, both because the text is not publicly accessible or because it shows a structure  not as simple to tackle. Consequently, different works have been done in more specialized contexts such as book \cite{denning2015readability,pera2014automating} or web page retrieval \cite{lau2006bilingual}, where the systems presented take advantage of domain dependent features.
 
 
-Different approaches have been followed in the literature for determining a text's complexity or readability. Most approaches, focus their work in determining the readability of text snippets. Those systems vary, from very simple ones \cite{flesch1948new}, which make use of shallow features, such as, the average number of words per sentence or the average length of terms, to more complex ones \cite{gonzalez2014simple}\cite{dell2011read} \cite{franccois2012ai}, which are mostly based, on supervised learning techniques and features extracted using Natural language processing.Those tools, however,  have shown to be of little use in contexts where the text of the corresponding material has reduced accessibility, both because the text is not publicly accessible or because it shows a structure  not as simple to tackle . Therefore, different works have been done in more specialized contexts such as book \cite{denning2015readability}\cite{pera2014automating} or web page retrieval [Ref], where the systems presented take advantage of domain dependent features.
-
-
-\textit{YouUnderstood.me} integrates a readability assessment module than can make use of different metrics and resources simultaneously, aiming to handle a more diverse amount of reading materials. The methods with which  \textit{YouUnderstood.me} can assess text complexity are the following:
+\textit{YouUnderstood.me} integrates a readability assessment module than can make use of different metrics and resources simultaneously, aiming to handle a more diverse amount of reading materials. The methods with which  \textit{YouUnderstood.me} can predict text complexity are the following:
 
 \begin{itemize}
-\item \textbf{External metrics.} \textit{YouUnderstood.me} is compatible with the most popular readability metrics among the American education centers and libraries, such as AR\footnote{www.acceleratelearning.com} or Lexile\footnote{www.lexile.com}. The aforementioned metrics are widely used for measuring books from children curricula. This permits \textit{YouUnderstood.me} retrieve books, which would be difficult to handle otherwise, because of the inability to get access to the contents of copyrighted material.
-\item \textbf{Traditional formulas.} Historically used by teachers for manually determining the readability level of a reading material, traditional formulas such as Flesh \cite{flesch1948new}, Fog\cite{gunning1952technique} and Flesh-Kincaid \cite{flesch1948new}, are supported by \textit{YouUnderstood.me}. 
-\item \textbf{MRAS.} MRAS \cite{imadrazo2016readability} (Multilingual Readability assessment system) is a state of the art readability assessment system, that is capable of detecting the input language of a text on the fly and providing a readability score for it. MRAS is based on a supervised learning paradigm, that makes use of more than a hundred features for readability prediction. 
+\item \textbf{External metrics.} \textit{YouUnderstood.me} is compatible with the most popular readability metrics among the American education system, such as AR\footnote{www.acceleratelearning.com} or Lexile\footnote{www.lexile.com}. The aforementioned metrics are widely used for measuring the readability of books from children curricula. This permits \textit{YouUnderstood.me} retrieve books, which would be difficult to handle otherwise, because of the inability to get access to the contents of copyrighted material.
+\item \textbf{Traditional formulas.} Historically used by teachers for manually determining the readability level of a reading material, traditional formulas such as Flesh \cite{flesch1948new}, Fog\cite{gunning1952technique} and Flesh-Kincaid \cite{flesch1948new}, are also supported by \textit{YouUnderstood.me}. 
+\item \textbf{MRAS.} MRAS (Multilingual Readability assessment system)\cite{imadrazo2016readability} is a state-of-the-art readability assessment system, which is capable of detecting the input language of a text on-the-fly and providing the corresponding readability score. MRAS is based on a supervised learning paradigm, that makes use of more than a hundred features for readability prediction. 
 
 %The features are extracted using Natural Language Processing tools, such as a tokenizer, a part of speech tagger and different semantic analyzers. Those features, are used to train a model that will later be used for predicting the readability score for new materials.
 
 
 \end{itemize}
 
-The stakeholders of \textit{YouUnderstood.me} can benefit from the aforementioned readability scores in different ways. On the one side, \textbf{students} can make use of a \textbf{search engine} (as illustrated in fig. \ref{fig:studentSearch}) which provides several features that are aimed at helping them in the process of seeking for adequate reading materials. In order to use it, the student needs to be logged in (a), which permits the application personalize his search experience.
+The stakeholders of \textit{YouUnderstood.me} can benefit from the aforementioned readability scores in different ways. On the one side, \textbf{students} can make use of a \textbf{search engine} (as illustrated in figure \ref{fig:studentSearch}) which provides several features that are aimed at helping them in the process of seeking adequate reading materials. In order to use it, the student needs to be logged in (a), which permits the application personalize his search experience.
 
-Each query a student inserts is first treated with an ad-hoc search intent module that is capable of treating issues that usually arise while processing children queries and that usually lead children too retrieve poor results, such as misspelling, children popular culture terms or too long queries. Processed queries are submitted to a search engine, which  is different depending on the source required.  Currently two methods of search are implemented: one that makes use of the Google Search API and another one that based on the Apache Lucene\footnote{lucene.apache.org/} framework.
-
-
-
-Documents retrieved by the search engine are analyzed and filtered based on the readability requirements of each individual student. The documents can be both dynamically or statically analyzed, depending on their source and the search tool used. For example, documents are analyzed on the fly when using Google. This requires that the readability prediction needs to be fast, forcing the application to use a lightweight readability formula such as Flesch or FOG. However, when using Lucene, the documents can be previously analyzed, enabling the use of more complex readability prediction tools, such as MRAS.
+Each query a student formulates is first treated with an ad-hoc search intent module that is capable to solve issues that usually arise while processing children queries and that can lead children to retrieve poor results, such as misspelling, children popular culture terms or too long queries. Processed queries are submitted to a search engine.  Currently two methods of search are implemented: one that makes use of the Google Search API and another one based on the Apache Lucene\footnote{lucene.apache.org/} framework.
 
 
-Once the student has read the chosen material, he can give feed-back on it (c), helping the system improve the filtering for future searches. This feed back is given by means of a three option question which permits the student state whether the reading material was too easy, OK, or too complicated. This information is provided to the tracking system to create predictions about individual users' readability skills.
 
-The \textbf{tracking system} is currently based on a trivial method of approximation which simply increases the student's readability score every time he finds a recommended reading material too easy, and decreases it, every time he finds it too complicated. However, we are aware that more precise methods exist and plan to implement them in the near future. An updated prediction of the system regarding each student can be seen on the profile menu (d), allowing each student keep track of the progress he is making.
+Documents retrieved by the search engine are analyzed and filtered based on the readability requirements of each individual student. The documents can be both dynamically or statically analyzed, depending on their source and the search tool used. For example, documents are analyzed on the fly when using Google. This requires the readability prediction to be fast, forcing the application to use a lightweight readability formula such as Flesch or FOG. However, when using Lucene, documents can be previously analyzed, enabling the use of more complex readability prediction tools, such as MRAS.
+
+
+Once the student has read the chosen material, he can provide feedback on it (c), helping the system improve the filtering for future searches. This feedback is given by means of a three option question which permits the student state whether the reading material was too easy, OK, or too complicated. This information is provided to \textit{YouUnderstood.me}'s tracking module to create predictions about individual users' readability skills.
+
+The \textbf{tracking module} is currently based on a trivial method of approximation which simply increases the student's readability score every time he finds a recommended reading material too easy, and decreases it, every time he finds it too complicated. However, we are aware that more precise methods exist and plan to implement them in the near future. An updated prediction of the system regarding each student can be seen on the profile menu (d), allowing each student to keep track of the progress he is making.
 \begin{figure*}[ht]
  \centering
   \includegraphics[width=1\textwidth]{creatingFigures/Capture19}
  \caption{Screenshot of student list for educator}
   \label{fig:studentList}
  \end{figure*}
-\section{Introduction}
 
 
-\textbf{Educators} can also make use of the \textbf{search interface}, which is adapted to their use (fig. \ref{fig:educatorSearch}). The educator view of the search engine enables the user choose the readability level he wants. Moreover, the search engine no longer makes use of the search intend module, given that the teachers are supposed to find the correct words for what they are seeking, and adding this extra layer of filtering would only hinder their work. Furthermore, the readability level for filtering the reading materials is no longer decided by the system, giving the instructor the option for choosing the level of challenge he want for his students. The feed-back options are no longer available either, since there is no point in evaluating the educator's readability.
 
 
-\textbf{Educators} can also use the material analysis tool (fig. \ref{fig:analysispage}) that allows them to analyze snippets of text self-outlined. This tool allow to choose the readability formula used for the analysis, among most of the formulas that have already been mentioned.
 
-%TODO change image, add posibility to choose formula
+
+
+\textbf{Educators} can also make use of the \textbf{search interface}, which is adapted to their use (see figure \ref{fig:educatorSearch}). The educator view of the search engine enables the user choose the readability level he wants. Moreover, the search engine no longer makes use of the search intent module, given that teachers are supposed to find the correct words for what they are seeking, and adding this extra layer of filtering would only hinder their work. Furthermore, the readability level for filtering the reading materials is no longer decided by the system, giving the instructor the option for choosing the level of challenge he want for his students. The feedback options are no longer available either, since there is no point in evaluating the educator's readability.
+
+
+\textbf{Educators} can also use the material analysis tool (see figure \ref{fig:analysispage}) that allows them to analyze snippets of text. This module allows choosing the readability formula desired for the analysis, among the formulas that have already been mentioned.
+
+
 \begin{figure}[h!]
  \centering
   \includegraphics[width=0.45\textwidth]{creatingFigures/Capture22}
- \caption{Screenshot of analysis page}
+ \caption{Screenshot of the analysis page of \textit{YouUndestood.me}}
  \label{fig:analysispage}
  \end{figure}
  
  
  
-Finally, a student tracking tool is provided for educators (fig. \ref{fig:studentList}). This tool provides a fast way to discover the individual and overall reading skills of the students in the  class. The educator can view a prediction for individual student's reading skills or go deeper and view the feedback that the student gave for each of the reading materials.
+Finally, a student tracking tool is provided for educators (fig. \ref{fig:studentList}). This tool provides a fast way to discover the individual and overall reading skills of students in the class. The educator can view a prediction for individual student's reading skills or go deeper and view the feedback that the student gave for each of the reading materials.
 
 
 
@@ -344,10 +357,10 @@ Finally, a student tracking tool is provided for educators (fig. \ref{fig:studen
 \item \textbf{Analyzing materials.} An analysis page is provided to instructors, so that they can make use of the readability assessment algorithm \cite{imadrazo2016readability} with materials from outside the application. This page provides an input form where the instructor can submit the material, and receive a readability level prediction for the it.
 
 
-\item \textbf{Looking for new materials.} A material search page is provided so that the user can insert text queries for looking for materials. The user can select a certain readability level he wants to look for, of leave it blank letting the application choose the best level for the logger user. Furthermore, the material source can be selected, depending on the user needs. In case of students, they can select a material for reading and provide feed-back on it. This feed-back will be used for tracking purposes.
+\item \textbf{Looking for new materials.} A material search page is provided so that the user can insert text queries for looking for materials. The user can select a certain readability level he wants to look for, of leave it blank letting the application choose the best level for the logger user. Furthermore, the material source can be selected, depending on the user needs. In case of students, they can select a material for reading and provide feedback on it. This feedback will be used for tracking purposes.
 
 
-\item \textbf{Tracking students.} The educator can see a table with data about all his students, where the number of materials read and the readability score for each student are provided. The instructor can go deeper if needed, and see each of the materials each students has read and the individual readability scores for each material, as well as, the feed-back given by the student. The data is also presented in a summarized way, so that the educator can see the average, maximum and minimum reading skills of the students in class.
+\item \textbf{Tracking students.} The educator can see a table with data about all his students, where the number of materials read and the readability score for each student are provided. The instructor can go deeper if needed, and see each of the materials each students has read and the individual readability scores for each material, as well as, the feedback given by the student. The data is also presented in a summarized way, so that the educator can see the average, maximum and minimum reading skills of the students in class.
 
 \end{itemize}
 
@@ -356,12 +369,22 @@ Finally, a student tracking tool is provided for educators (fig. \ref{fig:studen
 \section{Conclusion and Future work}
 
 
-TODO
 
-We have introduced \textit{YouUnderstood.me}, a web application that simplifies the task of seeking for adequate online resources in terms of readability levels, within an academic environment. \textit{YouUnderstood.me} adopts a modular design, which facilitates the task of simultaneously integrating different readability prediction strategies, material sources, as well as ..., making it extensible and versatile. It provides an environment tailored to different types of users: students and educators. Students can benefit from a personalized search interface which combines a search intent module and retrieved results filtered by the corresponding readability level %ty filtered search engine that personalizes results towards 
-of each individual student. At the same time, educators can take advantage of three different XXX, i.e., a search interface, which aids educators in locating materials tailored to individual students, a readability analysis tool, which can help them in the writing of tests or directions for homework assignments and ensuring that their students can understand them, and a student tracking system,  which speeds up the process of locating reading materials suitable to the abilities of each student in the class. All the mentioned modules work in cooperation to create, to the best of our knowledge, the first educational tool that tackles the reading material seeking problem as a whole.
+\noindent
+We have introduced \textit{YouUnderstood.me}, a web application that simplifies the task of seeking for adequate online resources in terms of readability levels, within an academic environment. \textit{YouUnderstood.me} adopts a modular design, which facilitates the task of simultaneously integrating different readability prediction strategies, material sources
+%, as well as ...
+, making it extensible and versatile. It provides an environment tailored to different types of users: students and educators. Students can benefit from a personalized search interface which combines a search intent module and retrieved results filtered by the corresponding readability level %ty filtered search engine that personalizes results towards 
+of each individual student. At the same time, educators can take advantage of three different tools, i.e., a search interface, which aids educators in locating materials tailored to individual students, a readability analysis tool, which can help them in writing of tests or directions for homework assignments and ensuring that their students can understand them, and a student tracking system,  which speeds up the process of locating reading materials suitable to the abilities of each student in class. All the mentioned modules work in cooperation to create, to the best of our knowledge, the first educational tool that tackles the reading material seeking problem as a whole.
 
-TODO FUTURE WORK
+On the future, we would like to focus our work on enhancing the synergy between educators and students even more. We would like to give educators a way to validate students' queries, so that students can know which mistakes were included in their queries. This way, students would progressively improve their query formulation skills. We would also want to enhance \textit{YouUnderstood.me} to encourage collaborative searches among students and educators.  All this features would lead \textit{YouUnderstood.me} to be an even more versatile tool, a tool that would truly make students and educators understand each other.
+
+
+
+
+
+
+
+%TODO FUTURE WORK
 %UUM is equipped with modules that provide students with online materials that match their reading abilities. 
 
 %Furthermore, UUM includes a search intent module that facilitates the task of creating queries on-the-fly that can lead to the retrieval of suitable resources.
@@ -386,5 +409,5 @@ TODO FUTURE WORK
 
 \bibliography{bibliography}{}
 \bibliographystyle{abbrv}
-\nocite{*}
+%\nocite{*}
 \end{document}
