@@ -1,0 +1,33 @@
+Possible evaluation methods:
+- Find age of users and see if the predictions correlate with it
+- Use the new features to predict on pieces of texts extracted from big corpuses.
+- Use manual evaluators
+- Manually evaluate the age of a cluster, then use 80% of it for dev and the rest 20% for test.
+Needs:
+How to detect communities?
+	-Directed graph, weighted
+	-Mapreduce
+	
+Feature selection methods:
+-Maximize the entropy of a feature among communities and their predictions based on that readability
+
+
+Possible features:
+- Langauge models, ngram frequencies
+- Easy/complex vocab
+- Analyze readability of links
+- Analyze readability of hashtags, use that value as a predictor for 
+- Information about hashtag: 
+	- https://tagdef.com/justinbieber
+	- Other tweets containing the hashtag
+	- Analysis of the words in the hashtag
+- Analyze readability of users, if an uses gets tweets from the other one it is probable that share similar readabilities.
+- Analyze other tweets in same conversation
+- Analyze vocabulary in tweets
+
+Posssible analysis:
+- Does the readability help to the diffusion of a tweet?
+- Is a tweet more probable to be retweeted among people with same readability as the one of the tweet?
+
+
+Giraph, hadoop graph analysis.

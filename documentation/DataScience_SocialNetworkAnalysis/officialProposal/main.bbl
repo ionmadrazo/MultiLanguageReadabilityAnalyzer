@@ -1,12 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{al2008towards}
-A.~A. Al-Ajlan, H.~S. Al-Khalifa, and A.~Al-Salman.
-\newblock Towards the development of an automatic readability measurements for
-  arabic language.
-\newblock In {\em Digital Information Management, 2008. ICDIM 2008. Third
-  International Conference on}, pages 506--511. IEEE, 2008.
-
 \bibitem{albright1996readability}
 J.~Albright, C.~de~Guzman, P.~Acebo, D.~Paiva, M.~Faulkner, and J.~Swanson.
 \newblock Readability of patient education materials: implications for clinical
@@ -16,16 +9,7 @@ J.~Albright, C.~de~Guzman, P.~Acebo, D.~Paiva, M.~Faulkner, and J.~Swanson.
 \bibitem{aluisio2010readability}
 S.~Aluisio, L.~Specia, C.~Gasperin, and C.~Scarton.
 \newblock Readability assessment for text simplification.
-\newblock In {\em Proceedings of the NAACL HLT 2010 Fifth Workshop on
-  Innovative Use of NLP for Building Educational Applications}, pages 1--9.
-  Association for Computational Linguistics, 2010.
-
-\bibitem{anula2007tipos}
-A.~Anula.
-\newblock Tipos de textos, complejidad ling{\"u}{\i}stica y facilicitaci{\'o}n
-  lectora.
-\newblock In {\em Actas del Sexto Congreso de Hispanistas de Asia}, pages
-  45--61, 2007.
+\newblock In {\em NAACL HLT}, pages 1--9, 2010.
 
 \bibitem{bonsall2015plain}
 S.~B. Bonsall, A.~J. Leone, and B.~P. Miller.
@@ -36,12 +20,6 @@ S.~B. Bonsall, A.~J. Leone, and B.~P. Miller.
 J.~S. Chall and E.~Dale.
 \newblock {\em Readability revisited: The new Dale-Chall readability formula}.
 \newblock Brookline Books, 1995.
-
-\bibitem{chen2011chinese}
-Y.-H. Chen, Y.-H. Tsai, and Y.-T. Chen.
-\newblock Chinese readability assessment using tf-idf and svm.
-\newblock In {\em Machine Learning and Cybernetics (ICMLC), 2011 International
-  Conference on}, volume~2, pages 705--710. IEEE, 2011.
 
 \bibitem{collins2004language}
 K.~Collins-Thompson and J.~P. Callan.
@@ -54,39 +32,23 @@ A.~Davison and R.~N. Kantor.
   case study from adaptations.
 \newblock {\em Reading research quarterly}, pages 187--209, 1982.
 
-\bibitem{dell2011read}
-F.~Dell'Orletta, S.~Montemagni, and G.~Venturi.
-\newblock Read-it: Assessing readability of italian texts with a view to text
-  simplification.
-\newblock In {\em Proceedings of the second workshop on speech and language
-  processing for assistive technologies}, pages 73--83. Association for
-  Computational Linguistics, 2011.
-
-\bibitem{drndarevic2013automatic}
-B.~Drndarevi{\'c}, S.~{\v{S}}tajner, S.~Bott, S.~Bautista, and H.~Saggion.
-\newblock Automatic text simplification in spanish: a comparative evaluation of
-  complementing modules.
-\newblock In {\em Computational Linguistics and Intelligent Text Processing},
-  pages 488--500. Springer, 2013.
-
 \bibitem{textsimplificationWithDisabilities1}
 L.~Feng.
 \newblock Automatic readability assessment for people with intellectual
   disabilities.
-\newblock {\em ACM SIGACCESS Accessibility and Computing}, (93):84--91, 2009.
+\newblock {\em ACM SIGACCESS}, (93):84--91, 2009.
 
 \bibitem{feng2009automatic}
 L.~Feng.
 \newblock Automatic readability assessment for people with intellectual
   disabilities.
-\newblock {\em ACM SIGACCESS Accessibility and Computing}, (93):84--91, 2009.
+\newblock {\em ACM SIGACCESS}, (93):84--91, 2009.
 
 \bibitem{feng2010comparison}
 L.~Feng, M.~Jansche, M.~Huenerfauth, and N.~Elhadad.
 \newblock A comparison of features for automatic readability assessment.
-\newblock In {\em Proceedings of the 23rd International Conference on
-  Computational Linguistics: Posters}, pages 276--284. Association for
-  Computational Linguistics, 2010.
+\newblock In {\em COLING}, pages 276--284. Association for Computational
+  Linguistics, 2010.
 
 \bibitem{flesch1948new}
 R.~Flesch.
@@ -96,35 +58,13 @@ R.~Flesch.
 \bibitem{franccois2012ai}
 T.~Fran{\c{c}}ois and C.~Fairon.
 \newblock An ai readability formula for french as a foreign language.
-\newblock In {\em Proceedings of the 2012 Joint Conference on Empirical Methods
-  in Natural Language Processing and Computational Natural Language Learning},
-  pages 466--477. Association for Computational Linguistics, 2012.
-
-\bibitem{frank2001simple}
-E.~Frank and M.~Hall.
-\newblock {\em A simple approach to ordinal classification}.
-\newblock Springer, 2001.
-
-\bibitem{gonzalez2014simple}
-I.~Gonzalez-Dios, M.~J. Aranzabe, A.~D. de~Ilarraza, and H.~Salaberri.
-\newblock Simple or complex? assessing the readability of basque texts.
-\newblock In {\em Proceedings of COLING}, volume 2014, 2014.
+\newblock In {\em ACL EMNLP}, pages 466--477, 2012.
 
 \bibitem{medicalReadability1}
 A.~M. Ibrahim, C.~R. Vargas, P.~G. Koolen, D.~J. Chuang, S.~J. Lin, and B.~T.
   Lee.
 \newblock Readability of online patient resources for melanoma.
 \newblock {\em Melanoma research}, 26(1):58--65, 2016.
-
-\bibitem{landauer1998introduction}
-T.~K. Landauer, P.~W. Foltz, and D.~Laham.
-\newblock An introduction to latent semantic analysis.
-\newblock {\em Discourse processes}, 25(2-3):259--284, 1998.
-
-\bibitem{miller1995wordnet}
-G.~A. Miller.
-\newblock Wordnet: a lexical database for english.
-\newblock {\em Communications of the ACM}, 38(11):39--41, 1995.
 
 \bibitem{legalreadability}
 J.~R. Ogloff and R.~K. Otto.
@@ -135,14 +75,12 @@ J.~R. Ogloff and R.~K. Otto.
 \bibitem{padro10b}
 L.~Padró, M.~Collado, S.~Reese, M.~Lloberes, and I.~Castellón.
 \newblock Freeling 2.1: Five years of open-source language processing tools.
-\newblock In {\em Proceedings of 7th Language Resources and Evaluation
-  Conference (LREC'10)}, La Valletta, Malta, May 2010.
+\newblock In {\em LREC}, La Valletta, Malta, May 2010.
 
 \bibitem{padro12}
 L.~Padró and E.~Stanilovsky.
 \newblock Freeling 3.0: Towards wider multilinguality.
-\newblock In {\em Proceedings of the Language Resources and Evaluation
-  Conference (LREC 2012)}, Istanbul, Turkey, May 2012. ELRA.
+\newblock In {\em LREC}, Istanbul, Turkey, May 2012. ELRA.
 
 \bibitem{medicalReadability3}
 C.~R. Patel, S.~Sanghvi, D.~V. Cherla, S.~Baredes, and J.~A. Eloy.
@@ -155,8 +93,7 @@ C.~R. Patel, S.~Sanghvi, D.~V. Cherla, S.~Baredes, and J.~A. Eloy.
 M.~S. Pera and Y.-K. Ng.
 \newblock Automating readers' advisory to make book recommendations for k-12
   readers.
-\newblock In {\em Proceedings of the 8th ACM Conference on Recommender
-  systems}, pages 9--16. ACM, 2014.
+\newblock In {\em RecSys}, pages 9--16. ACM, 2014.
 
 \bibitem{medicalReadability2}
 J.~Petkovic, J.~Epstein, R.~Buchbinder, V.~Welch, T.~Rader, A.~Lyddiatt,
@@ -177,24 +114,11 @@ H.~Saggion, S.~{\v{S}}tajner, S.~Bott, S.~Mille, L.~Rello, and B.~Drndarevic.
 \newblock {\em ACM Transactions on Accessible Computing (TACCESS)}, 6(4):14,
   2015.
 
-\bibitem{spaulding1956spanish}
-S.~Spaulding.
-\newblock A spanish readability formula.
-\newblock {\em The Modern Language Journal}, 40(8):433--441, 1956.
-
 \bibitem{textsimplification1}
 S.~{\v{S}}tajner, R.~Mitkov, and G.~C. Pastor.
 \newblock Simple or not simple? a readability question.
 \newblock In {\em Language Production, Cognition, and the Lexicon}, pages
   379--398. Springer, 2015.
-
-\bibitem{vstajner2013readability}
-S.~{\v{S}}tajner and H.~Saggion.
-\newblock Readability indices for automatic evaluation of text simplification
-  systems: A feasibility study for spanish.
-\newblock In {\em Proceedings of the 6th International Joint Conference on
-  Natural Language Processing (IJCNLP 2013), Nagoya, Japan}, pages 374--382,
-  2013.
 
 \bibitem{literacy1}
 B.~D. Weiss, M.~Z. Mays, W.~Martz, K.~M. Castro, D.~A. DeWalt, M.~P. Pignone,
