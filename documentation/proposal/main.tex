@@ -7,6 +7,7 @@
 \usepackage{graphicx}
 \usepackage{multirow}
 \usepackage{comment}
+\usepackage{url}
 \usepackage{cite}
 \graphicspath{ {images/} }
 \title{First Steps Towards Automatic Multilingual Readability Assessment}
@@ -18,8 +19,8 @@
 \maketitle
 \section{Introduction}
 
-Reading is an important skill in the academic environment, a competence that can be critical for students' educational opportunities and their careers \cite{robinson2000issues}. Studies \cite{lennon2004lexile} show that reading for learning takes place best, when the reader comprehends a 75\% of the text. This supposes an appropriate balance, that allows the reader to positively understand the text, while also finding challenges in the reading process, that will motivate the him to improve his skills. Outside educational environment, reading takes place for comprehension rather that for learning. Therefore, in this context, it is critical to provide people with texts that they can fully comprehend. E.g. understanding a legal or medical document properly, can lead the reader to make a better and more confident decision. However, studies\cite{medicalReadability1,medicalReadability2,medicalReadability3}  show that even medical documents that are supposed to be suited for average readers, tend to be too specialized and even well-educated adults have trouble understanding them.
-Every reader's skills are different and the complexity of the texts they need to face depends upon the context. Therefore, providing institutions and average users with tools that permit to assess whether a text is adequate for a user is imperative. That is where \textit{Readability Assessment (RA)} tools take place, providing a way to determine the degree of ease with which a reader can understand a given text, i.e. the \textit{Readability Score (RS)}.
+Reading is an important skill in the academic environment, a competence that can be critical for students' educational opportunities and their careers \cite{robinson2000issues}. Studies \cite{lennon2004lexile} show that reading for learning takes place best, when the reader comprehends a 75\% of the text. This supposes an appropriate balance, that allows the reader to positively understand the text, while also finding challenges in the reading process that will motivate  him to improve his skills. Outside educational environment, reading takes place for comprehension rather that for learning. Therefore, in this context, it is critical to provide people with texts that they can fully comprehend. E.g. understanding a legal or medical document properly, can lead the reader to make a better and more confident decision. However, studies\cite{medicalReadability1,medicalReadability2,medicalReadability3}  show that even medical documents that are supposed to be suited for average readers, tend to be too specialized and even well-educated adults have trouble understanding them.
+Every reader's skills are different and the complexity of the texts they need to face depends also upon the context. Therefore, providing institutions and average users with tools that permit to assess whether a text is adequate for a user is imperative. That is where \textit{Readability Assessment (RA)} tools take place, providing a way to determine the degree of ease with which a reader can understand a given text, i.e. the \textit{Readability Score (RS)}.
 
 
 
@@ -245,10 +246,10 @@ The ideal dataset for developing MRAS would be a multilingual leveled dataset th
                                                         & \textbf{Dataset}   & \textbf{Description}                                         \\ \hline
 \multicolumn{1}{|l|}{\multirow{3}{*}{\textbf{English}}} & Lexile             & Contains book titles associated with its readability level   \\ \cline{2-3} 
 \multicolumn{1}{|c|}{}                                  & Stantarized tests  & Tests for English level, they contain various texts per test \\ \cline{2-3} 
-\multicolumn{1}{|c|}{}                                  & Other              & News for kids, exercises for learning English                \\ \hline
+\multicolumn{1}{|c|}{}                                  & Other \cite{datasetEnOther1,datasetEnOther2,datasetEnOther3}             & News for kids, exercises for learning English                \\ \hline
 \multicolumn{1}{|l|}{\multirow{2}{*}{\textbf{Spanish}}} & Lexile             & Contains book titles associated with its readability level   \\ \cline{2-3} 
-\multicolumn{1}{|l|}{}                                  & Learning resources & Various exercises for learning Spanish                       \\ \hline
-\multicolumn{1}{|l|}{\textbf{Basque}}                   & Learning resources & Various exercises for learning Basque                        \\ \hline
+\multicolumn{1}{|l|}{}                                  & Learning resources \cite{datasetEsOther1,datasetEsOther2,datasetEsOther3} & Various exercises for learning Spanish                       \\ \hline
+\multicolumn{1}{|l|}{\textbf{Basque}}                   & Learning resources \cite{datasetEuOther1} & Various exercises for learning Basque                        \\ \hline
 \multicolumn{1}{|l|}{\textbf{Multilingual}}                   & Paraller corpus & Contains same texts translated into two languages                        \\ \hline
 \end{tabular}%
 }

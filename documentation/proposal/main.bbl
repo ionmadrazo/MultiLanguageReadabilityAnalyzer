@@ -1,5 +1,26 @@
 \begin{thebibliography}{10}
 
+\bibitem{datasetEnOther1}
+\url{https://www.readinga-z.com/books/leveled-books/}.
+
+\bibitem{datasetEnOther2}
+\url{http://www.breakingnewsenglish.com/news-for-kids.html}.
+
+\bibitem{datasetEnOther3}
+\url{http://www.newsinlevels.com/}.
+
+\bibitem{datasetEsOther1}
+\url{http://cvc.cervantes.es/aula/lecturas/}.
+
+\bibitem{datasetEsOther2}
+\url{http://aprenderespanol.org/lecturas/lecturas-ejercicios.html}.
+
+\bibitem{datasetEsOther3}
+\url{http://www-k6.thinkcentral.com/content/hsp/reading/Senderos/na/common/online\_senderos\_libros\_graduables\_para\_lectores/senderos\_SE/launch.html}.
+
+\bibitem{datasetEuOther1}
+\url{http://www.ikasbil.eus}.
+
 \bibitem{al2008towards}
 A.~A. Al-Ajlan, H.~S. Al-Khalifa, and A.~Al-Salman.
 \newblock Towards the development of an automatic readability measurements for
