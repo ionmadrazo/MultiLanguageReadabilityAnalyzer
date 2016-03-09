@@ -11,3 +11,5 @@ http://las.sagepub.com/content/14/4/392.short
 
 ##############################################
 The lexile framework as an approach for reading measurement and success
+
+Reading for learning takes place when the reader understantds 75% of the text.
