@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.28)  8 MAR 2016 23:09
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.28)  10 MAR 2016 14:57
 entering extended mode
 **main.tex
 
@@ -257,38 +257,73 @@ Package pdftex.def Info: pipelineGraph.jpg used on input line 109.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--120
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--125
+
+ []
+
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
 
  []
 
 [7 <D:/eclipse2/workspace/MultiLanguageReadabilityAnalyzer/documentation/propos
-al/pipelineGraph.jpg>] Excluding 'comment' comment. [8]
-Excluding 'comment' comment.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 294.
+al/pipelineGraph.jpg>] Excluding 'comment' comment.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Excluding 'comment' comment. [8]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 306.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 294.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 306.
  [9]
 (D:\eclipse2\workspace\MultiLanguageReadabilityAnalyzer\documentation\proposal\
 main.bbl
-Underfull \hbox (badness 10000) in paragraph at lines 16--17
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+[] []$\OT1/cmtt/m/n/12 http : / / learnenglishteens . britishcouncil . org / co
+ntent ? field _$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+$\OT1/cmtt/m/n/12 language _ level _ tid = 50 & field _ section _ tid = 1129 & 
+field _ topics _$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
 [] []$\OT1/cmtt/m/n/12 http : / / aprenderespanol . org / lecturas / lecturas-[
 ]ejercicios .$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
 [] []$\OT1/cmtt/m/n/12 http : / / www-[]k6 . thinkcentral . com / content / hsp
  / reading /$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--20
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
 $\OT1/cmtt/m/n/12 Senderos / na / common / online \ _senderos \ _libros \ _grad
 uables \$
  []
@@ -304,10 +339,10 @@ Missing character: There is no ³ in font cmr12!
 (D:\eclipse2\workspace\MultiLanguageReadabilityAnalyzer\documentation\proposal\
 main.aux) ) 
 Here is how much of TeX's memory you used:
- 3172 strings out of 493921
- 44706 string characters out of 3144858
- 119643 words of memory out of 3000000
- 6420 multiletter control sequences out of 15000+200000
+ 3177 strings out of 493921
+ 44794 string characters out of 3144858
+ 120663 words of memory out of 3000000
+ 6425 multiletter control sequences out of 15000+200000
  9324 words of font info for 33 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  35i,11n,32p,1695b,283s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -320,7 +355,7 @@ Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Prog
 ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (14 pages, 244327 bytes).
+Output written on main.pdf (14 pages, 246347 bytes).
 PDF statistics:
  85 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

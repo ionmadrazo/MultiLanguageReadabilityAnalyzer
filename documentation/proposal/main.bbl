@@ -1,5 +1,14 @@
 \begin{thebibliography}{10}
 
+\bibitem{datasetEuOther1}
+\url{http://www.ikasbil.eus}.
+
+\bibitem{datasetEnExams1}
+\url{http://www.flo-joe.co.uk/exams.htm }.
+
+\bibitem{datasetEnExams2}
+\url{http://learnenglishteens.britishcouncil.org/content?field_language_level_tid=50&field_section_tid=1129&field_topics_tid=&language=en}.
+
 \bibitem{datasetEnOther1}
 \url{https://www.readinga-z.com/books/leveled-books/}.
 
@@ -18,8 +27,8 @@
 \bibitem{datasetEsOther3}
 \url{http://www-k6.thinkcentral.com/content/hsp/reading/Senderos/na/common/online\_senderos\_libros\_graduables\_para\_lectores/senderos\_SE/launch.html}.
 
-\bibitem{datasetEuOther1}
-\url{http://www.ikasbil.eus}.
+\bibitem{datasetParallel1}
+\url{http://albalearning.com/audiolibros/textosparalelos.html }.
 
 \bibitem{al2008towards}
 A.~A. Al-Ajlan, H.~S. Al-Khalifa, and A.~Al-Salman.
@@ -74,6 +83,16 @@ Y.-H. Chen, Y.-H. Tsai, and Y.-T. Chen.
 K.~Collins-Thompson and J.~P. Callan.
 \newblock A language modeling approach to predicting reading difficulty.
 \newblock In {\em HLT-NAACL}, pages 193--200, 2004.
+
+\bibitem{cortes1995support}
+C.~Cortes and V.~Vapnik.
+\newblock Support-vector networks.
+\newblock {\em Machine learning}, 20(3):273--297, 1995.
+
+\bibitem{croft2010search}
+W.~B. Croft, D.~Metzler, and T.~Strohman.
+\newblock {\em Search engines: Information retrieval in practice}, volume 283.
+\newblock Addison-Wesley Reading, 2010.
 
 \bibitem{davison1982failure}
 A.~Davison and R.~N. Kantor.

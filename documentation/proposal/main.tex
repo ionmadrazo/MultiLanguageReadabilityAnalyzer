@@ -93,7 +93,7 @@ We propose to develop MRAS using a supervised learning approach that will rely o
 
 \subsection{Text processing}
 %MRAS will used leveled corpora for learning from, i.e. a set documents that are labeled for its readability by experts. However, even if those documents are good to read by humans, they cannot be understood by machines, because they contain no structure. Therefore, the first step MRAS will always perform for a text is a processing step, where raw text is given structure and, therefore, value. This structure and information will later be used for extraction features that will help the system predict a readability score.\\
-As the main focus of MRAS is to analyze text, we have identified different text processing methods that will be used in its development. \textbf{Freeling NLP} \cite{padro12,padro10b} is a multilingual natural language processing (NLP) toolkit that supports 11 different languages. This tool solves common NLP tasks such as, tokenization, sentence detection, part of speech tagging or dependency parsing. \textbf{WordNet} is a lexical database that takes advantage of semantic relations between terms to build a graph that is very convenient for semantic analysis tasks. \textbf{Latent semantic analysis} is also a commonly used strategy  for semantic analysis, which takes advantage of concurrences among terms for determining similarities between them. All those tools, along with others, that we will be found in the research process, will compose the text processing step of MRAS.
+As the main focus of MRAS is to analyze text, we have identified different text processing methods and tools that will be used in its development. \textbf{Freeling NLP} \cite{padro12,padro10b} is a multilingual natural language processing (NLP) toolkit that supports 11 different languages. This tool solves common NLP tasks such as, tokenization, sentence detection, part of speech tagging or dependency parsing. \textbf{WordNet} is a lexical database that takes advantage of semantic relations between terms to build a graph that is very convenient for semantic analysis tasks. \textbf{Latent semantic analysis} is also a commonly used strategy  for semantic analysis, which takes advantage of concurrences among terms for determining similarities between them. All those tools, along with others, that we will incorporate during the research process, will be used part of the text processing step of MRAS.
 
 
 
@@ -112,26 +112,29 @@ As the main focus of MRAS is to analyze text, we have identified different text 
 \end{figure}
 
 \subsection{Feature extraction}
-The exploration of features will be one of the main tasks of this thesis. MRAS should be able to extract a wide range of features that satisfy the needs of each language it will tackle. A general description of the categories of features that we expect to incorporate in MRAS is presented as follows:
+Exploring features will be one of the main tasks of this thesis. MRAS should be able to extract a wide range of features that satisfy the needs of each language it will tackle. A general description of the categories of features that we expect to incorporate in MRAS is presented as follows:\\
+
+
+\noindent
+\textbf{Shallow features} \cite{flesch1948new,chall1995readability,albright1996readability} have historically shown to be of good use when prediction readability. Therefore, they will be incorporated into MRAS and used as a baseline for improvement. Sentence length, word length, or ratio of simple terms are examples of the features that will be included among this category.\\
 
 
 
-\paragraph{Shallow features}
-\cite{flesch1948new,chall1995readability,albright1996readability} have historically shown to be of good use when prediction readability. Therefore, they will be incorporated into MRAS and used as a baseline for improvement. Sentence length, word length, or ratio of simple terms are examples of the features that will be included among this category.
+\noindent
+\textbf{Morphological features} capture how terms are formed from their root. Even if this  aspect is not relevant in some languages such as English, it has been shown to be a strong predictor for readability in some languages such as Basque \cite{gonzalez2014simple}. Different morphological phenomena will be analyzed in order to create features in this category.\\
+
+\noindent
+\textbf{Structural features} are the ones that describe how a text is organized. They can both describe structure within the sentence (syntactical structure) or structure between sentences (pragmatical structure). Depth of the syntactic tree or ratios of different types of connectors between sentences are some examples of the features that are going to be explored under this category.\\
+
+\noindent
+\textbf{Semantic features} go beyond the tokens and structure of the text in order to analyse the concepts laying on it. This permits to create an abstraction level that leave behind the dependence other features have respect to the text. Features such as concept density or concept follow-ability are some examples of the features that will be analyzed under this category.\\
+
+
+RA can be used in more than just plain text. Internet is evolving into a new social era and so are text resources. Increasingly more resources contain \textbf{social information}, such as hashtags, mentions or links, this type of information usually ignored by readability formulas. We would like to investigate how the aforementioned information can be used for readability prediction.
 
 
 
-\paragraph{Morphological features}
-capture how terms are formed from their root. Even if this  aspect is not relevant in some languages such as English, it has been shown to be a strong predictor for readability in some languages such as Basque \cite{gonzalez2014simple}. Different morphological phenomena will be analyzed in order to create features in this category.
 
-\paragraph{Structural features}
- are the ones that describe how a text is organized. They can both describe structure within the sentence (syntactical structure) or structure between sentences (pragmatical structure). Depth of the syntactic tree or ratios of different types of connectors between sentences are some examples of the features that are going to be explored under this category.
-
-\paragraph{Semantic features}
- go beyond the tokens and structure of the text in order to analyse the concepts laying on it. This permits to create an abstraction level that leave behind the dependence other features have respect to the text. Features such as concept density or concept follow-ability are some examples of the features that will be analyzed under this category.\\
-
-
-Readability assessment can be used in more than just plain text. Internet is evolving into a new social era and so are text resources too. Increasingly more resources contain \textbf{social information} such as hashtags, mentions or links, an information that is usually ignored by readability formulas. We would like to perform research in order to see how the aforementioned information can be used for readability prediction.
 
 %named entities, childish not childish entities
 
@@ -140,7 +143,7 @@ Readability assessment can be used in more than just plain text. Internet is evo
 
 \subsection{Prediction}
 
-Individually each of the aforementioned features can only provide a raft estimate of the readability, however, considering these features in tandem can lead to a more accurate an robust readability assessment. Consecutively, we will analyze different fusion strategies for MRAS. The problem of assessing readability can be seen as a classification problem where a discrete categorical class needs to be predicted. Therefore, we would like to  explore different \textbf{classification} algorithms, such as bayesian networks or support vector machines.  The readability assessment task can also be seen as a \textbf{regression} problem, given that the class contains an inherent order on it. Therefore, we will also like test different regression algorithms. Finally, we would also like to take an \textbf{hybrid} approach by using classification algorithms that take order in the class into account, such as the ordinal classification approach presented in \cite{frank2001simple}.
+Individually each of the aforementioned features can only provide a raft estimate of the readability of a text. However, considering these features in tandem can lead to a more accurate an robust readability assessment. Consecutively, we will analyze different fusion strategies for MRAS. The problem of assessing readability can be seen as a classification problem where a discrete categorical class needs to be predicted. Therefore, we would like to  explore different \textbf{classification} algorithms, such as bayesian networks or support vector machines \cite{cortes1995support} for readability level prediction.  The RA task can also be seen as a \textbf{regression} problem, given that the class contains an inherent order on it. Therefore, we will also like test different regression algorithms. Finally, we would also like to take an \textbf{hybrid} approach by using classification algorithms that take order in the class into account, such as the ordinal classification approach presented in \cite{frank2001simple}.
 
 
 
@@ -230,7 +233,7 @@ Even if MRAS is designed to be language independent, for practical purposes the 
 
 
 \subsection{Datasets}
-The ideal dataset for developing MRAS would be a multilingual leveled dataset that would contain the exact same documents written in different languages, as well as human judgments, in terms of readability scores for each document. However, to the best of our knowledge, such a dataset does not currently exist. Consequently, we have identified, various sets of leveled documents for each individual language that can suit MRAS' needs and can be used for evaluation purposes. Details on the datasets considered for evaluation purposes can be seen in Table \ref{table:datastetTable}.
+The ideal dataset for developing MRAS would be a multilingual leveled dataset that would contain the exact same documents written in different languages, as well as human judgments, in terms of readability scores for each document. However, to the best of our knowledge, such a dataset does not currently exist. Consequently, we have identified various sets of leveled documents for each individual language that can suit MRAS' needs and can be used for evaluation purposes. Details on the datasets considered for evaluation purposes can be seen in Table \ref{table:datastetTable}.
 
 
 
@@ -244,18 +247,27 @@ The ideal dataset for developing MRAS would be a multilingual leveled dataset th
 \begin{tabular}{l|l|l|}
 \cline{2-3}
                                                         & \textbf{Dataset}   & \textbf{Description}                                         \\ \hline
-\multicolumn{1}{|l|}{\multirow{3}{*}{\textbf{English}}} & Lexile             & Contains book titles associated with its readability level   \\ \cline{2-3} 
-\multicolumn{1}{|c|}{}                                  & Stantarized tests  & Tests for English level, they contain various texts per test \\ \cline{2-3} 
+\multicolumn{1}{|l|}{\multirow{4}{*}{\textbf{English}}} & Lexile \cite{datasetEuOther1}            & Contains book titles associated with its readability level   \\ \cline{2-3} 
+\multicolumn{1}{|c|}{}                                  & Stantarized tests \cite{datasetEnExams1,datasetEnExams2} & Tests for English level, they contain various texts per test \\ \cline{2-3} 
 \multicolumn{1}{|c|}{}                                  & Other \cite{datasetEnOther1,datasetEnOther2,datasetEnOther3}             & News for kids, exercises for learning English                \\ \hline
-\multicolumn{1}{|l|}{\multirow{2}{*}{\textbf{Spanish}}} & Lexile             & Contains book titles associated with its readability level   \\ \cline{2-3} 
+
+
+
+
+\multicolumn{1}{|l|}{\multirow{2}{*}{\textbf{Spanish}}} & Lexile  \cite{datasetEuOther1}           & Contains book titles associated with its readability level   \\ \cline{2-3} 
 \multicolumn{1}{|l|}{}                                  & Learning resources \cite{datasetEsOther1,datasetEsOther2,datasetEsOther3} & Various exercises for learning Spanish                       \\ \hline
+
+
 \multicolumn{1}{|l|}{\textbf{Basque}}                   & Learning resources \cite{datasetEuOther1} & Various exercises for learning Basque                        \\ \hline
-\multicolumn{1}{|l|}{\textbf{Multilingual}}                   & Paraller corpus & Contains same texts translated into two languages                        \\ \hline
+\multicolumn{1}{|l|}{\textbf{Multilingual}}                   & Parallel corpus \cite{datasetParallel1}  & Contains same texts translated into Spanish                        \\
+\multicolumn{1}{|l|}{}                   &   &  and English \\
+ \hline
 \end{tabular}%
 }
 \caption{Data resources identified for MRAS development}
 \label{table:datastetTable}
 \end{table}
+
 
 \begin{comment}
 \subsubsection{English}
@@ -285,7 +297,7 @@ online\_senderos\_libros\_graduables\_para\_lectores/senderos\_SE/launch.html} h
 
 
 \subsection{Metrics}
-The performance of MRAS will be evaluated by means of (1) common classification evaluation methods, such as accuracy and error type rates, (2) regression evaluation methods such as RMSE (Root mean square error) and (3) methods used in the readability assessment area, such as adjacent accuracy \cite{franccois2012ai}. 
+The performance of MRAS will be evaluated by means of (1) common classification evaluation methods, such as absolute error \cite{croft2010search}, (2) regression evaluation methods such as MSE (Mean square error) \cite{croft2010search} and (3) methods used in the readability assessment area, such as adjacent accuracy \cite{franccois2012ai}. 
 
 \subsection{Overall Assessment}
 The study and performance analysis of this thesis will aim at answering the following questions:
@@ -334,26 +346,26 @@ The study and performance analysis of this thesis will aim at answering the foll
 
 
 \section{Proposed schedule}
-
+For conducting the research proposed in this manuscript in a timely manner, we define the milestones shown in Table \ref{table:schedule}.
 
 % Please add the following required packages to your document preamble:
 % \usepackage{graphicx}
 \begin{table}[h]
 \centering
-\resizebox{\textwidth}{!}{%
-\begin{tabular}{|l|l|}
+%\resizebox{\textwidth}{!}{%
+\begin{tabular}{|c|l|}
 \hline
 \textbf{Date} & \textbf{Milestone}                                  \\ \hline
-              & Gather existing datasets for design and development \\ \hline
-              & Feature Exploration: Shallow features               \\ \hline
-              & Feature Exploration: Content based features         \\ \hline
-              & Feature Exploration: Social features                \\ \hline
-              & Feature fusion                                      \\ \hline
-              & Lets talk about conferences                         \\ \hline
-              & Completed                                           \\ \hline
-              & Defense                                             \\ \hline
+April 2016    & Gather existing datasets for design and development \\ \hline
+May 2016    & Feature Exploration                                 \\ \hline
+%April 2016    & Feature Exploration: Content based features         \\ \hline
+%April 2016    & Feature Exploration: Social features                \\ \hline
+June 2016    & Feature fusion                                      \\ \hline
+July 2016    & Experiments                                         \\ \hline
+July 2016    & Thesis draft                                        \\ \hline
+August 2016    & Defense                                             \\ \hline
 \end{tabular}%
-}
+%}
 \caption{Proposed schedule}
 \label{table:schedule}
 \end{table}
