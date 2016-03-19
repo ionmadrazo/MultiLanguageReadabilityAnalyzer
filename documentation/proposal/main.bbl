@@ -168,6 +168,16 @@ C.~Lennon and H.~Burdick.
   success.
 \newblock {\em electronic publication on www. lexile. com}, 2004.
 
+\bibitem{neter1996applied}
+J.~Neter, M.~H. Kutner, C.~J. Nachtsheim, and W.~Wasserman.
+\newblock {\em Applied linear statistical models}, volume~4.
+\newblock Irwin Chicago, 1996.
+
+\bibitem{nielsen2009bayesian}
+T.~D. Nielsen and F.~V. Jensen.
+\newblock {\em Bayesian networks and decision graphs}.
+\newblock Springer Science \& Business Media, 2009.
+
 \bibitem{legalreadability}
 J.~R. Ogloff and R.~K. Otto.
 \newblock Are research participants truly informed? readability of informed
@@ -237,6 +247,12 @@ S.~{\v{S}}tajner and H.~Saggion.
 \newblock In {\em Proceedings of the 6th International Joint Conference on
   Natural Language Processing (IJCNLP 2013), Nagoya, Japan}, pages 374--382,
   2013.
+
+\bibitem{walker1967estimation}
+S.~H. Walker and D.~B. Duncan.
+\newblock Estimation of the probability of an event as a function of several
+  independent variables.
+\newblock {\em Biometrika}, 54(1-2):167--179, 1967.
 
 \bibitem{literacy1}
 B.~D. Weiss, M.~Z. Mays, W.~Martz, K.~M. Castro, D.~A. DeWalt, M.~P. Pignone,
