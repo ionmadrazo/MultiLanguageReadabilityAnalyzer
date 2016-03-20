@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.28)  19 MAR 2016 01:08
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.28)  19 MAR 2016 23:41
 entering extended mode
 **main.tex
 
@@ -246,52 +246,52 @@ Overfull \hbox (8.74075pt too wide) in paragraph at lines 36--39
  to de-velop \OT1/cmr/bx/n/12 MRAS\OT1/cmr/m/n/12 ,
  []
 
-[2] [3] [4] <pipelineGraph.png, id=21, 2241.37375pt x 2503.3525pt>
+[2] [3] [4] [5] <pipelineGraph.png, id=24, 2241.37375pt x 2503.3525pt>
 File: pipelineGraph.png Graphic file (type png)
 
 <use pipelineGraph.png>
-Package pdftex.def Info: pipelineGraph.png used on input line 107.
+Package pdftex.def Info: pipelineGraph.png used on input line 108.
 (pdftex.def)             Requested size: 390.0pt x 435.57219pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[5] [6 <D:/eclipse2/workspace/MultiLanguageReadabilityAnalyzer/documentation/pr
-oposal/pipelineGraph.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
+ [6 <D:/eclipse2/workspace/MultiLanguageReadabilityAnalyzer/documentation/propo
+sal/pipelineGraph.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--134
+Underfull \hbox (badness 10000) in paragraph at lines 133--135
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--139
+Underfull \hbox (badness 10000) in paragraph at lines 138--140
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--142
+Underfull \hbox (badness 10000) in paragraph at lines 141--143
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 143--146
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 144--147
 
  []
 
-[7] Excluding 'comment' comment. [8] Excluding 'comment' comment.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 322.
+Excluding 'comment' comment. [8] Excluding 'comment' comment. [9]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 323.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 322.
- [9] [10]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 323.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[10]
 (D:\eclipse2\workspace\MultiLanguageReadabilityAnalyzer\documentation\proposal\
 main.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
@@ -324,23 +324,34 @@ uables \$
  []
 
 [11] [12] [13]
+Underfull \hbox (badness 1231) in paragraph at lines 168--174
+\OT1/cmr/m/n/12 for read-ing mea-sure-ment and suc-cess.  \OT1/cmr/m/it/12 Elec
+-tronic pub-li-ca-tion on
+ []
+
+
+Overfull \hbox (8.3021pt too wide) in paragraph at lines 168--174
+\OT1/cmr/m/it/12 https://cdn.lexile.com/m/resources/materials/Lennon[][]Burdick
+[]2004.pdf\OT1/cmr/m/n/12 ,
+ []
+
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ³ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ³ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ³ in font cmr12!
- [14]) [15]
+[14]) [15]
 (D:\eclipse2\workspace\MultiLanguageReadabilityAnalyzer\documentation\proposal\
 main.aux) ) 
 Here is how much of TeX's memory you used:
- 3178 strings out of 493921
- 44844 string characters out of 3144858
- 117675 words of memory out of 3000000
- 6428 multiletter control sequences out of 15000+200000
+ 3179 strings out of 493921
+ 44862 string characters out of 3144858
+ 118675 words of memory out of 3000000
+ 6429 multiletter control sequences out of 15000+200000
  9324 words of font info for 33 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 35i,11n,32p,1655b,283s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 35i,11n,32p,1669b,283s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 bx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
 0.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.p
@@ -350,7 +361,7 @@ Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Prog
 ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (15 pages, 287647 bytes).
+Output written on main.pdf (15 pages, 288062 bytes).
 PDF statistics:
  90 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

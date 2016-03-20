@@ -70,7 +70,7 @@ S.~B. Bonsall, A.~J. Leone, and B.~P. Miller.
 
 \bibitem{chall1995readability}
 J.~S. Chall and E.~Dale.
-\newblock {\em Readability revisited: The new Dale-Chall readability formula}.
+\newblock {\em Readability revisited: The new Dale-Chall Readability Formula}.
 \newblock Brookline Books, 1995.
 
 \bibitem{chen2011chinese}
@@ -82,7 +82,8 @@ Y.-H. Chen, Y.-H. Tsai, and Y.-T. Chen.
 \bibitem{collins2004language}
 K.~Collins-Thompson and J.~P. Callan.
 \newblock A language modeling approach to predicting reading difficulty.
-\newblock In {\em HLT-NAACL}, pages 193--200, 2004.
+\newblock In {\em North American Chapter of the Association for Computational
+  Linguistics: Human Language Technologies}, pages 193--200, 2004.
 
 \bibitem{cortes1995support}
 C.~Cortes and V.~Vapnik.
@@ -91,21 +92,21 @@ C.~Cortes and V.~Vapnik.
 
 \bibitem{croft2010search}
 W.~B. Croft, D.~Metzler, and T.~Strohman.
-\newblock {\em Search engines: Information retrieval in practice}, volume 283.
+\newblock {\em Search engines: Information Retrieval in Practice}, volume 283.
 \newblock Addison-Wesley Reading, 2010.
 
 \bibitem{davison1982failure}
 A.~Davison and R.~N. Kantor.
 \newblock On the failure of readability formulas to define readable texts: A
   case study from adaptations.
-\newblock {\em Reading research quarterly}, pages 187--209, 1982.
+\newblock {\em Reading Research Quarterly}, pages 187--209, 1982.
 
 \bibitem{dell2011read}
 F.~Dell'Orletta, S.~Montemagni, and G.~Venturi.
 \newblock Read-it: Assessing readability of italian texts with a view to text
   simplification.
-\newblock In {\em Proceedings of the second workshop on speech and language
-  processing for assistive technologies}, pages 73--83. Association for
+\newblock In {\em Proceedings of the Second Workshop on Speech and Language
+  Processing for Assistive Technologies}, pages 73--83. Association for
   Computational Linguistics, 2011.
 
 \bibitem{drndarevic2013automatic}
@@ -115,17 +116,17 @@ B.~Drndarevi{\'c}, S.~{\v{S}}tajner, S.~Bott, S.~Bautista, and H.~Saggion.
 \newblock In {\em Computational Linguistics and Intelligent Text Processing},
   pages 488--500. Springer, 2013.
 
-\bibitem{textsimplificationWithDisabilities1}
-L.~Feng.
-\newblock Automatic readability assessment for people with intellectual
-  disabilities.
-\newblock {\em ACM SIGACCESS Accessibility and Computing}, (93):84--91, 2009.
-
 \bibitem{feng2009automatic}
 L.~Feng.
 \newblock Automatic readability assessment for people with intellectual
   disabilities.
-\newblock {\em ACM SIGACCESS Accessibility and Computing}, (93):84--91, 2009.
+
+\bibitem{textsimplificationWithDisabilities1}
+L.~Feng.
+\newblock Automatic readability assessment for people with intellectual
+  disabilities.
+\newblock {\em ACM Special Interest Group on Accessible Computing},
+  (93):84--91, 2009.
 
 \bibitem{feng2010comparison}
 L.~Feng, M.~Jansche, M.~Huenerfauth, and N.~Elhadad.
@@ -137,7 +138,7 @@ L.~Feng, M.~Jansche, M.~Huenerfauth, and N.~Elhadad.
 \bibitem{flesch1948new}
 R.~Flesch.
 \newblock A new readability yardstick.
-\newblock {\em Journal of applied psychology}, 32(3):221, 1948.
+\newblock {\em Journal of Applied Psychology}, 32(3):221, 1948.
 
 \bibitem{franccois2012ai}
 T.~Fran{\c{c}}ois and C.~Fairon.
@@ -148,34 +149,37 @@ T.~Fran{\c{c}}ois and C.~Fairon.
 
 \bibitem{frank2001simple}
 E.~Frank and M.~Hall.
-\newblock {\em A simple approach to ordinal classification}.
+\newblock {\em A Simple Approach to Ordinal Classification}.
 \newblock Springer, 2001.
 
 \bibitem{gonzalez2014simple}
 I.~Gonzalez-Dios, M.~J. Aranzabe, A.~D. de~Ilarraza, and H.~Salaberri.
 \newblock Simple or complex? assessing the readability of basque texts.
-\newblock In {\em Proceedings of COLING}, volume 2014, 2014.
+\newblock In {\em Proceedings of International Conference on Computational
+  Linguistics}, volume 2014, 2014.
 
 \bibitem{medicalReadability1}
 A.~M. Ibrahim, C.~R. Vargas, P.~G. Koolen, D.~J. Chuang, S.~J. Lin, and B.~T.
   Lee.
 \newblock Readability of online patient resources for melanoma.
-\newblock {\em Melanoma research}, 26(1):58--65, 2016.
+\newblock {\em Melanoma Research}, 26(1):58--65, 2016.
 
 \bibitem{lennon2004lexile}
 C.~Lennon and H.~Burdick.
 \newblock The lexile framework as an approach for reading measurement and
   success.
-\newblock {\em electronic publication on www. lexile. com}, 2004.
+\newblock {\em Electronic publication on
+  https://cdn.lexile.com/m/resources/materials/Lennon\_\_Burdick\_2004.pdf},
+  2004.
 
 \bibitem{neter1996applied}
 J.~Neter, M.~H. Kutner, C.~J. Nachtsheim, and W.~Wasserman.
-\newblock {\em Applied linear statistical models}, volume~4.
+\newblock {\em Applied Linear Statistical Models}, volume~4.
 \newblock Irwin Chicago, 1996.
 
 \bibitem{nielsen2009bayesian}
 T.~D. Nielsen and F.~V. Jensen.
-\newblock {\em Bayesian networks and decision graphs}.
+\newblock {\em Bayesian Networks and Decision Graphs}.
 \newblock Springer Science \& Business Media, 2009.
 
 \bibitem{legalreadability}
@@ -200,22 +204,22 @@ L.~Padró and E.~Stanilovsky.
 C.~R. Patel, S.~Sanghvi, D.~V. Cherla, S.~Baredes, and J.~A. Eloy.
 \newblock Readability assessment of internet-based patient education materials
   related to parathyroid surgery.
-\newblock {\em Annals of Otology, Rhinology \& Laryngology}, page
-  0003489414567938, 2015.
+\newblock {\em Annals of Otology, Rhinology \& Laryngology}, pages 523--527,
+  2015.
 
 \bibitem{pera2014automating}
 M.~S. Pera and Y.-K. Ng.
 \newblock Automating readers' advisory to make book recommendations for k-12
   readers.
 \newblock In {\em Proceedings of the 8th ACM Conference on Recommender
-  systems}, pages 9--16. ACM, 2014.
+  Systems}, pages 9--16. ACM, 2014.
 
 \bibitem{medicalReadability2}
 J.~Petkovic, J.~Epstein, R.~Buchbinder, V.~Welch, T.~Rader, A.~Lyddiatt,
   R.~Clerehan, R.~Christensen, A.~Boonen, N.~Goel, et~al.
 \newblock Toward ensuring health equity: Readability and cultural equivalence
   of omeract patient-reported outcome measures.
-\newblock {\em The Journal of rheumatology}, 42(12):2448--2459, 2015.
+\newblock {\em The Journal of Rheumatology}, 42(12):2448--2459, 2015.
 
 \bibitem{robinson2000issues}
 R.~D. Robinson, M.~C. McKenna, and J.~M. Wedman.
