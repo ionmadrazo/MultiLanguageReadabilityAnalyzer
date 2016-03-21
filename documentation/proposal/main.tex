@@ -7,16 +7,25 @@
 \usepackage{graphicx}
 \usepackage{multirow}
 \usepackage{comment}
+\usepackage{pdfpages}
 \usepackage{url}
 \usepackage{cite}
 \graphicspath{ {images/} }
 \title{First Steps Towards Automatic Multilingual Readability Assessment}
 \author{Ion Madrazo Azpiazu}
-\date{\today}
+\date{}
 \begin{document}
 
 
 \maketitle
+\thispagestyle{empty}
+\newpage
+
+
+\tableofcontents
+\thispagestyle{empty}
+ \newpage
+
 \section{Introduction}
 
 Reading is an important skill in the academic environment, a competence that can be critical for students' educational opportunities and their careers \cite{robinson2000issues}. As reported by Lennon and Burdick \cite{lennon2004lexile}  reading for learning takes place when the reader comprehends  75\% of a text. This represents an appropriate balance that allows the reader to positively understand the text, while also finding challenges in the reading process that will motivate  him to improve his skills \cite{lennon2004lexile}. Outside the educational environment, reading generally takes place for comprehension rather than for learning. In this context, it is critical to provide people with texts they can fully understand. For example, patients 
@@ -24,7 +33,7 @@ that properly understand documents disclosed to them before surgery, are known t
 Whether for learning or understanding, the complexity of texts to be read needs to be determined.
 
 
-Every reader has different reading skills and the complexity of the texts they need to face depends also upon their personal objective. Therefore, providing institutions and readers with tools that can measure the complexity of a text so that they can assess whether it is adequate for a user is imperative. \textit{Readability Assessment (RA)} tools \footnote{RA tool and RA formula are used interchangeably in this document.}  are certainly aimed for handling such a task by providing a mean to determine the degree of ease with which a reader can understand a given text, i.e. the \textit{Readability Score (RS)} of the text.
+Every reader has different reading skills and the levels of difficulty of the texts they need depends also upon their personal objective. Therefore, providing institutions and readers with tools that can measure the complexity of a text so that they can assess whether it is adequate for a user is imperative. \textit{Readability Assessment (RA)} tools \footnote{RA tool and RA formula are used interchangeably in this document.}  are certainly aimed for handling such a task by providing a mean to determine the degree of ease with which a reader can understand a given text, i.e. the \textit{Readability Score (RS)} of the text.
 
 
 
@@ -60,20 +69,20 @@ In recent years, readability formulas have evolved to supervised learning based 
 
 For \textbf{English}, 
 % various surveys \cite{feng2010comparison,benjamin2012reconstructing} comparing features used in the literature were presented. 
-the RA system presented in \cite{aluisio2010readability} for predicted only two levels of difficulty, simple or complex, using elaborated features such as ambiguity among the terms in the texts. Other authors \cite{feng2009automatic} oriented their system for assessing the difficulty level of a text for people with intellectual disabilities by developing features that were intended to detect how well a text was structured. A readability prediction system for  finalcial documents was presented in \cite{bonsall2015plain}, which was based on features such as the presence of active voice or number of hidden verbs. It is also important to mention two commercial RA tools, Lexile\footnote{https://www.lexile.com/} and AR \footnote{http://www.renaissance.com/products/accelerated-reader/atos-analyzer}, which are widely used among English speaker academic professionals. Even if their algorithms are not public, they are known to use shallow features showing how common terms of a text are and how long sentences are in average \cite{lennon2004lexile}. The literature pertaining to RA for text in English is abundant. For more in-depth discussion on RA formulas refer to \cite{feng2010comparison,benjamin2012reconstructing}.
+the RA system presented in \cite{aluisio2010readability} predicted only two levels of difficulty, simple or complex, using elaborated features, such as ambiguity among the terms in the texts. Other authors \cite{textsimplificationWithDisabilities1}, oriented their system for assessing the difficulty level of a text for people with intellectual disabilities by developing features that were intended to detect how well a text was structured. A readability prediction system for  finalcial documents was presented in \cite{bonsall2015plain}, which was based on features such as the presence of active voice or number of hidden verbs. It is also important to mention two commercial RA tools, Lexile\footnote{https://www.lexile.com/} and AR \footnote{http://www.renaissance.com/products/accelerated-reader/atos-analyzer}, which are widely used among English speaker academic professionals. Even if their algorithms are not public, they are known to use shallow features showing how common terms of a text are and how long sentences are in average \cite{lennon2004lexile}. The literature pertaining to RA for text in English is abundant. For more in-depth discussion on RA formulas refer to \cite{feng2010comparison,benjamin2012reconstructing}.
 
 
-In contrast to English, \textbf{Spanish} RA has not seen any significant improvement regarding features in recent years, as most of the existing works are still based on shallow features. Among the well-known RA tools for Spanish,  SSR \cite{spaulding1956spanish} was based on the analysis of sentence length and number of rare words per sentences, whereas LC and SCI \cite{anula2007tipos} were based on density of low frequency words in text. Other systems \cite{vstajner2013readability,drndarevic2013automatic} presented strategies to combine the aforementioned methods with the purpose of improving RA estimation.
+In contrast to English, \textbf{Spanish} RA has not seen any significant improvement regarding features in recent years, as most of the existing works are still based on shallow features. Among the well-known RA tools for Spanish,  SSR \cite{spaulding1956spanish} was based on the analysis of sentence length and number of rare words per sentences, whereas LC and SCI \cite{anula2007tipos} were based on density of low frequency words in text. Other systems \cite{vstajner2013readability,drndarevic2013automatic} presented strategies to combine the aforementioned methods to improve RA estimation.
 
 
 
 
 
-Compared to other languages, \textbf{Basque} RA is reduced to only one system. Due to the fact that Basque is considered a minority language and shares little similarity with most spoken languages, limited research has been done in the area. So far,  ErreXail \cite{gonzalez2014simple} is the only system created for Basque RA. ErreXail was developed to predict two different readability values, simple or complex using features mostly based on ratios of common natural language processing labels, such as Part-of-Speech tags or morphology annotations.
+Compared to other languages, \textbf{Basque} RA is reduced to only one system. Due to the fact that Basque is considered a minority language and shares little similarity with most spoken languages, limited research has been done in the area. So far,  ErreXail \cite{gonzalez2014simple} is the only system created for Basque RA. ErreXail was developed to predict two different readability values, simple or complex, using features mostly based on ratios of common natural language processing labels, such as Part-of-Speech tags or morphology annotations.
 
 Similar to Basque, the literature for \textbf{Arabic} RA is limited as well. Al-Ajlan and Al-Khalifa \cite{al2008towards} developed a RA tool based on only two features: average letters per term and average terms per sentence. These, features were analyzed using a Support Vector Machine classifier in order to classify text as simple or complex.
 
-Opposed to RA tools for previous languages, structural features do not look to have such a success for \textbf{Chinese} RA. Therefore, most of the research works  related to Chinese RA have been focused only on lexical features, such as Tf-Idf of terms \cite{chen2011chinese,collins2004language}.
+Opposed to RA tools for previous languages, structural features do not seem to have such a success for \textbf{Chinese} RA. Therefore, most of the research works  related to Chinese RA have been focused only on lexical features, such as Tf-Idf of terms \cite{chen2011chinese,collins2004language}.
 
 
 %The system introduced in \cite{chen2011chinese} was only based on lexical metrics based on the TF-Idf measure. However this technique was not topic independent, as once trained for a certain topic the terms were no longer useful for other ones. Another system \cite{collins2004language} already tried to solve this issue for Chinese. This system was based on Tf-Idf too and as the authors stated, removing some top scoring words of the Tf-Idf ranking, lead the system to be more independent of the topic. 
@@ -106,7 +115,7 @@ We propose to develop MRAS using a supervised learning approach that will rely o
 \begin{figure}[h!]
 \centering
 \includegraphics[width=\textwidth]{pipelineGraph}
-\caption{Description of MRAS}
+\caption{MRAS}
 \label{fig:pipeline}
 \end{figure}
 
@@ -149,7 +158,7 @@ Exploring features will be one of the main tasks of this thesis. MRAS should be 
 RA can be used in more than just plain text. Internet is evolving into a new social era and so are text resources. Increasingly more resources contain \textbf{social information}, such as hashtags, mentions, or links, a type of information that is usually ignored by readability formulas. We propose to investigate how the aforementioned information can be used for readability prediction.
 
 \noindent
-\textbf{Metadata} based features can be useful in environments where text access is limited (i.e. copyrighted material). An exploration of this type of features will be done in order expand the types of texts MRAS can handle.
+\textbf{Metadata} based features can be useful in environments where text access is limited (i.e. copyrighted material). An exploration of this type of features will also be done in order expand the types of texts MRAS can handle.
 
 
 
@@ -391,4 +400,7 @@ August 2016    & Defense                                             \\ \hline
 
 \bibliography{bibliography}{}
 \bibliographystyle{abbrv}
+
+\includepdf[pages={4}]{proposalForm.pdf}
+
 \end{document}

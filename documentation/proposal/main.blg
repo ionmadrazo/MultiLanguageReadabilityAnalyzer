@@ -1,10 +1,8 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 The style file: abbrv.bst
 Database file #1: bibliography.bib
-Warning--string name "acm" is undefined
---line 151 of file bibliography.bib
 I was expecting a `,' or a `}'---line 151 of file bibliography.bib
- :   journal=acm 
+ :   journal=ACM 
  :               Special Interest Group on Accessible Computing},
 I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in datasetEuOther1
@@ -17,8 +15,6 @@ Warning--to sort, need author or key in datasetEsOther1
 Warning--to sort, need author or key in datasetEsOther2
 Warning--to sort, need author or key in datasetEsOther3
 Warning--to sort, need author or key in datasetParallel1
-Warning--empty journal in feng2009automatic
-Warning--empty year in feng2009automatic
 Warning--there's a number but no volume in textsimplificationWithDisabilities1
 Warning--empty journal in robinson2000issues
 (There was 1 error message)

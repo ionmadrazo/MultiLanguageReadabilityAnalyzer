@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.28)  19 MAR 2016 23:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.28)  21 MAR 2016 00:30
 entering extended mode
 **main.tex
 
@@ -188,6 +188,43 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 \CommentStream=\write3
 
 Excluding comment 'comment')
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
+Package: pdfpages 2015/09/18 v0.5d Insert pages of external PDF documents (AM)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count121
+\calc@Bcount=\count122
+\calc@Adimen=\dimen117
+\calc@Bdimen=\dimen118
+\calc@Askip=\skip44
+\calc@Bskip=\skip45
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count123
+\calc@Cskip=\skip46
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)))
+\AM@pagewidth=\dimen119
+\AM@pageheight=\dimen120
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
+File: pppdftex.def 2015/09/18 v0.5d Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box27
+\AM@toc@title=\toks29
+\c@AM@survey=\count124
+\AM@templatesizebox=\box28
+)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -199,99 +236,114 @@ Package: cite 2015/02/27  v 5.5
 )
 (D:\eclipse2\workspace\MultiLanguageReadabilityAnalyzer\documentation\proposal\
 main.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count121
-\scratchdimen=\dimen117
-\scratchbox=\box27
-\nofMPsegments=\count122
-\nofMParguments=\count123
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count124
-\MPscratchDim=\dimen118
-\MPnumerator=\count125
-\makeMPintoPDFobject=\count126
-\everyMPtoPDFconversion=\toks30
+\scratchcounter=\count125
+\scratchdimen=\dimen121
+\scratchbox=\box29
+\nofMPsegments=\count126
+\nofMParguments=\count127
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count128
+\MPscratchDim=\dimen122
+\MPnumerator=\count129
+\makeMPintoPDFobject=\count130
+\everyMPtoPDFconversion=\toks31
+)
+\AtBeginShipoutBox=\box30
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
+Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 19.
+(Font)              <14.4> on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 19.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 27.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 27.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 27.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 27.
+(Font)              <7> on input line 20.
  [1
 
 
 Non-PDF special ignored!{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Overfull \hbox (8.74075pt too wide) in paragraph at lines 36--39
+(D:\eclipse2\workspace\MultiLanguageReadabilityAnalyzer\documentation\proposal\
+main.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 5.
+)
+\tf@toc=\write4
+ [2]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 36.
+ [3]
+Overfull \hbox (8.74075pt too wide) in paragraph at lines 45--48
 []\OT1/cmr/m/n/12 With mul-ti-lin-gual-ism and pre-ci-sion in mind, we pro-pose
  to de-velop \OT1/cmr/bx/n/12 MRAS\OT1/cmr/m/n/12 ,
  []
 
-[2] [3] [4] [5] <pipelineGraph.png, id=24, 2241.37375pt x 2503.3525pt>
+[4] [5] [6] <pipelineGraph.png, id=27, 2241.37375pt x 2503.3525pt>
 File: pipelineGraph.png Graphic file (type png)
 
 <use pipelineGraph.png>
-Package pdftex.def Info: pipelineGraph.png used on input line 108.
+Package pdftex.def Info: pipelineGraph.png used on input line 117.
 (pdftex.def)             Requested size: 390.0pt x 435.57219pt.
- [6 <D:/eclipse2/workspace/MultiLanguageReadabilityAnalyzer/documentation/propo
-sal/pipelineGraph.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 130--131
-
- []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--135
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--140
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 141--143
-
- []
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 144--147
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
-Excluding 'comment' comment. [8] Excluding 'comment' comment. [9]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 323.
+[8 <D:/eclipse2/workspace/MultiLanguageReadabilityAnalyzer/documentation/propos
+al/pipelineGraph.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 142--144
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--149
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--152
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--156
+
+ []
+
+[9] Excluding 'comment' comment. [10] Excluding 'comment' comment.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 332.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 323.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[10]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 332.
+ [11] [12]
 (D:\eclipse2\workspace\MultiLanguageReadabilityAnalyzer\documentation\proposal\
 main.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 10--11
@@ -323,35 +375,73 @@ $\OT1/cmtt/m/n/12 Senderos / na / common / online \ _senderos \ _libros \ _grad
 uables \$
  []
 
-[11] [12] [13]
-Underfull \hbox (badness 1231) in paragraph at lines 168--174
+[13] [14]
+Underfull \hbox (badness 1231) in paragraph at lines 163--169
 \OT1/cmr/m/n/12 for read-ing mea-sure-ment and suc-cess.  \OT1/cmr/m/it/12 Elec
 -tronic pub-li-ca-tion on
  []
 
 
-Overfull \hbox (8.3021pt too wide) in paragraph at lines 168--174
+Overfull \hbox (8.3021pt too wide) in paragraph at lines 163--169
 \OT1/cmr/m/it/12 https://cdn.lexile.com/m/resources/materials/Lennon[][]Burdick
 []2004.pdf\OT1/cmr/m/n/12 ,
  []
 
+[15]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ³ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ³ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ³ in font cmr12!
-[14]) [15]
+ [16]) <proposalForm.pdf, id=64, 614.295pt x 794.97pt>
+File: proposalForm.pdf Graphic file (type pdf)
+
+<use proposalForm.pdf>
+Package pdftex.def Info: proposalForm.pdf used on input line 404.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: proposalForm.pdf Graphic file (type pdf)
+ <use proposalForm.pdf>
+Package pdftex.def Info: proposalForm.pdf used on input line 404.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+
+<proposalForm.pdf, id=67, page=4, 614.295pt x 794.97pt>
+File: proposalForm.pdf Graphic file (type pdf)
+
+<use proposalForm.pdf, page 4>
+Package pdftex.def Info: proposalForm.pdf, page4 used on input line 404.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: proposalForm.pdf Graphic file (type pdf)
+ <use proposalForm.pdf, page 4>
+Package pdftex.def Info: proposalForm.pdf, page4 used on input line 404.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [17]
+File: proposalForm.pdf Graphic file (type pdf)
+
+<use proposalForm.pdf, page 4>
+Package pdftex.def Info: proposalForm.pdf, page4 used on input line 404.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: proposalForm.pdf Graphic file (type pdf)
+ <use proposalForm.pdf, page 4>
+Package pdftex.def Info: proposalForm.pdf, page4 used on input line 404.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+File: proposalForm.pdf Graphic file (type pdf)
+
+<use proposalForm.pdf, page 4>
+Package pdftex.def Info: proposalForm.pdf, page4 used on input line 404.
+(pdftex.def)             Requested size: 614.58406pt x 795.3441pt.
+ [18 <D:/eclipse2/workspace/MultiLanguageReadabilityAnalyzer/documentation/prop
+osal/proposalForm.pdf>]
 (D:\eclipse2\workspace\MultiLanguageReadabilityAnalyzer\documentation\proposal\
 main.aux) ) 
 Here is how much of TeX's memory you used:
- 3179 strings out of 493921
- 44862 string characters out of 3144858
- 118675 words of memory out of 3000000
- 6429 multiletter control sequences out of 15000+200000
+ 3977 strings out of 493921
+ 58225 string characters out of 3144858
+ 136108 words of memory out of 3000000
+ 7193 multiletter control sequences out of 15000+200000
  9324 words of font info for 33 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 35i,11n,32p,1669b,283s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 36i,18n,48p,1669b,504s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
 bx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
 0.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.p
@@ -361,9 +451,9 @@ Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Prog
 ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (15 pages, 288062 bytes).
+Output written on main.pdf (18 pages, 358925 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
+ 130 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
