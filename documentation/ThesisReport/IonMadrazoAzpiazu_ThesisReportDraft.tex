@@ -59,6 +59,7 @@
 \usepackage{multirow}
  \usepackage{graphicx}
   \usepackage{comment}
+  \usepackage{color}
 % Others to consider
 
 % The 'subfigure' package does a nice job handling and labelling subfigures
@@ -152,6 +153,9 @@
 
 % Current graduate dean
 \graduateDean{John R. Pelton}
+
+\newcommand{\projectName}{ MRAS }
+
 
 % Document abstract
 \abstract{ An \emph{abstract} is a brief summary of the document.  A typical
@@ -377,17 +381,77 @@ Even if the number of RA systems that tackle individual languages is high, they 
 
 
 
+\section{Overview}
 
 
+\projectName is based on a supervised learning approach that relies on knowledge acquired from a leveled corpora. In designing \projectName we followed the steps illustrated in Figure \ref{fig:pipeline} and discussed below.
 
-We propose to develop MRAS using a supervised learning approach that will rely on knowledge acquired from a leveled corpora. In designing MRAS we will follow the steps illustrated in Figure \ref{fig:pipeline} and discussed below.
+
 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=\textwidth]{pipelineGraph}
-\caption{MRAS}
+\caption{\projectName}
 \label{fig:pipeline}
 \end{figure}
+
+
+
+\projectName receives two different inputs: a collection $C$ of documents for each of which a readability label is already assigned, and a document $d$ which its readability is unknown for \projectName and, thus, will be predicted. Both inputs are taken through a preprocessing step described in section \ref{sec:preprocessing}, which cleans, filters and normalizes their content, to prepare them for the feature extraction step described in section \ref{sec:featureExtraction}. These features, serve as a numeric representation for each document. \projectName is capable of learning patterns over the representations extracted from each document in $C$ and use these patters to predict readability scores for new unlabelled documents such as $d$.
+
+
+
+\section{Tools}
+\label{sec:tools}
+
+Whether for preprocessing or for feature extraction, \projectName takes advantage of several existing tools and techniques. Each of those tools is described below.
+
+\subsubsection*{Freeling NLP}
+\subsubsection*{WordNet}
+\subsubsection*{Latent Semantic Analysis}
+
+
+
+\section{Preprocessing}
+\label{sec:preprocessing}
+
+
+\subsection{Document type detection}
+One of the main features of \projectName is its versatility, since \projectName is capable to predict readability values for documents of different format, length and language. Given this variety of documents, each of them cannot be treated the same way, different strategies need to be applied for different texts. Therefore, each document used by \projectName is classified using 3 criteria: format, length and language.
+
+
+{\color{red} should we go deeper? explain how each criteria is determined?}
+
+
+\subsection{Tokenization}
+Tokenization is the process of splitting a text into smaller parts, i.e. tokens. A token represents each sensical part of a text and usually corresponds to a term, a number, or a punctuation mark. However, sometimes tokens can be formed by a combination of the previous, i.e., \emph{aren't} or \emph{people's}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
+\multicolumn{6}{|l|}{Did they win the olimpics?} \\ \hline
+did & they & win & the & olimpics & ? \\ \hline
+\end{tabular}
+\caption{Tokenization example}
+\label{tab:tokenization}
+\end{table}
+
+
+
+\subsection{Part of Speech Tagging}
+sda
+\subsection{Shallow parsing}
+das
+\subsection{Depencecy parsing}
+asd
+\subsection{Named entity detection}
+sdfsadf
+\section{Feature extraction}
+\label{sec:featureExtraction}
+
+
+
 
 \subsection{Text processing}
 %MRAS will used leveled corpora for learning from, i.e. a set documents that are labeled for its readability by experts. However, even if those documents are good to read by humans, they cannot be understood by machines, because they contain no structure. Therefore, the first step MRAS will always perform for a text is a processing step, where raw text is given structure and, therefore, value. This structure and information will later be used for extraction features that will help the system predict a readability score.\\
@@ -584,7 +648,7 @@ hashtag rec in twitter
 
 % The 99 means make labels be as wide as the width of the number 99
 \bibliography{bibliography}{}
-\bibliographystyle{abbrv}
+%\bibliographystyle{abbrv}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
