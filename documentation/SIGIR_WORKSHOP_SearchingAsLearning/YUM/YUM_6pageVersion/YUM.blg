@@ -1,0 +1,26 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: YUM.aux
+Case mismatch error between cite keys bil13 and Bil13
+---line 63 of file YUM.aux
+ : \citation{bil13
+ :                }
+I'm skipping whatever remains of this command
+The style file: abbrv.bst
+Database file #1: sigproc.bib
+Repeated entry---line 228 of file sigproc.bib
+ : @inproceedings{Dru09
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 236 of file sigproc.bib
+ : @article{bil13
+ :               ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "SIGIR16"
+Warning--I didn't find a database entry for "RecSys16"
+Warning--I didn't find a database entry for "Jat12"
+Warning--I didn't find a database entry for "Coll11"
+Warning--I didn't find a database entry for "ref"
+Warning--I didn't find a database entry for "ref2"
+Warning--I didn't find a database entry for "requik"
+Warning--empty journal in Kni14
+Warning--empty journal in Rob00
+(There were 3 error messages)

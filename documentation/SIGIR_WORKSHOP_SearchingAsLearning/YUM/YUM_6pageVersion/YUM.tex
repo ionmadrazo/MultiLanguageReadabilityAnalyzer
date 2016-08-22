@@ -1,0 +1,366 @@
+%TODO
+% Replace facts with aspects in experiment section
+% Make sure we say k-9 and 5-15
+% Replace all XX and YY with real numbers
+
+
+% This is "sig-alternate.tex" V2.1 April 2013
+% This file should be compiled with V2.5 of "sig-alternate.cls" May 2012
+%
+% This example file demonstrates the use of the 'sig-alternate.cls'
+% V2.5 LaTeX2e document class file. It is for those submitting
+% articles to ACM Conference Proceedings WHO DO NOT WISH TO
+% STRICTLY ADHERE TO THE SIGS (PUBS-BOARD-ENDORSED) STYLE.
+% The 'sig-alternate.cls' file will produce a similar-looking,
+% albeit, 'tighter' paper resulting in, invariably, fewer pages.
+%
+% ----------------------------------------------------------------------------------------------------------------
+% This .tex file (and associated .cls V2.5) produces:
+%       1) The Permission Statement
+%       2) The Conference (location) Info information
+%       3) The Copyright Line with ACM data
+%       4) NO page numbers
+%
+% as against the acm_proc_article-sp.cls file which
+% DOES NOT produce 1) thru' 3) above.
+%
+% Using 'sig-alternate.cls' you have control, however, from within
+% the source .tex file, over both the CopyrightYear
+% (defaulted to 200X) and the ACM Copyright Data
+% (defaulted to X-XXXXX-XX-X/XX/XX).
+% e.g.
+% \CopyrightYear{2007} will cause 2007 to appear in the copyright line.
+% \crdata{0-12345-67-8/90/12} will cause 0-12345-67-8/90/12 to appear in the copyright line.
+%
+% ---------------------------------------------------------------------------------------------------------------
+% This .tex source is an example which *does* use
+% the .bib file (from which the .bbl file % is produced).
+% REMEMBER HOWEVER: After having produced the .bbl file,
+% and prior to final submission, you *NEED* to 'insert'
+% your .bbl file into your source .tex file so as to provide
+% ONE 'self-contained' source file.
+%
+% ================= IF YOU HAVE QUESTIONS =======================
+% Questions regarding the SIGS styles, SIGS policies and
+% procedures, Conferences etc. should be sent to
+% Adrienne Griscti (griscti@acm.org)
+%
+% Technical questions _only_ to
+% Gerald Murray (murray@hq.acm.org)
+% ===============================================================
+%
+% For tracking purposes - this is V2.0 - May 2012
+
+\documentclass{sig-alternate-05-2015}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+% limits underneath
+\DeclareMathOperator*{\argminA}{arg\,min} % Jan Hlavacek
+\DeclareMathOperator*{\argminB}{argmin}   % Jan Hlavacek
+\DeclareMathOperator*{\argminC}{\arg\min}   % rbp
+
+\newcommand{\argminD}{\arg\!\min} % AlfC
+
+\newcommand{\argminE}{\mathop{\mathrm{argmin}}}          % ASdeL
+\newcommand{\argminF}{\mathop{\mathrm{argmin}}\limits}   % ASdeL
+
+% limits on side
+\DeclareMathOperator{\argminG}{arg\,min} % Jan Hlavacek
+\DeclareMathOperator{\argminH}{argmin}   % Jan Hlavacek
+\newcommand{\argminI}{\mathop{\mathrm{argmin}}\nolimits} % ASdeL
+
+\newcommand{\cs}[1]{\texttt{\symbol{`\\}#1}}
+\begin{document}
+
+% Copyright
+\setcopyright{acmcopyright}
+%\setcopyright{acmlicensed}
+%\setcopyright{rightsretained}
+%\setcopyright{usgov}
+%\setcopyright{usgovmixed}
+%\setcopyright{cagov}
+%\setcopyright{cagovmixed}
+
+
+% DOI
+\doi{10.475/123_4}
+
+% ISBN
+\isbn{123-4567-24-567/08/06}
+
+%Conference
+\conferenceinfo{PLDI '13}{June 16--19, 2013, Seattle, WA, USA}
+
+\acmPrice{\$15.00}
+
+%
+% --- Author Metadata here ---
+\conferenceinfo{WOODSTOCK}{'97 El Paso, Texas USA}
+%\CopyrightYear{2007} % Allows default copyright year (20XX) to be over-ridden - IF NEED BE.
+%\crdata{0-12345-67-8/90/01}  % Allows default copyright data (0-89791-88-6/97/05) to be over-ridden - IF NEED BE.
+% --- End of Author Metadata ---
+
+\title{Alternate {\ttlit ACM} SIG Proceedings Paper in LaTeX
+Format}
+
+%
+% You need the command \numberofauthors to handle the 'placement
+% and alignment' of the authors beneath the title.
+%
+% For aesthetic reasons, we recommend 'three authors at a time'
+% i.e. three 'name/affiliation blocks' be placed beneath the title.
+%
+% NOTE: You are NOT restricted in how many 'rows' of
+% "name/affiliations" may appear. We just ask that you restrict
+% the number of 'columns' to three.
+%
+% Because of the available 'opening page real-estate'
+% we ask you to refrain from putting more than six authors
+% (two rows with three columns) beneath the article title.
+% More than six makes the first-page appear very cluttered indeed.
+%
+% Use the \alignauthor commands to handle the names
+% and affiliations for an 'aesthetic maximum' of six authors.
+% Add names, affiliations, addresses for
+% the seventh etc. author(s) as the argument for the
+% \additionalauthors command.
+% These 'additional authors' will be output/set for you
+% without further effort on your part as the last section in
+% the body of your article BEFORE References or any Appendices.
+
+\numberofauthors{8} %  in this sample file, there are a *total*
+% of EIGHT authors. SIX appear on the 'first-page' (for formatting
+% reasons) and the remaining two appear in the \additionalauthors section.
+%
+\author{
+% You can go ahead and credit any number of authors here,
+% e.g. one 'row of three' or two rows (consisting of one row of three
+% and a second row of one, two or three).
+%
+% The command \alignauthor (no curly braces needed) should
+% precede each author name, affiliation/snail-mail address and
+% e-mail address. Additionally, tag each line of
+% affiliation/address with \affaddr, and tag the
+% e-mail address with \email.
+%
+% 1st. author
+\alignauthor
+Ion Madrazo Azpiazu\\
+       \affaddr{Computer Science Department}\\
+       \affaddr{Boise State University}\\
+       \affaddr{Boise, Idaho, USA}\\
+	   \affaddr{ionmadrazo@boisestate.edu}\\
+% 2nd. author
+\alignauthor
+Maria Soledad Pera\\
+       \affaddr{Computer Science Department}\\
+       \affaddr{Boise State University}\\
+       \affaddr{Boise, Idaho, USA}\\
+       \affaddr{solepera@boisestate.edu}\\
+%
+}
+
+
+% There's nothing stopping you putting the seventh, eighth, etc.
+% author on the opening page (as the 'third row') but we ask,
+% for aesthetic reasons that you place these 'additional authors'
+% in the \additional authors block, viz.
+
+% Just remember to make sure that the TOTAL number of authors
+% is the number that will appear on the first page PLUS the
+% number that will appear in the \additionalauthors section.
+
+\maketitle
+\begin{abstract}
+K-9 students turn to search engines on a daily basis to perform information discovery tasks within the academic environment. Unfortunately, the retrieval of resources they cannot understand, as well as their struggle with formulating queries to initiate their searchers, can hinder the learning process which is depended on the success of searches.
+In this paper, we discuss our ongoing efforts focused on the development of YouUnderstood.me, an enhanced web search environment tailored towards 6-15 year-olds that can foster learning though the retrieval of materials that not only satisfy the intent of students' (natural language) queries, but also match with their reading abilities.
+YouUnderstood.me (1) recognizes the search intent of the users on-the-fly, (2) provides query suggestions that will potentially lead to the retrieval of child-related  resources, (3) retrieves documents that match the readability levels of its users, and (4) offers a tracking module that keeps records of students' feedback on retrieved results, in terms of comprehension, which in turn provides information to students and educators of the change in readability levels of each individual student over time. 
+To the best of our knowledge, YouUnderstood.me is the first search environment specifically designed for educational purposes that simultaneously helps both teachers and students in dealing with personalized online searches. We have conducted an initial assessment on both YouUnderstood.me and well-known (child-oriented) search engines based on queries generated by K-9 students, which showcases the need for this type of environment.
+
+\end{abstract}
+
+
+%
+% The code below should be generated by the tool at
+% http://dl.acm.org/ccs.cfm
+% Please copy and paste the code instead of the example below. 
+%
+\begin{CCSXML}
+<ccs2012>
+ <concept>
+  <concept_id>10010520.10010553.10010562</concept_id>
+  <concept_desc>Computer systems organization~Embedded systems</concept_desc>
+  <concept_significance>500</concept_significance>
+ </concept>
+ <concept>
+  <concept_id>10010520.10010575.10010755</concept_id>
+  <concept_desc>Computer systems organization~Redundancy</concept_desc>
+  <concept_significance>300</concept_significance>
+ </concept>
+ <concept>
+  <concept_id>10010520.10010553.10010554</concept_id>
+  <concept_desc>Computer systems organization~Robotics</concept_desc>
+  <concept_significance>100</concept_significance>
+ </concept>
+ <concept>
+  <concept_id>10003033.10003083.10003095</concept_id>
+  <concept_desc>Networks~Network reliability</concept_desc>
+  <concept_significance>100</concept_significance>
+ </concept>
+</ccs2012>  
+\end{CCSXML}
+
+\ccsdesc[500]{Computer systems organization~Embedded systems}
+\ccsdesc[300]{Computer systems organization~Redundancy}
+\ccsdesc{Computer systems organization~Robotics}
+\ccsdesc[100]{Networks~Network reliability}
+
+
+%
+% End generated code
+%
+
+%
+%  Use this command to print the description
+%
+\printccsdesc
+
+% We no longer use \terms command
+%\terms{Theory}
+
+\keywords{ACM proceedings; \LaTeX; text tagging}
+
+\section{Introduction}
+The use of Web technologies is increasingly becoming a relevant and valuable asset for children's education \cite{Kni14}, both because it enhances the class environment and it introduces children, from early stages of their lives, into today's information society \cite{Sad12}. K-12\footnote{ K-12 refers to the publicly-supported school grades prior to college in the education systems from the United States of America, Canada and other countries.}  students use the internet on a daily basis to locate materials that can help them with different academic tasks, from finding information for a class presentation to discovering the meaning of a new word. For this purpose, they often turn to search engines as the initial portal that will lead to the retrieval of materials to satisfy their information needs, including news articles, books, or term definitions \cite{Kni14}. Unfortunately, as described by Danby \cite{Dan13}, incorporating technology with more traditional activities into early childhood education is not a trivial task. The use of technology, and search engines as a part of it, in the classroom (and outside of it) for the enhancement of learning tasks is very common nowadays. However, search engines are not designed with children (or other niche users) in mind, and thus a number of issues arise when they are used by this audience. For example, as showcased in a survey conducted by Bilal et al. \cite{Bil13}, from 300 retrieved results to satisfy information need of 7 graders, only 1 matched their reading level. This is an important issue since it is hard for children to process and comprehend texts with readability level that do not match their own reading abilities. To make search engine more tailored towards young users as they perform information seeking tasks, two conditions should be considered: (1) a search engine needs to be able to understand children's information needs, and (2) the retrieved resources need to be adequate for the child, in terms of understanding their content.
+The first condition is hardly met by popular search engines, given that they are designed to satisfy interests and information needs of  a general audience, without any specialization for niche users \cite{Wan13}, such as K-12 students. This usually leads search engines to capture incorrect intent of a query written by a child, either because of the use of a long, natural language query of which the search engine can poorly detect the main content, or because a one-word query is ambiguous and the search engine give preference the results not suitable for young users \cite{Bil13}. 
+The second condition is also of importance since ''web users differ widely in their reading proficiency and ability to understand vocabulary, depending on factors such as age, educational background, and topic interest or expertise. These facts currently impair the ability of users to carry out successful searches by finding material at an appropriate level of reading difficulty for them" \cite{Col11}. K-12 students belong to the category of users with varied reading abilities, a fact usually overlooked by popular search engines which do not personalize retrieved results based on this characteristic \cite{Col11}.  Even when children retrieve resources relevant to their information needs, it is not certain that they will be able to comprehend them because of difficulties in interpreting the context \cite{Bil13}. As a result, students can often get discouraged when they try to read retrieved contents that are outside their comprehension levels, whether being too easy or too difficult for them to understand. As reported by Lennon and Burdick \cite{Len04}, reading for learning takes place when the reader comprehends 75\% of a text. This represents an appropriate balance that allows the reader to positively understand the text, while also finding challenges in the reading process that will motivate him to improve his skills \cite{Len04}. Therefore, unless the retrieved resources match the reading skills of the respective users, reading for learning, and learning as final goal, as a part of the online information seeking process cannot take place. Providing K-12 students with filtering tools they can use to seek for adequate resources they can actually understand is an imperative, since reading is an important skill in the academic environment, a competence that can be critical for students' educational opportunities and their careers \cite{Rob00}. 
+
+
+As a response to issues related to the information seeking process when using search engines, in this paper we  discuss our ongoing efforts to develop a web search environment designed to help both K-12 students and instructors in the process of finding adequate online materials. YouUnderstood.me (YUm) aims to enhance search engines, so that they can be used as a tool to facilitate learning, rather than just retrieving information, within the K-12 academic environment. The main goal of YUm is to improve the information seeking process and increase children's comprehension of retrieved materials by combining diverse functionalities oriented to overcome search engines deficiencies when dealing with children. YUm makes the information retrieval process effective and efficient by (i) taking advantage of readability formulas, a popular search engine, a search intent module \cite{SIGIR16}, and query recommendation tool \cite{RecSys16} and (ii) providing each student with a personal account which keeps track of the current readability level together with feedback on text complexity given by the student on previously retrieved results materials, which enables Yum to predict the future reading abilities of each student. As described by Collins et al. \cite{Col11}, users' reading proficiency is estimated based on both, current and past searching process. With the ability to predict readability levels of students, educators can also benefit from Yum. Teachers have access to the information related to current reading capabilities of each student and their change in time without any intrusion to students, which allows them to better adapt classes' materials and pace to the students. 
+The novelty of YUm lays in the enhancement of search engines to create an environment that not only serves students in retrieving materials relevant to their information discovery tasks, but also ensures that the retrieved resources have appropriate reading levels. YUm ties literacy of children with information discovery tasks employed in the school. To the best of our knowledge, the proposed environment is the first one that tackles the issue of reading resource retrieval as a whole: starting from the assessment of each individual student's reading ability and ending with the retrieval of adequate materials all features and functionalities within YUm work in cooperation to improve the way in which online resources are located. Furthermore, the presented environment is created in a way to not only filter documents retrieved by a search engine, but it could also be applied on local resources, such schools' library catalogs, and thus become easily customized to specific educational programs. Another important contribution of this work is that YUm builds a bridge to establish a direct relationship between teachers and students, where teachers can follow the progress in readability levels among the students and further foster the learning process.  
+The remaining of this paper is organized as follows. In Section 2, we discuss research works conducted on the retrieval process when using search engines and the importance of reading for children. Thereafter, in Section XX, we describe the initial design of YUm. In Section XX, we discuss the findings based on the analysis conducted to compare YUm to popular search engines and identify the need for such an environment. Lastly, in Section XX, we provide a conclusion and address the need for further enhancements of the proposed environment and problems to be considered in the future. 
+
+\section{Related Work}
+The importance of personalized search when using search engines can be quantified by the number of studies that have targeted this issue \cite{Col11, Jat12, Eic13, Wan13}. Wang et al. \cite{Wan13} introduce a ranking model adaptation framework that facilitates the retrieval of personalized resources when conducting online searches, whereas Eickhoff and Collins-Thompson \cite{Eic13} discuss the results of examining large-scale query logs to further enhance the personalization task. Similar to our claims, the authors in \cite{Wan13, Eic13} argue for the need to personalize search results to satisfy diverse users' needs and preferences. However, while the authors in \cite{Wan13, Eic13} focus the personalization strategy on parameters such as authority of web pages or atypical search sessions, respectively, we initially focus on parameters that can aid the learning acquisition process, i.e., readability levels of retrieved results. Personalization based on readability has also been explored by a number of researchers \cite{Coll11, Jat12}. The most prominent discussions are the ones by Collins et al. \cite{Col11} who demonstrate, based on the results of an extensive query-log analysis, that readability is a valuable signal for relevance of retrieved resources, and the study presented in \cite{Jat12}, in which the authors highlight the need for suitable readability levels on resources retrieved as a result of queries on complex topic formulated by non-experts. We agree with their assessment on the importance of readability in personalizing web searches, which is why YUM is designed to present its users with resources they can read and understand to enhance the process of information seeking tasks for learning purposes.
+Search engines have become indispensable for all types of users, from novice to experts and from children to scholars, to perform information-related tasks \cite{Huu15}. Which is why Huumerdeman and Kamps argue for the need to connect literacy and search engines \cite{Huu15}. Their analyses and conclusions further encourage our efforts to create an educational search environment with a focus on solving issues K-12 students have while performing online searches.
+
+Literacy and personalization are not the only obstacles to be considered when K-12 students interact with search engines \cite{Cas11, Wil07, Sch98, Wan05}, which lead to the design and development of child-specific search engines, including SearchyPants.com, Kidrex.org, KidzSearch.com, GoGooligans.com, SafeSearchKids.com, Kidtopia.info, KidsClick.org, Mymunka.com. The majority of the aforementioned search environments are powered by Google safe search, which is why they eliminate from their retrieved resources those that are considered to be explicit or include profane vocabulary. Unfortunately, ''safe search" may not be enough when the focus is on information discovery tasks through search engines within the school environment, since the retrieved resources may not match neither the maturity, nor the readability levels of users. Yum goes beyond safe search by explicitly considering readability based filtering. Furthermore, our initial assessment on these specialized search engines demonstrated that they either do not offer query suggestions or if they do, the suggestions are not necessarily child-friendly or oriented to narrow retrieval of children content and ads are seen quite often as a retrieved result. These issues are also addressed in Yum by taking advantage of search intent and query suggestion modules specifically tailored towards children. To the best of our knowledge, YUm is the only education-oriented environment that considers readability levels, as well as queries that potentially lead to the retrieval of child-targeted resources to aid K-12 students in completing successful information seeking process within the classroom setting.
+
+To the best of our knowledge, application described in \cite{Ust14} is targeting the same audience and targets issues as Yum. Authors in \cite{Ust14} developed completely new GUI for web search purposes with a number of filters that, among the others, include the grade level of the user.  Yum is build upon Google search engine, given that young users prefer using it while performing information seeking process \cite{ref}. As described in \cite{ref2}, K-12 students' have different readability levels even if if they belong to the same grade, therefore Yum does not use grade level as a desired readability level of its users.
+
+
+\section{YouUndestood.me}
+YUM is an online environment built around a search engine, which aims to make the search process valuable for children. Opposed to similar search engines\cite{Ust14}, Yum is not meant to be treated as a new, child-oriented search engine, since studies \cite{ref} show that children tend to prefer popular search engines, such as Google, to perform their online information-seeking tasks. Instead, YUM acts as an intermediate layer between the child and an existing search engine, in order to facilitate the interaction between the two of them. For doing so, YUM puts into practice strategies oriented to address issues children face when using popular search engines, as well as strategies that can enhance the search experience to foster learning.  A description of the mentioned strategies is provided below.
+
+\subsection{Search intent}
+Children are not always able to formulate succinct queries \cite{Bil11}. Studies show that they tend to write natural language queries, instead of short, keyword-based ones that search engines usually expect \cite{Dru09}. Unfortunately, the longer the query, the less likely it is for a  search engine to retrieve relevant results in response to it, making children unable to successfully complete information seeking tasks\cite{Dru09}. In addition, children also tend to misspell words, but not necessarily in the same fashion as average users. For example, children commonly repeat letters in a word to emphasize it, such as in "amaaaaaaaaazing", which can cause search engines to misunderstand the intended meaning of the word. In order to best satisfy children needs Yum takes advantage of QuIK\cite{Sven}, a search intent module designed specifically  for children. QuIK addresses common patterns in queries written by children including, but not limited to: diminutives, emphasis, children trendy terms or children specific misspellings. In doing so, QuIK transforms an initial child-query into a new keyword-based query that captures the information expressed by the child in a way that can more easily be comprehended by search engines.
+
+\subsection{Query suggestion}
+Even if the search intent module identifies the most likely user intent for each query, users have different interests and information needs, which is why when dealing with ambiguous queries, it is only each specific user who knows the purpose of his search. With this is mind,  Yum takes advantage of ReQuIK \cite{requik}, a query recommender that is specifically tailored to children, in order to provide alternatives for the initial query, based on the goal of his respective information seeking task, to better inform the search process. ReQuIK is a multi-criteria recommendation system based on traits commonly associated with children that suggests queries that (i) are associated with children topics, (ii) lead to the retrieval of resources with levels of readability matching those of the K-12 audience, and (iii) are diverse enough to capture the different topics children can be interested in.
+
+
+\subsection{Filtering by readability}
+Even when the search engine has understood the intent of a child query and retrieves results that match the information needs expressed in the corresponding users, the suitability of the retrieved resources is still not assured.  K-12 students tend to find difficult to understand documents containing complex or technical vocabulary. For example, in the case where a child is looking for information about chemistry, retrieving a scientific publication would not be adequate, while retrieving information from an elementary chemistry book would. If the retrieved documents are too complex, children may not succeed in completing their information discovery tasks. In order to avoid this situation, Yum incorporates as part of its environment a filtering strategy based on readability levels. This strategy   ensures that the retrieved documents will match, to a degree, the reading ability of each individual user. Yum allows users to go through a one-time process where they can select their grade level. This grade level determines their readability level, which is matched against the one of documents retrieved by the search engine, eliminating the ones that are not within half a grade level above or below the grade of the corresponding student. For estimating the readability of retrieved resources, Yum uses the Flesh-Kincaid \ref{Fle48} (see formula XX) readability formula. We initially selected this formula given that it is widely used for measuring the readability levels or complexity of texts among educators nationwide and is considered as a standard by institutions\ref{porposal31_38_40} to measure readability levels.  However, we are aware that it is only based on simple text-based features, which is why we plan to improve this formula in the future (see Future Work Section).
+
+\begin{figure}[h]
+\[ FK = 206.835 -1.015 ( \frac{total words}{total sentences}  ) -84.6 ( \frac{total syllables}{total words}) \]
+\caption{Flesch reading ease}
+\label{fig:flesh}
+\end{figure}
+
+\subsection{Tracking}
+K-12 students have diverse reading abilities. Even in same grade class, students' readability skills can differ\cite{Bow92}. Furthermore, the reading skills of each individual progressively improves over time\cite{sh13}. Consequently, even if it being used in some similar environments\cite{Ust14}, we believe that the one-size-fits-all strategy is not applicable for conducting successful information-seeking tasks that lead to the retrieval of resources individual users can read and understand. Instead, Yum employs an adaptive strategy that allows its users to provide optional feedback specifying whether the resource was too "easy", "OK" or "too complex" for them. This feedback is used to determine and update the reading skills of each user so that the system can retrieve documents adequate to their current level of readability.    
+The problem of predicting the current readability level of each student can be treated as a constraint satisfaction problem, where each feedback f provided by a student s generates  a new constraint that needs to be satisfied by the readability  of  s. For example, a student s giving a feedback of "too hard" to a document of readability level 5 would generate the constraint readability(s) < 5 stating that s' readability should be lower than 5. As showed in Equation XX, the predicted readability  r is the one that maximizes the amount of constraints satisfied. The equation also considers the time when each constraint was created, giving more importance to constraints that were created more recently and discarding ones created outside the academic year. For doing so, f(Ci) is a function that starts at value 9 for new constraints and decreases by 1 for each month  that has passed until 0. We selected 9 as the number of months to consider as this represents the average length of an academic year. In case of multiple maximum values, the one that has the biggest distance to its two (lower and upper) closest constraints is selected 
+
+
+
+%TODO formula
+
+\begin{equation}
+\argminA_r  \sum_ {c_{i} \in C} \begin{cases}f(c_{i}) & if \; r \;  satisfies \; c_{i}\\0 & otherwise\end{cases}  
+\label{formula:tracking}
+\end{equation}
+
+
+
+
+
+where $r \in R=\{0,0.5,\dotsc ,8.5,9\}$ is the readability value inside, $c_i$ is an individual constraint among the set C of constraints created based on the feedback provided on retrieved resources by $a$ user $s$, and $f(c_i)$ refers to how new the constraint is, starting at 9 is the constraint was created at this month, and getting reduced by one if for every month, ending in 0 if the constraint was created outside the academic year.
+
+
+At the beginning of each academic year or when the first time the environment is used, the constraints of every student's accounts are initialized with two constraints based on the grade level of the student or the readability level prediction on the system for the previous academic year. Those constraints are representative of one grade of deviation from the current grade of the student: readability(s) < grade(s)+0.5 and readability(s) > grade(s) -0.5. These constraints give a starting point to Yum, that will eventually be better adjusted when the student start using the environment. 
+
+
+\section{Yum for teachers}
+Teachers can also benefit from using Yum within the class environment. Work setting standards have changed from a vertical structure, where only the top individuals of the pyramid had to think critically and the lower parts just followed directions, to an horizontal structure, where each individual is expected to collaborate with others and solve important problems using identification, searching, synthetizing, and communication skills \cite{leu13}. Given this change, education plans oriented to meet the new requirements of the current industry, such as the Common Core State Standards (CCSS) Initiative, have been developed. CCSS requests educators to make an emphasis on higher level thinking during reading and writing and focus on the acquisition of skills such as research and comprehension using digital tools, including search engines\cite{leu13}. Furthermore, educational studies \cite{kni15} showcase the benefit of in-class exercises such as  exploratory talks, where students are asked to solve a problem in groups discussing information found on resources obtained using a search engine. Unfortunately, teachers might not be able to propose such a task to their students and lead critical discussions, if students have problems using search engines, whether that be struggling to  find the right queries or not being able to  understand the retrieved documents due to their complexity. YUm can help teachers overcome those issues so that they can instead focus on the discussion, rather than on the manner in which students should formulate queries or the type of results they access. Furthermore, YUm can serve as a monitoring tool that allows teachers to check students' progress, based on the resources they have retrieved and their provided feedback in terms of complexity. We believe that  YUm can  not only facilitate learning when children use it for their information discovery assignments at home, but it will also help teachers within the classroom environment, by  addressing the challenge of seamlessly integrating technology to perform everyday classroom activities\cite{Dan13,kni15}.
+
+
+
+
+\section{Initial Study}
+In this section we detail the results of an initial study conducted for validating the performance of Yum. Yum is more than a search engine for children, instead, it is an enhanced web search environment that incorporates features oriented towards facilitating and fostering learning. Therefore, in this initial assessment we focus on demonstrating the need and effectiveness for this environment. We also consider in our initial assessment a number of popular search engines oriented to children:  Kiddle \footnote{ http://www.kiddle.co/}, KidRex \footnote{http://www.kidrex.org/}, SafeSearchKids \footnote{ http://www.safesearchkids.com/} and Gogoolingans \footnote{http://www.gogooligans.com}. Given that, as previously stated, studies show that children tend to prefer popular search engines, such as Google or Bing to perform their information-seeking tasks\cite{bil13}, even if these engines target a more general audience, we also include Google in our analysis. 
+
+Due to the lack of benchmark datasets available for evaluating search-related tools focused on young users, we collected our own sample of queries written by children, which we denoted ChildrenQS (Children query sample). This sample includes 300 unique queries written by 50 children between the ages of 6 and 13. In creating ChildrenQS, we asked various K-9   teachers in the Idaho (USA) area to propose their students an information discovery task for which the students had to create queries. 
+We submitted YY queries (randomly-sampled from ChildrenQS) to each of the search engines considered in this study and examined the respective retrieved resources as well as the challenges children need to overcome when using these search engines. We discuss below details pertaining to each of the aspects  considered for our assessment. Furthermore, an overview of our initial findings are presented in Table XX. \\
+
+
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+\begin{table*}[]
+\centering
+
+\label{my-label}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{l|l|l|l|l|l|l|}
+\cline{2-7}
+                                                                                           & \textbf{YUM}                                                 & \textbf{Google}                                                         & \textbf{Kiddle}                                                          & \textbf{KidRex} & \textbf{Safe Search Kids}                                   & \textbf{Gogooligans}                                                     \\ \hline
+\multicolumn{1}{|l|}{\textbf{Inability to retrieve results}}                               &                                                              &                                                                         &                                                                          &                 &                                                             & \begin{tabular}[c]{@{}l@{}}42\%\\ (Cannot handle questions)\end{tabular} \\ \hline
+\multicolumn{1}{|l|}{\textbf{Average readability(Flesh)}}                                  & \begin{tabular}[c]{@{}l@{}}Chosen\\ by the user\end{tabular} & 12.4                                                                    & 12.8                                                                     & 10.6            & 15.6                                                        & 11.6                                                                     \\ \hline
+\multicolumn{1}{|l|}{\textbf{Non adequate contents}}                                       & None                                                         & \begin{tabular}[c]{@{}l@{}}Ads\\ not for children\end{tabular}          & \begin{tabular}[c]{@{}l@{}}Ads\\ related to submitted query\end{tabular} & None            & \begin{tabular}[c]{@{}l@{}}Non-\\ filtered ads\end{tabular} & \begin{tabular}[c]{@{}l@{}}Ads\\ filtered for children\end{tabular}      \\ \hline
+\multicolumn{1}{|l|}{\textbf{Mobile friendly}}                                             & Yes                                                          & Yes                                                                     & Yes                                                                      & No              & \begin{tabular}[c]{@{}l@{}}Poor\\ adaptation\end{tabular}   & No                                                                       \\ \hline
+\multicolumn{1}{|l|}{\textbf{\begin{tabular}[c]{@{}l@{}}Query\\ suggestions\end{tabular}}} & Yes                                                          & \begin{tabular}[c]{@{}l@{}}Yes,\\ but for general audience\end{tabular} & No                                                                       & No              & No                                                          & Yes                                                                      \\ \hline
+\end{tabular}%
+}
+\caption{Comparison of search environments}
+\end{table*}
+
+
+
+
+\noindent
+\textbf{Inability to retrieve resources.} Children are known to struggle when composing queries, often creating queries that are too long and in a natural language form, as opposed to succinct keyword queries search engines usually expect [Dru09]. Based on our assessment using queries in ChildrenQS, we observed that for  XX\% of the queries, (child-oriented) search engines considered in this analysis do not retrieve any results, as of opposed to the X\% for which Yum could not retrieve resources  . In a more in-depth manual analysis we discovered that YY\% of the queries that only YUM could handle, i.e., identify resources , were queries containing more that YY terms, demonstrating the validity of using a children oriented search intent strategy.\\
+
+\noindent
+\textbf{Readability.} The readability level of resources retrieved in response to a child query is also a relevant aspect to explore to quantify the success of a search from a child perspective, since, as previously stated, retrieving too complex documents can lead a child to frustration due to their inability to understand what has been retrieved. In order to measure this, we computed the average readability level of the top-N results retrieved for YY queries in ChildrenQS. Given that "children are known to systematically go through retrieved resources and rarely judge retrieved information sources" [r15] we computed the readability scores reported in Table Y based on the Top-3 documents retrieved in response to each query. For measuring the readability level of the retrieved resources, we selected the Flesch\cite{fle48} readability formula, as it is considered an standard nationwide\cite{gru80}. Recall that YUM filters our retrieved resources that do have a complexity level within +/- 0.5 deviation from the reading level of each user, assuring that retrieved resources can be comprehended by its users.   Therefore, we only computed the average readability levels of resources retrieved in response to queries posted on (child-oriented) search engines considered in this analysis. As shown in Table XX, the readability levels of resources retrieved by child-oriented search engines are generally above XXX, and even one of the search engines XXX retrieved resources that average XXX, in terms of readability levels. Google, being the most used search engine achieved a score of XXX in terms of average readability in retrieved results.\\
+
+\noindent
+\textbf{General experience.} The quality of a search engine is not only determined by its retrieved results, instead the general search environment is also important   . In this paragraph, we highlight the most noticeable challenges children need to overcome when using current search engines. We observed that the presence of ads was recurrent among the search engines considered in this study. These ads were usually indistinguishable from relevant retrieved resources, which can be confusing, and more importantly, advertised products unsuitable for children. For example, we found ads that referred to drug rehabilitation programs or anti-aging products among results retrieved in response to queries such as "XXXX". We also noticed that platform adaptability was an issue for some of the search engines, since they showed poor support for small screens, such as the ones from phones or tablets, making it hard for a child to use the same system in all platforms. This supposes a significant drawback, given that 71\% of children usually access the internet through a tablet [tabletRef]. Finally, most of the search engines oriented to children showed no or poor support for helping children improve their queries. XXX  suggests query reformulations while typing them, however, these suggestions are not tailored to children and do not go beyond dictionary based auto completion. YUM currently meets the three criteria described, by excluding ads, being adaptable to smaller screens and supporting children to improve their queries by providing suggestions or using the most likely search intent, if no suggestion is selected.
+
+
+
+\section{Conclusions}
+
+
+In this paper we presented Yum, an online environment that addresses issues children face when using popular search engines to conduct information seeking tasks. In doing so, Yum can facilitate the learning that can occur while reading resources that are retrieved as a result of an online child-initiated search. As part of our ongoing research efforts, we leverage the use of popular search engines, and search intent and query suggestion modules we have already developed, with a readability-based filtering strategy and a novel tracking strategy, to enhance the search-for-learning tasks conducted online and informing teachers of the progress of their students, in term of reading and comprehension. As part of our ongoing research work, we conducted an initial assessment using queries written by children in K-9 grades. The results of our analyses demonstrated the need for environments such as Yum. 
+We plan to extend the functionalities and usefulness of Yum by implementing a number of enhancements: we are aware that the Flesch readability formula, currently used in Yum, is not precise enough. Therefore, we will build our own readability assessment tool which will go beyond counting terms and syllables, and instead will consider web page specific metadata as well as more depth language information such as syntax and semantics.  We would also like to explore different filtering strategies based on web page authority and matureness of the content retrieved, so that retrieved documents are more adequate to children.  Finally, we would also like to conduct  more in-depth studies for better understand, quantify and showcase the correlation between learning and information discovery tasks conducted using enhanced web search environments, such a YUm.  Since the developmental stages and information needs of children K-9 are broad, we will conduct these studies based on more specific age ranges, such as 6-8 and 9-12. 
+In the future, we envision Yum as an environment a child could use independently of the information discovery task pursued. For doing so, we plan to extend the range of the documents Yum can retrieve, including searches in local catalogues such as school libraries or dictionaries. We also aim to add support for multiple languages so that children that know different languages can use their Yum account both at home and at school. Finally, we would also like to explore and incorporate new ways of collaborative searching between various students and the teacher, which could further enhance the learning while searching. 
+
+
+%
+% The following two commands are all you need in the
+% initial runs of your .tex file to
+% produce the bibliography for the citations in your paper.
+\bibliographystyle{abbrv}
+\bibliography{sigproc}  % sigproc.bib is the name of the Bibliography in this case
+% You must have a proper ".bib" file
+%  and remember to run:
+% latex bibtex latex latex
+% to resolve all references
+%
+% ACM needs 'a single self-contained file'!
+%
+%APPENDICES are optional
+%\balancecolumns
+
+\end{document}

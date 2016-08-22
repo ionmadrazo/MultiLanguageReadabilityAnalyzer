@@ -1,6 +1,10 @@
 package main;
 
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
 
 import datasetHelpers.Dataset;
 import datasetHelpers.Tag;
@@ -13,7 +17,7 @@ import textProcessors.ParagraphSplitterProcessor;
 
 public class Main {
 	public static final String datasetFolder = "datasets/testDataset";
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException, ClassNotFoundException {
 		
 		Dataset dataset = new Dataset();
 		dataset.loadFromDirectory(datasetFolder);
@@ -29,7 +33,20 @@ public class Main {
 		sequenceProcessor.addProcessor(featureProcessor);	
 		
 		sequenceProcessor.process(dataset);
-		
+		/*FileOutputStream fileOut =
+		         new FileOutputStream("dataset.ser");
+		         ObjectOutputStream out = new ObjectOutputStream(fileOut);
+		         out.writeObject(dataset);
+		         out.close();
+		         fileOut.close();
+		         
+		         
+		         FileInputStream fileIn = new FileInputStream("dataset.ser");
+		         ObjectInputStream in = new ObjectInputStream(fileIn);
+		         dataset = (Dataset) in.readObject();
+		         in.close();
+		         fileIn.close();        
+		 */        
 		
 		for(Text t : dataset.getAllTexts())
 		{

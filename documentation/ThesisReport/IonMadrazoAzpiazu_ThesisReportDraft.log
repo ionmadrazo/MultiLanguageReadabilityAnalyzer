@@ -1,0 +1,340 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2015.4.28)  21 AUG 2016 20:38
+entering extended mode
+**IonMadrazoAzpiazu_ThesisReportDraft.tex
+
+(D:\eclipse2\workspace\MultiLanguageReadabilityAnalyzer\documentation\ThesisRep
+ort\IonMadrazoAzpiazu_ThesisReportDraft.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+
+(D:\eclipse2\workspace\MultiLanguageReadabilityAnalyzer\documentation\ThesisRep
+ort\bsu-ms.cls
+Boise State University thesis class 16th December, 2014
+Document Class: bsu-ms 2014/12/16 LaTeX class for Boise State University
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+\@pagenumwidth=\skip43
+\@chapterHeadingEM=\skip44
+\@toTwoInches=\skip45
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen105
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\comment\comment.sty"
+\CommentStream=\write3
+
+Excluding comment 'comment')
+(D:\eclipse2\workspace\MultiLanguageReadabilityAnalyzer\documentation\ThesisRep
+ort\IonMadrazoAzpiazu_ThesisReportDraft.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count89
+\scratchdimen=\dimen106
+\scratchbox=\box26
+\nofMPsegments=\count90
+\nofMParguments=\count91
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count92
+\MPscratchDim=\dimen107
+\MPnumerator=\count93
+\makeMPintoPDFobject=\count94
+\everyMPtoPDFconversion=\toks16
+)
+\@top=\skip46
+
+Underfull \vbox (badness 10000) detected at line 243
+ []
+
+[1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+\@copyrightbox=\box27
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 243.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 243.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 243.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 243.
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 243.
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 243--243
+
+ []
+
+[3] [4
+
+] [5
+
+]
+(D:\eclipse2\workspace\MultiLanguageReadabilityAnalyzer\documentation\ThesisRep
+ort\IonMadrazoAzpiazu_ThesisReportDraft.toc [6
+
+])
+\tf@toc=\write4
+ [7]
+(D:\eclipse2\workspace\MultiLanguageReadabilityAnalyzer\documentation\ThesisRep
+ort\IonMadrazoAzpiazu_ThesisReportDraft.lot)
+\tf@lot=\write5
+ [8
+
+]
+(D:\eclipse2\workspace\MultiLanguageReadabilityAnalyzer\documentation\ThesisRep
+ort\IonMadrazoAzpiazu_ThesisReportDraft.lof)
+\tf@lof=\write6
+ [9
+
+] [10
+
+] [11
+
+]
+CHAPTER 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 293.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 293.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+
+]
+[2]
+Overfull \hbox (10.39067pt too wide) in paragraph at lines 306--307
+[]\OT1/cmr/m/n/12 As a byprod-uct of our re-search work, we will cre-ate a lev-
+eled dataset with readability-
+ []
+
+
+Underfull \vbox (badness 3861) has occurred while \output is active []
+
+ [3]
+[4]
+CHAPTER 2.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5
+
+]
+Underfull \vbox (badness 4416) has occurred while \output is active []
+
+ [6]
+[7]
+CHAPTER 3.
+<pipelineGraph.png, id=66, 2241.37375pt x 2503.3525pt>
+File: pipelineGraph.png Graphic file (type png)
+ <use pipelineGraph.png>
+Package pdftex.def Info: pipelineGraph.png used on input line 387.
+(pdftex.def)             Requested size: 433.62pt x 484.27467pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8
+
+]
+Overfull \vbox (0.15125pt too high) has occurred while \output is active []
+
+
+[9 <D:/eclipse2/workspace/MultiLanguageReadabilityAnalyzer/documentation/Thesis
+Report/pipelineGraph.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 412--414
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 417--419
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 420--422
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--426
+
+ []
+
+[10] [11]
+CHAPTER 4.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Excluding 'comment' comment. [12
+
+] [13] [14]
+CHAPTER 5.
+[15
+
+]
+CHAPTER 6.
+
+(D:\eclipse2\workspace\MultiLanguageReadabilityAnalyzer\documentation\ThesisRep
+ort\IonMadrazoAzpiazu_ThesisReportDraft.bbl [16
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+[]$\OT1/cmtt/m/n/12 http : / / learnenglishteens . britishcouncil . org / conte
+nt ? field _$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+$\OT1/cmtt/m/n/12 language _ level _ tid = 50 & field _ section _ tid = 1129 & 
+field _ topics _ tid =$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+[]$\OT1/cmtt/m/n/12 http : / / www-[]k6 . thinkcentral . com / content / hsp / 
+reading / Senderos /$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+$\OT1/cmtt/m/n/12 na / common / online \ _senderos \ _libros \ _graduables \ _p
+ara \ _lectores /$
+ []
+
+[17
+
+] [18]
+Underfull \hbox (badness 3000) in paragraph at lines 166--172
+[]\OT1/cmr/m/n/12 Colleen Lennon and Hal Bur-dick.  The lex-ile frame-work as a
+n ap-
+ []
+
+
+Underfull \hbox (badness 1308) in paragraph at lines 166--172
+\OT1/cmr/m/n/12 proach for read-ing mea-sure-ment and suc-cess.  \OT1/cmr/m/it/
+12 Elec-tronic pub-li-ca-tion on
+ []
+
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ­ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ³ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ³ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ­ in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no ³ in font cmr12!
+[19] [20]) [21] [22]
+(D:\eclipse2\workspace\MultiLanguageReadabilityAnalyzer\documentation\ThesisRep
+ort\IonMadrazoAzpiazu_ThesisReportDraft.aux) ) 
+Here is how much of TeX's memory you used:
+ 1524 strings out of 493921
+ 22212 string characters out of 3144858
+ 76886 words of memory out of 3000000
+ 4831 multiletter control sequences out of 15000+200000
+ 7804 words of font info for 28 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 27i,11n,21p,1700b,273s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmtt12.pfb>
+Output written on IonMadrazoAzpiazu_ThesisReportDraft.pdf (33 pages, 296668 byt
+es).
+PDF statistics:
+ 147 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+

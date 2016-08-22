@@ -1,0 +1,24 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: IonMadrazoAzpiazu_ThesisReportDraft.aux
+The style file: plain.bst
+Illegal, another \bibstyle command---line 157 of file IonMadrazoAzpiazu_ThesisReportDraft.aux
+ : \bibstyle
+ :          {abbrv}
+I'm skipping whatever remains of this command
+Database file #1: bibliography.bib
+I was expecting a `,' or a `}'---line 151 of file bibliography.bib
+ :   journal=ACM 
+ :               Special Interest Group on Accessible Computing},
+I'm skipping whatever remains of this entry
+Warning--to sort, need author or key in datasetEuOther1
+Warning--to sort, need author or key in datasetEnExams1
+Warning--to sort, need author or key in datasetEnExams2
+Warning--to sort, need author or key in datasetEnOther1
+Warning--to sort, need author or key in datasetEnOther2
+Warning--to sort, need author or key in datasetEnOther3
+Warning--to sort, need author or key in datasetEsOther1
+Warning--to sort, need author or key in datasetEsOther2
+Warning--to sort, need author or key in datasetEsOther3
+Warning--to sort, need author or key in datasetParallel1
+Warning--there's a number but no volume in textsimplificationWithDisabilities1
+Warning--empty journal in robinson2000issues
+(There were 2 error messages)

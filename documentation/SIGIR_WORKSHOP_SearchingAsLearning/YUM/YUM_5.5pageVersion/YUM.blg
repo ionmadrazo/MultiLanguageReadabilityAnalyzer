@@ -1,0 +1,20 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: YUM.aux
+The style file: abbrv.bst
+Database file #1: sigproc.bib
+Repeated entry---line 238 of file sigproc.bib
+ : @inproceedings{Dru09
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 246 of file sigproc.bib
+ : @article{bil13
+ :               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 298 of file sigproc.bib
+ : @inproceedings{Col11
+ :                     ,
+I'm skipping whatever remains of this entry
+Warning--there's a number but no volume in Jat12
+Warning--empty journal in Kni14
+Warning--empty journal in ofcom
+Warning--empty journal in Rob00
+(There were 3 error messages)

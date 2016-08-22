@@ -1,0 +1,34 @@
+\begin{thebibliography}{1}
+
+\bibitem{Fle48}
+R.~Flesch.
+\newblock A new readability yardstick.
+\newblock {\em Journal of Applied Psychology}, 32(3):221, 1948.
+
+\bibitem{lda}
+F.~Godin, V.~Slavkovikj, W.~De~Neve, B.~Schrauwen, and R.~Van~de Walle.
+\newblock Using topic models for twitter hashtag recommendation.
+\newblock In {\em WWW}, pages 593--596. ACM, 2013.
+
+\bibitem{develop}
+D.~J. Levinson.
+\newblock A conception of adult development.
+\newblock {\em American psychologist}, 41(1):3, 1986.
+
+\bibitem{spache1953new}
+G.~Spache.
+\newblock A new readability formula for primary-grade reading materials.
+\newblock {\em The Elementary School Journal}, 53(7):410--413, 1953.
+
+\bibitem{hashtagRec}
+E.~Zangerle, W.~Gassler, and G.~Specht.
+\newblock Recommending \#-tags in twitter.
+\newblock In {\em SASWeb 2011}, volume 730, pages 67--78, 2011.
+
+\bibitem{age}
+J.~Zhang, X.~Hu, Y.~Zhang, and H.~Liu.
+\newblock Your age is no secret: Inferring microbloggers' ages via content and
+  interaction analysis.
+\newblock In {\em AAAI ICWSM}, 2016.
+
+\end{thebibliography}

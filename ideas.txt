@@ -1,8 +1,0 @@
-learning using vector representations
-http://nlp.stanford.edu/projects/glove/
-http://deeplearning4j.org/word2vec
-
-https://www.kaggle.com/c/word2vec-nlp-tutorial/details/part-1-for-beginners-bag-of-words
-http://multithreaded.stitchfix.com/blog/2015/03/11/word-is-worth-a-thousand-vectors/
-https://www.kaggle.com/c/word2vec-nlp-tutorial/details/part-2-word-vectors
-http://stackoverflow.com/questions/8897593/similarity-between-two-text-documents

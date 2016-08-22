@@ -1,0 +1,9 @@
+#!/bin/sh
+
+case $# in
+0) echo "Usage: " `basename $0` " <latex filename> "; exit 1;;
+esac
+
+name=`basename $1 .tex`
+pdflatex $name.tex
+pdflatex $name.tex

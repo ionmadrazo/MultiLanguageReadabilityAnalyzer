@@ -1,0 +1,269 @@
+\begin{thebibliography}{10}
+
+\bibitem{datasetEuOther1}
+\url{http://www.ikasbil.eus}.
+
+\bibitem{datasetEnExams1}
+\url{http://www.flo-joe.co.uk/exams.htm }.
+
+\bibitem{datasetEnExams2}
+\url{http://learnenglishteens.britishcouncil.org/content?field_language_level_tid=50&field_section_tid=1129&field_topics_tid=&language=en}.
+
+\bibitem{datasetEnOther1}
+\url{https://www.readinga-z.com/books/leveled-books/}.
+
+\bibitem{datasetEnOther2}
+\url{http://www.breakingnewsenglish.com/news-for-kids.html}.
+
+\bibitem{datasetEnOther3}
+\url{http://www.newsinlevels.com/}.
+
+\bibitem{datasetEsOther1}
+\url{http://cvc.cervantes.es/aula/lecturas/}.
+
+\bibitem{datasetEsOther2}
+\url{http://aprenderespanol.org/lecturas/lecturas-ejercicios.html}.
+
+\bibitem{datasetEsOther3}
+\url{http://www-k6.thinkcentral.com/content/hsp/reading/Senderos/na/common/online\_senderos\_libros\_graduables\_para\_lectores/senderos\_SE/launch.html}.
+
+\bibitem{datasetParallel1}
+\url{http://albalearning.com/audiolibros/textosparalelos.html }.
+
+\bibitem{al2008towards}
+Amani~A Al-Ajlan, Hend~S Al-Khalifa, and A~Al-Salman.
+\newblock Towards the development of an automatic readability measurements for
+  arabic language.
+\newblock In {\em Digital Information Management, 2008. ICDIM 2008. Third
+  International Conference on}, pages 506--511. IEEE, 2008.
+
+\bibitem{albright1996readability}
+Judith Albright, Carol de~Guzman, Patrick Acebo, Dorothy Paiva, Mary Faulkner,
+  and Janice Swanson.
+\newblock Readability of patient education materials: implications for clinical
+  practice.
+\newblock {\em Applied Nursing Research}, 9(3):139--143, 1996.
+
+\bibitem{aluisio2010readability}
+Sandra Aluisio, Lucia Specia, Caroline Gasperin, and Carolina Scarton.
+\newblock Readability assessment for text simplification.
+\newblock In {\em Proceedings of the NAACL HLT 2010 Fifth Workshop on
+  Innovative Use of NLP for Building Educational Applications}, pages 1--9.
+  Association for Computational Linguistics, 2010.
+
+\bibitem{anula2007tipos}
+Alberto Anula.
+\newblock Tipos de textos, complejidad ling{\"u}{\i}stica y facilicitaci{\'o}n
+  lectora.
+\newblock In {\em Actas del Sexto Congreso de Hispanistas de Asia}, pages
+  45--61, 2007.
+
+\bibitem{benjamin2012reconstructing}
+Rebekah~George Benjamin.
+\newblock Reconstructing readability: Recent developments and recommendations
+  in the analysis of text difficulty.
+\newblock {\em Educational Psychology Review}, 24(1):63--88, 2012.
+
+\bibitem{bonsall2015plain}
+Samuel~B Bonsall, Andrew~J Leone, and Brian~P Miller.
+\newblock A plain english measure of financial reporting readability.
+\newblock {\em Available at SSRN 2560644}, 2015.
+
+\bibitem{chall1995readability}
+Jeanne~Sternlicht Chall and Edgar Dale.
+\newblock {\em Readability revisited: The new Dale-Chall Readability Formula}.
+\newblock Brookline Books, 1995.
+
+\bibitem{chen2011chinese}
+Yaw-Huei Chen, Yi-Han Tsai, and Yu-Ta Chen.
+\newblock Chinese readability assessment using tf-idf and svm.
+\newblock In {\em Machine Learning and Cybernetics (ICMLC), 2011 International
+  Conference on}, volume~2, pages 705--710. IEEE, 2011.
+
+\bibitem{collins2004language}
+Kevyn Collins-Thompson and James~P Callan.
+\newblock A language modeling approach to predicting reading difficulty.
+\newblock In {\em North American Chapter of the Association for Computational
+  Linguistics: Human Language Technologies}, pages 193--200, 2004.
+
+\bibitem{cortes1995support}
+Corinna Cortes and Vladimir Vapnik.
+\newblock Support-vector networks.
+\newblock {\em Machine learning}, 20(3):273--297, 1995.
+
+\bibitem{croft2010search}
+W~Bruce Croft, Donald Metzler, and Trevor Strohman.
+\newblock {\em Search engines: Information Retrieval in Practice}, volume 283.
+\newblock Addison-Wesley Reading, 2010.
+
+\bibitem{davison1982failure}
+Alice Davison and Robert~N Kantor.
+\newblock On the failure of readability formulas to define readable texts: A
+  case study from adaptations.
+\newblock {\em Reading Research Quarterly}, pages 187--209, 1982.
+
+\bibitem{dell2011read}
+Felice Dell'Orletta, Simonetta Montemagni, and Giulia Venturi.
+\newblock Read-it: Assessing readability of italian texts with a view to text
+  simplification.
+\newblock In {\em Proceedings of the Second Workshop on Speech and Language
+  Processing for Assistive Technologies}, pages 73--83. Association for
+  Computational Linguistics, 2011.
+
+\bibitem{drndarevic2013automatic}
+Biljana Drndarevi{\'c}, Sanja {\v{S}}tajner, Stefan Bott, Susana Bautista, and
+  Horacio Saggion.
+\newblock Automatic text simplification in spanish: a comparative evaluation of
+  complementing modules.
+\newblock In {\em Computational Linguistics and Intelligent Text Processing},
+  pages 488--500. Springer, 2013.
+
+\bibitem{textsimplificationWithDisabilities1}
+Lijun Feng.
+\newblock Automatic readability assessment for people with intellectual
+  disabilities.
+\newblock {\em ACM Special Interest Group on Accessible Computing},
+  (93):84--91, 2009.
+
+\bibitem{feng2010comparison}
+Lijun Feng, Martin Jansche, Matt Huenerfauth, and No{\'e}mie Elhadad.
+\newblock A comparison of features for automatic readability assessment.
+\newblock In {\em Proceedings of the 23rd International Conference on
+  Computational Linguistics: Posters}, pages 276--284. Association for
+  Computational Linguistics, 2010.
+
+\bibitem{flesch1948new}
+Rudolph Flesch.
+\newblock A new readability yardstick.
+\newblock {\em Journal of Applied Psychology}, 32(3):221, 1948.
+
+\bibitem{franccois2012ai}
+Thomas Fran{\c{c}}ois and C{\'e}drick Fairon.
+\newblock An ai readability formula for french as a foreign language.
+\newblock In {\em Proceedings of the 2012 Joint Conference on Empirical Methods
+  in Natural Language Processing and Computational Natural Language Learning},
+  pages 466--477. Association for Computational Linguistics, 2012.
+
+\bibitem{frank2001simple}
+Eibe Frank and Mark Hall.
+\newblock {\em A Simple Approach to Ordinal Classification}.
+\newblock Springer, 2001.
+
+\bibitem{gonzalez2014simple}
+Itziar Gonzalez-Dios, Mar{\i}a~Jes{\'u}s Aranzabe, Arantza~D{\i}az de~Ilarraza,
+  and Haritz Salaberri.
+\newblock Simple or complex? assessing the readability of basque texts.
+\newblock In {\em Proceedings of International Conference on Computational
+  Linguistics}, volume 2014, 2014.
+
+\bibitem{medicalReadability1}
+Ahmed~MS Ibrahim, Christina~R Vargas, Pieter~GL Koolen, Danielle~J Chuang,
+  Samuel~J Lin, and Bernard~T Lee.
+\newblock Readability of online patient resources for melanoma.
+\newblock {\em Melanoma Research}, 26(1):58--65, 2016.
+
+\bibitem{lennon2004lexile}
+Colleen Lennon and Hal Burdick.
+\newblock The lexile framework as an approach for reading measurement and
+  success.
+\newblock {\em Electronic publication on
+  https://cdn.lexile.com/m/resources/materials/Lennon\_\_Burdick\_2004.pdf},
+  2004.
+
+\bibitem{neter1996applied}
+John Neter, Michael~H Kutner, Christopher~J Nachtsheim, and William Wasserman.
+\newblock {\em Applied Linear Statistical Models}, volume~4.
+\newblock Irwin Chicago, 1996.
+
+\bibitem{nielsen2009bayesian}
+Thomas~Dyhre Nielsen and Finn~Verner Jensen.
+\newblock {\em Bayesian Networks and Decision Graphs}.
+\newblock Springer Science \& Business Media, 2009.
+
+\bibitem{legalreadability}
+James~RP Ogloff and Randy~K Otto.
+\newblock Are research participants truly informed? readability of informed
+  consent forms used in research.
+\newblock {\em Ethics \& Behavior}, 1(4):239--252, 1991.
+
+\bibitem{padro10b}
+Lluís Padró, Miquel Collado, Samuel Reese, Marina Lloberes, and Irene
+  Castellón.
+\newblock Freeling 2.1: Five years of open-source language processing tools.
+\newblock In {\em Proceedings of 7th Language Resources and Evaluation
+  Conference (LREC'10)}, La Valletta, Malta, May 2010.
+
+\bibitem{padro12}
+Lluís Padró and Evgeny Stanilovsky.
+\newblock Freeling 3.0: Towards wider multilinguality.
+\newblock In {\em Proceedings of the Language Resources and Evaluation
+  Conference (LREC 2012)}, Istanbul, Turkey, May 2012. ELRA.
+
+\bibitem{medicalReadability3}
+Chirag~R Patel, Saurin Sanghvi, Deepa~V Cherla, Soly Baredes, and Jean~Anderson
+  Eloy.
+\newblock Readability assessment of internet-based patient education materials
+  related to parathyroid surgery.
+\newblock {\em Annals of Otology, Rhinology \& Laryngology}, pages 523--527,
+  2015.
+
+\bibitem{pera2014automating}
+Maria~Soledad Pera and Yiu-Kai Ng.
+\newblock Automating readers' advisory to make book recommendations for k-12
+  readers.
+\newblock In {\em Proceedings of the 8th ACM Conference on Recommender
+  Systems}, pages 9--16. ACM, 2014.
+
+\bibitem{medicalReadability2}
+Jennifer Petkovic, Jonathan Epstein, Rachelle Buchbinder, Vivian Welch, Tamara
+  Rader, Anne Lyddiatt, Rosemary Clerehan, Robin Christensen, Annelies Boonen,
+  Niti Goel, et~al.
+\newblock Toward ensuring health equity: Readability and cultural equivalence
+  of omeract patient-reported outcome measures.
+\newblock {\em The Journal of Rheumatology}, 42(12):2448--2459, 2015.
+
+\bibitem{robinson2000issues}
+Richard~D Robinson, Michael~C McKenna, and Judy~M Wedman.
+\newblock Issues and trends in literacy education.
+\newblock 2000.
+
+\bibitem{textsimplification2}
+Horacio Saggion, Sanja {\v{S}}tajner, Stefan Bott, Simon Mille, Luz Rello, and
+  Biljana Drndarevic.
+\newblock Making it simplext: Implementation and evaluation of a text
+  simplification system for spanish.
+\newblock {\em ACM Transactions on Accessible Computing (TACCESS)}, 6(4):14,
+  2015.
+
+\bibitem{spaulding1956spanish}
+Seth Spaulding.
+\newblock A spanish readability formula.
+\newblock {\em The Modern Language Journal}, 40(8):433--441, 1956.
+
+\bibitem{textsimplification1}
+Sanja {\v{S}}tajner, Ruslan Mitkov, and Gloria~Corpas Pastor.
+\newblock Simple or not simple? a readability question.
+\newblock In {\em Language Production, Cognition, and the Lexicon}, pages
+  379--398. Springer, 2015.
+
+\bibitem{vstajner2013readability}
+Sanja {\v{S}}tajner and Horacio Saggion.
+\newblock Readability indices for automatic evaluation of text simplification
+  systems: A feasibility study for spanish.
+\newblock In {\em Proceedings of the 6th International Joint Conference on
+  Natural Language Processing (IJCNLP 2013), Nagoya, Japan}, pages 374--382,
+  2013.
+
+\bibitem{walker1967estimation}
+Strother~H Walker and David~B Duncan.
+\newblock Estimation of the probability of an event as a function of several
+  independent variables.
+\newblock {\em Biometrika}, 54(1-2):167--179, 1967.
+
+\bibitem{literacy1}
+Barry~D Weiss, Mary~Z Mays, William Martz, Kelley~Merriam Castro, Darren~A
+  DeWalt, Michael~P Pignone, Joy Mockbee, and Frank~A Hale.
+\newblock Quick assessment of literacy in primary care: the newest vital sign.
+\newblock {\em The Annals of Family Medicine}, 3(6):514--522, 2005.
+
+\end{thebibliography}

@@ -1,0 +1,62 @@
+\begin{thebibliography}{10}
+
+\bibitem{dell2011read}
+F.~Dell'Orletta, S.~Montemagni, and G.~Venturi.
+\newblock Read-it: Assessing readability of italian texts with a view to text
+  simplification.
+\newblock In {\em ACL Workshop on speech and language processing for assistive
+  technologies}, pages 73--83, 2011.
+
+\bibitem{denning2015readability}
+J.~Denning, M.~S. Pera, and Y.-K. Ng.
+\newblock A readability level prediction tool for k-12 books.
+\newblock {\em JASIST}, 2015.
+
+\bibitem{flesch1948new}
+R.~Flesch.
+\newblock A new readability yardstick.
+\newblock {\em Journal of applied psychology}, 32(3):221, 1948.
+
+\bibitem{franccois2012ai}
+T.~Fran{\c{c}}ois and C.~Fairon.
+\newblock An ai readability formula for french as a foreign language.
+\newblock In {\em ACL EMNLP-CoNLL}, pages 466--477, 2012.
+
+\bibitem{gonzalez2014simple}
+I.~Gonzalez-Dios, M.~J. Aranzabe, A.~D. de~Ilarraza, and H.~Salaberri.
+\newblock Simple or complex? assessing the readability of basque texts.
+\newblock In {\em COLING}, pages 334--344, 2014.
+
+\bibitem{gunning1952technique}
+R.~Gunning.
+\newblock The technique of clear writing.
+\newblock 1952.
+
+\bibitem{lau2006bilingual}
+T.~P. Lau and I.~King.
+\newblock Bilingual web page and site readability assessment.
+\newblock In {\em WWW}, pages 993--994, 2006.
+
+\bibitem{imadrazo2016readability}
+I.~Madrazo and S.~Pera.
+\newblock Steps towards multilingual readability assessment.
+\newblock In press.
+
+\bibitem{pera2014automating}
+M.~S. Pera and Y.-K. Ng.
+\newblock Automating readers' advisory to make book recommendations for k-12
+  readers.
+\newblock In {\em ACM RecSys}, pages 9--16, 2014.
+
+\bibitem{sadaf2012exploring}
+A.~Sadaf, T.~J. Newby, and P.~A. Ertmer.
+\newblock Exploring pre-service teachers' beliefs about using web 2.0
+  technologies in k-12 classroom.
+\newblock {\em Computers \& Education}, 59(3):937--945, 2012.
+
+\bibitem{wang2013personalized}
+H.~Wang, X.~He, M.-W. Chang, Y.~Song, R.~W. White, and W.~Chu.
+\newblock Personalized ranking model adaptation for web search.
+\newblock In {\em ACM SIGIR}, pages 323--332, 2013.
+
+\end{thebibliography}

@@ -1,0 +1,18 @@
+\contentsline {chapter}{ABSTRACT}{v}
+\contentsline {chapter}{LIST OF TABLES}{viii}
+\contentsline {chapter}{LIST OF FIGURES}{ix}
+\contentsline {chapter}{LIST OF ABBREVIATIONS}{x}
+\contentsline {chapter}{LIST OF SYMBOLS}{xi}
+\contentsline {chapter}{\numberline {1}Introduction}{1}
+\contentsline {chapter}{\numberline {2}Related work}{5}
+\contentsline {chapter}{\numberline {3}Proposed Method}{8}
+\contentsline {subsection}{\numberline {3.0.1}Text processing}{8}
+\contentsline {subsection}{\numberline {3.0.2}Feature extraction}{9}
+\contentsline {subsection}{\numberline {3.0.3}Prediction}{11}
+\contentsline {chapter}{\numberline {4}Evaluation}{12}
+\contentsline {subsection}{\numberline {4.0.4}Datasets}{12}
+\contentsline {subsection}{\numberline {4.0.5}Metrics}{12}
+\contentsline {subsection}{\numberline {4.0.6}Overall Assessment}{13}
+\contentsline {chapter}{\numberline {5}MRAS in Action}{15}
+\contentsline {chapter}{\numberline {6}Conclusions}{16}
+\contentsline {chapter}{REFERENCES}{17}

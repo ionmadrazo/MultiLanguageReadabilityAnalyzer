@@ -1,0 +1,124 @@
+\begin{thebibliography}{10}
+
+\bibitem{Bil13}
+D.~Bilal and M.~Boehm.
+\newblock Towards new methodologies for assessing relevance of information
+  retrieval from web search engines on children's queries.
+\newblock {\em Qualitative and Quantitative Methods in Libraries}, 1:93--100,
+  2013.
+
+\bibitem{Col11}
+K.~Collins-Thompson, P.~N. Bennett, R.~W. White, S.~de~la Chica, and D.~Sontag.
+\newblock Personalizing web search results by reading level.
+\newblock In {\em CIKM}, pages 403--412, 2011.
+
+\bibitem{Dan13}
+S.~Danby.
+\newblock Going online: young children and teachers accessing knowledge through
+  web interactions.
+\newblock {\em Educating Young Children: Learning and Teaching in the Early
+  Childhood Years}, 19(3):30, 2013.
+
+\bibitem{Quik}
+N.~Dragovic, I.~Madrazo, and M.~S. Pera.
+\newblock ``{I}s sven seven?": A search intent module for children.
+\newblock In {\em ACM SIGIR}, 2016.
+
+\bibitem{Requik}
+N.~Dragovic, I.~Madrazo, and M.~S. Pera.
+\newblock A multi-criteria strategy to recommend queries for children.
+\newblock In {\em Under review}, 2016.
+
+\bibitem{Eic13}
+C.~Eickhoff, K.~Collins-Thompson, P.~N. Bennett, and S.~Dumais.
+\newblock Personalizing atypical web search sessions.
+\newblock In {\em ACM WSDM}, pages 285-- 294, 2013.
+
+\bibitem{Fle48}
+R.~Flesch.
+\newblock A new readability yardstick.
+\newblock {\em Journal of Applied Psychology}, 32(3):221, 1948.
+
+\bibitem{Gos13}
+T.~Gossen, J.~Hempel, and A.~N{\"u}rnberger.
+\newblock Find it if you can: usability case study of search engines for young
+  users.
+\newblock {\em Personal and Ubiquitous Computing}, 17(8):1593--1603, 2013.
+
+\bibitem{Gos15}
+T.~Gossen, M.~Kotzyba, and A.~N{\"u}rnberger.
+\newblock Knowledge journey exhibit: Towards age-adaptive search user
+  interfaces.
+\newblock In {\em Advances in Information Retrieval}, pages 781--784. Springer,
+  2015.
+
+\bibitem{Huu15}
+H.~C. Huurdeman and J.~Kamps.
+\newblock Supporting the process: Adapting search systems to search stages.
+\newblock In {\em Information Literacy: Moving Toward Sustainability}, pages
+  394-- 404. Springer, 2015.
+
+\bibitem{Jat12}
+A.~Jatowt, K.~Akamatsu, N.~Pattanasri, and K.~Tanaka.
+\newblock Towards more readable web: measuring readability of web pages based
+  on link structure.
+\newblock {\em ACM SIGWEB Newsletter}, (Winter):4, 2012.
+
+\bibitem{Kni14}
+S.~Knight.
+\newblock Finding knowledge--what is it to 'know' when we search?
+\newblock 2014 http://goo.gl/LQEhXc.
+
+\bibitem{kni15}
+S.~Knight and N.~Mercer.
+\newblock The role of exploratory talk in classroom search engine tasks.
+\newblock {\em Technology, Pedagogy and Education}, 24(3):303--319, 2015.
+
+\bibitem{Len04}
+C.~Lennon and H.~Burdick.
+\newblock The lexile framework as an approach for reading measurement and
+  success.
+\newblock {\em Electronic publication on https://goo.gl/WiPlsj}, 2004.
+
+\bibitem{leu13}
+D.~J. Leu, E.~Forzani, C.~Burlingame, J.~Kulikowich, N.~Sedransk, J.~Coiro, and
+  C.~Kennedy.
+\newblock Assessing and preparing students for the 21st century with common
+  core state standards.
+\newblock {\em http://goo.gl/wdbTB6}, pages 219--236, 2013.
+
+\bibitem{ofcom}
+Ofcom.
+\newblock Children and parents: Media use and attitudes report.
+\newblock 2014 http://goo.gl/g6x9ph.
+
+\bibitem{Rie16}
+S.~Y. Rieh, K.~Collins-Thompson, P.~Hansen, and H.-J. Lee.
+\newblock Towards searching as a learning process: A review of current
+  perspectives and future directions.
+\newblock {\em Journal of Information Science}, 42(1):19--34, 2016.
+
+\bibitem{Sad12}
+A.~Sadaf, T.~J. Newby, and P.~A. Ertmer.
+\newblock Exploring pre-service teachers' beliefs about using web 2.0
+  technologies in k-12 classroom.
+\newblock {\em Computers \& Education}, 59(3):937--945, 2012.
+
+\bibitem{sh13}
+T.~Shin, M.~L. Davison, J.~D. Long, C.-K. Chan, and D.~Heistad.
+\newblock Exploring gains in reading and mathematics achievement among regular
+  and exceptional students using growth curve modeling.
+\newblock {\em Learning and Individual Differences}, 23:92--100, 2013.
+
+\bibitem{Ust14}
+A.~Usta, I.~S. Altingovde, I.~B. Vidinli, R.~Ozcan, and {\"O}.~Ulusoy.
+\newblock How k-12 students search for learning?: analysis of an educational
+  search engine log.
+\newblock In {\em ACM SIGIR}, pages 1151--1154, 2014.
+
+\bibitem{Wan13}
+H.~Wang, X.~He, M.-W. Chang, Y.~Song, R.~W. White, and W.~Chu.
+\newblock Personalized ranking model adaptation for web search.
+\newblock In {\em ACM SIGIR}, pages 323--332, 2013.
+
+\end{thebibliography}

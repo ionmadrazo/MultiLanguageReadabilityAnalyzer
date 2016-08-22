@@ -1,0 +1,37 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdftex 2016.5.11)  11 MAY 2016 19:56
+entering extended mode
+**"C:/Users/Necko/Desktop/BSU/Information Retrival/SIGIR2016/YouUnderstood.me/Y
+UM/sigproc.bib"
+
+("C:/Users/Necko/Desktop/BSU/Information Retrival/SIGIR2016/YouUnderstood.me/YU
+M/sigproc.bib"
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ˜ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+
+Overfull \hbox (3.0514pt too wide) in paragraph at lines 27--35
+[]\tenrm @inproceedingsCol11, ti-tle=Personalizing web search re-sults by read-
+ing level, author=Collins-Thompson,|
+
+\hbox(6.94444+1.94444)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x20.0
+.\tenrm @
+.\tenrm i
+.\tenrm n
+.\tenrm p
+.etc.
+
+)
+*
+! Emergency stop.
+<*> ...SIGIR2016/YouUnderstood.me/YUM/sigproc.bib"
+                                                  
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!

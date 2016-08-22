@@ -1,0 +1,24 @@
+Hi Axel, 
+After the rush for the Recsys submission we have let the project sit for a week and we are back to it.
+The idea started with a random discussion, and at the beginning it looked to be just a poster idea. However, after working on it and seeing the results we achieved, it looks like a great project to pursue right now.
+Therefore, we right now aiming at publishing a full paper on WSDM, with the deadline in Aug 7th. After discussing with Sole, this paper seems as a good opportunity to showcase what you did in your thesis.
+We would like to know if you would be willing to collaborate on this. If so, we would expect you to run some experiments and write the parts corresponding to your thesis.
+Please do not feel bad in case you are not willing to participate, we would understand you have other interest and concerns right now. 
+
+I am sending you the poster we submitted, so you can have a look at it and get a better idea of what we are doing. We plan to extend that poster to a full paper. (8 pages + 1 ref)
+We have thought of two different path to extend it, and we would also like to know which one you think is more doable or would take more advantage of what you did.
+
+Path #1
+Follow the same layout as in the poster: Explain the readability system + a hashtag recommendation system. 
+We would incorporate your LDA models to conduct a better comparison with state of the art systems.
+
+Path #2
+Go to the bigger picture: Explain the readability system + demonstrate its value in multiple simpler twitter applications. 
+We thought of analysing some applications out of, hahs-tag recommendation, user recommendaton, difussion models, retweet prediction etc.
+We would like to know how many of these you analyzed for your thesis.
+
+If you have any question just feel free to ask, 
+
+Thanks, 
+ 
+Sole and Ion

@@ -6,7 +6,7 @@ import datasetHelpers.Dataset;
 import datasetHelpers.Text;
 import features.Feature;
 
-public class FeatureProcessor implements DatasetProcessor{
+public abstract class FeatureProcessor implements DatasetProcessor{
 
 	private ArrayList<Feature> featureList;
 	public FeatureProcessor()

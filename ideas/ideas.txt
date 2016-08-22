@@ -1,0 +1,47 @@
+refs:
+http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7113392&tag=1
+http://www.tandfonline.com/doi/full/10.1080/00220973.2014.963214
+http://eprints.qut.edu.au/91421/1/cikm2015_readability.pdf
+https://www.google.com/patents/US8954423
+
+
+################################################
+learning using vector representations
+http://nlp.stanford.edu/projects/glove/
+http://deeplearning4j.org/word2vec
+
+learning if a 5-gram is valid
+http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/
+
+
+https://www.kaggle.com/c/word2vec-nlp-tutorial/details/part-1-for-beginners-bag-of-words
+http://multithreaded.stitchfix.com/blog/2015/03/11/word-is-worth-a-thousand-vectors/
+https://www.kaggle.com/c/word2vec-nlp-tutorial/details/part-2-word-vectors
+http://stackoverflow.com/questions/8897593/similarity-between-two-text-documents
+
+
+#####################################
+justifications:
+
+
+distributed models are used in many nlp tasks
+	conll13 - Better Word Representations with Recursive Neural Networks forMorphology
+
+
+http://www.readabilityformulas.com/articles/why-should-the-insurance-industry-use-readability-formulas.php
+http://www.adamsdrafting.com/justified-text-versus-ragged-right-text/
+https://lawyerist.com/79432/evaluate-writing-words-readability-statistics/
+http://www.jstor.org/stable/40032863?seq=1#page_scan_tab_contents
+
+
+page16 - International Language Support
+	Varying degrees of effort are needed to re-purpose machine learning-based automated assessent methods originally developed for one language. Existence of corpus, NLP tools and the inherenc difficulty of each language are challenges
+	http://www-personal.umich.edu/~kevynct/pubs/ITL-readability-invited-article-v10-camera.pdf
+
+#########################################
+Possible datasets:
+
+
+http://www.corestandards.org/assets/Appendix_B.pdf
+http://classroommagazines.scholastic.com/products/let-s-find-out-spanish
+https://en.wikipedia.org/wiki/Vikidia	
