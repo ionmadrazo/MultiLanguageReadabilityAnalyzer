@@ -5,24 +5,30 @@
 \contentsline {chapter}{LIST OF SYMBOLS}{xi}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
 \contentsline {chapter}{\numberline {2}Related work}{5}
-\contentsline {chapter}{\numberline {3}Proposed Method}{8}
+\contentsline {chapter}{\numberline {3}Method}{8}
 \contentsline {section}{\numberline {3.1}Overview}{8}
 \contentsline {section}{\numberline {3.2}Tools}{8}
-\contentsline {section}{\numberline {3.3}Preprocessing}{9}
-\contentsline {subsection}{\numberline {3.3.1}Document type detection}{9}
-\contentsline {subsection}{\numberline {3.3.2}Tokenization}{10}
-\contentsline {subsection}{\numberline {3.3.3}Part of Speech Tagging}{10}
-\contentsline {subsection}{\numberline {3.3.4}Shallow parsing}{10}
-\contentsline {subsection}{\numberline {3.3.5}Depencecy parsing}{10}
-\contentsline {subsection}{\numberline {3.3.6}Named entity detection}{10}
-\contentsline {section}{\numberline {3.4}Feature extraction}{11}
-\contentsline {subsection}{\numberline {3.4.1}Text processing}{11}
-\contentsline {subsection}{\numberline {3.4.2}Feature extraction}{11}
-\contentsline {subsection}{\numberline {3.4.3}Prediction}{13}
-\contentsline {chapter}{\numberline {4}Evaluation}{14}
-\contentsline {subsection}{\numberline {4.0.1}Datasets}{14}
-\contentsline {subsection}{\numberline {4.0.2}Metrics}{14}
-\contentsline {subsection}{\numberline {4.0.3}Overall Assessment}{15}
-\contentsline {chapter}{\numberline {5}MRAS in Action}{17}
-\contentsline {chapter}{\numberline {6}Conclusions}{18}
-\contentsline {chapter}{REFERENCES}{19}
+\contentsline {section}{\numberline {3.3}Preprocessing}{11}
+\contentsline {subsection}{\numberline {3.3.1}Document type detection}{11}
+\contentsline {subsection}{\numberline {3.3.2}Tokenization}{12}
+\contentsline {subsection}{\numberline {3.3.3}Part of Speech Tagging}{12}
+\contentsline {subsection}{\numberline {3.3.4}Shallow parsing}{12}
+\contentsline {subsection}{\numberline {3.3.5}Dependency parsing}{13}
+\contentsline {subsection}{\numberline {3.3.6}Named entity detection}{14}
+\contentsline {section}{\numberline {3.4}Feature extraction}{15}
+\contentsline {subsection}{\numberline {3.4.1}Shallow features}{15}
+\contentsline {subsection}{\numberline {3.4.2}Morphological features}{15}
+\contentsline {subsection}{\numberline {3.4.3}Structural features}{15}
+\contentsline {subsection}{\numberline {3.4.4}Semantic features}{15}
+\contentsline {subsection}{\numberline {3.4.5}Social features}{15}
+\contentsline {subsection}{\numberline {3.4.6}Metadata features}{15}
+\contentsline {subsection}{\numberline {3.4.7}Text processing}{17}
+\contentsline {subsection}{\numberline {3.4.8}Feature extraction}{17}
+\contentsline {subsection}{\numberline {3.4.9}Prediction}{19}
+\contentsline {chapter}{\numberline {4}Evaluation}{20}
+\contentsline {subsection}{\numberline {4.0.1}Datasets}{20}
+\contentsline {subsection}{\numberline {4.0.2}Metrics}{20}
+\contentsline {subsection}{\numberline {4.0.3}Overall Assessment}{21}
+\contentsline {chapter}{\numberline {5}MRAS in Action}{23}
+\contentsline {chapter}{\numberline {6}Conclusions}{24}
+\contentsline {chapter}{REFERENCES}{25}

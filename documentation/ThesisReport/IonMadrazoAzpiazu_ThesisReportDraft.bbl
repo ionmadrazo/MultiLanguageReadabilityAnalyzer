@@ -30,6 +30,13 @@
 \bibitem{datasetParallel1}
 \url{http://albalearning.com/audiolibros/textosparalelos.html }.
 
+\bibitem{morpheus}
+Itziar Aduriz, Maxux~J Aranzabe, Jose~Maria Arriola, Arantza~D{\'\i}az
+  de~Ilarraza, Koldo Gojenola, Maite Oronoz, and Larraitz Uria.
+\newblock A cascaded syntactic analyser for basque.
+\newblock In {\em International Conference on Intelligent Text Processing and
+  Computational Linguistics}, pages 124--134. Springer, 2004.
+
 \bibitem{al2008towards}
 Amani~A Al-Ajlan, Hend~S Al-Khalifa, and A~Al-Salman.
 \newblock Towards the development of an automatic readability measurements for
@@ -44,6 +51,19 @@ Judith Albright, Carol de~Guzman, Patrick Acebo, Dorothy Paiva, Mary Faulkner,
   practice.
 \newblock {\em Applied Nursing Research}, 9(3):139--143, 1996.
 
+\bibitem{eihera}
+Inaki Alegria, Olatz Arregi, Irene Balza, Nerea Ezeiza, Izaskun Fernandez, and
+  Ruben Urizar.
+\newblock Design and development of a named entity recognizer for an
+  agglutinative language.
+\newblock In {\em First International Joint Conference on NLP (IJCNLP-04).
+  Workshop on Named Entity Recognition}, 2004.
+
+\bibitem{eustagger}
+I{\~n}aki Alegria, Xabier Artola, Kepa Sarasola, and Miriam Urkia.
+\newblock Automatic morphological analysis of basque.
+\newblock {\em Literary and Linguistic Computing}, 11(4):193--203, 1996.
+
 \bibitem{aluisio2010readability}
 Sandra Aluisio, Lucia Specia, Caroline Gasperin, and Carolina Scarton.
 \newblock Readability assessment for text simplification.
@@ -57,6 +77,13 @@ Alberto Anula.
   lectora.
 \newblock In {\em Actas del Sexto Congreso de Hispanistas de Asia}, pages
   45--61, 2007.
+
+\bibitem{maltixa}
+Kepa Bengoetxea and Koldo Gojenola.
+\newblock Application of different techniques to dependency parsing of basque.
+\newblock In {\em Proceedings of the NAACL HLT 2010 First Workshop on
+  Statistical Parsing of Morphologically-Rich Languages}, pages 31--39.
+  Association for Computational Linguistics, 2010.
 
 \bibitem{benjamin2012reconstructing}
 Rebekah~George Benjamin.
@@ -162,6 +189,14 @@ Ahmed~MS Ibrahim, Christina~R Vargas, Pieter~GL Koolen, Danielle~J Chuang,
 \newblock Readability of online patient resources for melanoma.
 \newblock {\em Melanoma Research}, 26(1):58--65, 2016.
 
+\bibitem{dbpedia}
+Jens Lehmann, Robert Isele, Max Jakob, Anja Jentzsch, Dimitris Kontokostas,
+  Pablo Mendes, Sebastian Hellmann, Mohamed Morsey, Patrick van Kleef,
+  S{\"o}ren Auer, and Chris Bizer.
+\newblock {DB}pedia - a large-scale, multilingual knowledge base extracted from
+  wikipedia.
+\newblock {\em Semantic Web Journal}, 2014.
+
 \bibitem{lennon2004lexile}
 Colleen Lennon and Hal Burdick.
 \newblock The lexile framework as an approach for reading measurement and
@@ -169,6 +204,11 @@ Colleen Lennon and Hal Burdick.
 \newblock {\em Electronic publication on
   https://cdn.lexile.com/m/resources/materials/Lennon\_\_Burdick\_2004.pdf},
   2004.
+
+\bibitem{miller1995wordnet}
+George~A Miller.
+\newblock Wordnet: a lexical database for english.
+\newblock {\em Communications of the ACM}, 38(11):39--41, 1995.
 
 \bibitem{neter1996applied}
 John Neter, Michael~H Kutner, Christopher~J Nachtsheim, and William Wasserman.

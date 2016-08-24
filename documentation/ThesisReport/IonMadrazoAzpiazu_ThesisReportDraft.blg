@@ -15,45 +15,45 @@ Warning--to sort, need author or key in datasetEsOther3
 Warning--to sort, need author or key in datasetParallel1
 Warning--there's a number but no volume in textsimplificationWithDisabilities1
 Warning--empty journal in robinson2000issues
-You've used 47 entries,
+You've used 53 entries,
             2118 wiz_defined-function locations,
-            755 strings with 12903 characters,
-and the built_in function-call counts, 15794 in all, are:
-= -- 1547
-> -- 716
-< -- 18
-+ -- 295
-- -- 240
-* -- 1037
-:= -- 2436
-add.period$ -- 131
-call.type$ -- 47
-change.case$ -- 245
+            786 strings with 14274 characters,
+and the built_in function-call counts, 18432 in all, are:
+= -- 1797
+> -- 888
+< -- 20
++ -- 364
+- -- 302
+* -- 1240
+:= -- 2873
+add.period$ -- 151
+call.type$ -- 53
+change.case$ -- 294
 chr.to.int$ -- 0
-cite$ -- 59
-duplicate$ -- 640
-empty$ -- 1322
-format.name$ -- 240
-if$ -- 3438
+cite$ -- 65
+duplicate$ -- 730
+empty$ -- 1498
+format.name$ -- 302
+if$ -- 3982
 int.to.chr$ -- 0
-int.to.str$ -- 47
-missing$ -- 42
-newline$ -- 218
-num.names$ -- 74
-pop$ -- 362
+int.to.str$ -- 53
+missing$ -- 48
+newline$ -- 248
+num.names$ -- 86
+pop$ -- 417
 preamble$ -- 1
-purify$ -- 213
+purify$ -- 256
 quote$ -- 0
-skip$ -- 499
+skip$ -- 561
 stack$ -- 0
-substring$ -- 895
-swap$ -- 175
-text.length$ -- 18
+substring$ -- 1026
+swap$ -- 200
+text.length$ -- 20
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 178
+type$ -- 202
 warning$ -- 12
-while$ -- 137
-width$ -- 49
-write$ -- 463
+while$ -- 159
+width$ -- 55
+write$ -- 529
 (There were 12 warnings)

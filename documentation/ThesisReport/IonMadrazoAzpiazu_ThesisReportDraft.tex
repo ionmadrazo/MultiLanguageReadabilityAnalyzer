@@ -53,6 +53,7 @@
 \usepackage[pdftex]{graphicx}
 % Then the figures should be in pdf, jpg or png format.
 \usepackage{setspace}
+\usepackage{xspace}
 % The hyperref package provides support for hyperlinks inside/outside the document
 \usepackage{url}
 %\usepackage[colorlinks=true]{hyperref}
@@ -154,7 +155,7 @@
 % Current graduate dean
 \graduateDean{John R. Pelton}
 
-\newcommand{\projectName}{ MRAS }
+\newcommand{\projectName}{MRAS\xspace}
 
 
 % Document abstract
@@ -248,9 +249,9 @@ partially supported by some particular grant, if there was one.
 
 % The (optional) list of abbreviations goes here
 \begin{listAbbreviations}
-  \item[LOL] Laughing Out Loud
-  \item[OMG] Oh My God! now is the time for all good men to come to the
-    aid of their country.
+  \item[IR] Information Retrieval
+  \item[NLP] Natural Language Processing
+  \item[PoS] Part of Speech
 \end{listAbbreviations}
 
 
@@ -369,7 +370,7 @@ Even if the number of RA systems that tackle individual languages is high, they 
 
 
 
-\chapter{Proposed Method}
+\chapter{Method}
 %overview + figure
 %tools
 %preporcessing
@@ -407,24 +408,55 @@ Even if the number of RA systems that tackle individual languages is high, they 
 Whether for preprocessing or for feature extraction, \projectName takes advantage of several existing tools and techniques. Each of those tools is described below.
 
 \subsubsection*{Freeling NLP}
+Freeling \cite{padro12,padro10b} is a NLP tookit developed for the easing various natural language analysis tasks. Freeling includes, but is not limited to, tokenization, PoS tagging, syntactic parsing, dependency parsing and semantic labelling. Furthermore, Freeling is, to the best of our knowledge, the only tool kit supporting 14 languages with this depth of analysis, supporting Asturian (as), Catalan (ca), German (de), English (en),  French (fr), Galician (gl), Croatian (hr), Italian (it), Norwegian (nb), Portuguese (pt), Russian (ru), Slovene (sl), Spanish (es), and Welsh (cy).
+%\subsubsection*{Latent Semantic Analysis}
+
+
+\subsection*{SyntaxNet}
+%TODO do we use this?
+%http://universaldependencies.org/
+{\color{red} should I mention why not this one?}
+
+
+\subsection*{Katea}
+Katea is set of NLP tools developed for Basque. Katea is composed by Morpheus \cite{morpheus} (morpho-syntactic analysis), eustagger \cite{eustagger} (lemmatization and syntactic function indentification), eihera \cite{eihera} (named entity detection), ixati \cite{morpheus} (shallow parsing) and maltixa \cite{maltixa} (dependency parsing).
+
+
+
+
+
+
 \subsubsection*{WordNet}
-\subsubsection*{Latent Semantic Analysis}
+Wordnet \cite{miller1995wordnet} is a lexical database for English where terms, i.e., nouns, verbs and adjectives, are grouped into sets of synonyms, expressing different concepts. These concepts are related by each other by several semantic relationships, such as hyperonymie or hyponimie. An example of this structure can be seen in figure \ref{fig:wordnet}, where \emph{motor vehicle} has \emph{vehicle} as hypernym and \emph{car} and \emph{truck} as hyponyms. Note that this structure forms a tree. This fact will be used later, for building some features.
+
+
+
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.7\textwidth]{wordnet}
+\caption{Wordnet example}
+\label{fig:wordnet}
+\end{figure}
+
+
+
 
 
 
 \section{Preprocessing}
 \label{sec:preprocessing}
-
+The preprocessing step is the one that takes place first for any document handled by \projectName . The aim of preprocessing is to identify the document to decide further process \projectName needs to perform over it, and to prepare the document for future feature extraction. More detail of mentioned processes is given below.
 
 \subsection{Document type detection}
-One of the main features of \projectName is its versatility, since \projectName is capable to predict readability values for documents of different format, length and language. Given this variety of documents, each of them cannot be treated the same way, different strategies need to be applied for different texts. Therefore, each document used by \projectName is classified using 3 criteria: format, length and language.
+One of the main features of \projectName is its versatility, since \projectName is capable to predict readability values for documents of different format, length and language. Given this variety of documents, each of them cannot be treated the same way, different strategies need to be applied for different texts. Therefore, each document used by \projectName  is classified using 3 criteria: format, length and language.
 
 
 {\color{red} should we go deeper? explain how each criteria is determined?}
 
 
 \subsection{Tokenization}
-Tokenization is the process of splitting a text into smaller parts, i.e. tokens. A token represents each sensical part of a text and usually corresponds to a term, a number, or a punctuation mark. However, sometimes tokens can be formed by a combination of the previous, i.e., \emph{aren't} or \emph{people's}
+Tokenization is the process of splitting a text into smaller parts, i.e. tokens. A token represents each sensical part of a text, which usually corresponds to a term, a number, or a punctuation mark. However, sometimes tokens can be formed by a combination of the previous, i.e., \emph{aren't} or \emph{people's}. An example of how a sentence is tokenized can be seen in Table \ref{tab:tokenization}.
 
 \begin{table}[h]
 \centering
@@ -440,15 +472,120 @@ did & they & win & the & olimpics & ? \\ \hline
 
 
 \subsection{Part of Speech Tagging}
-sda
+%https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html
+Part of Speech Tagging is the process of labelling each token with a tag that represent the function each token has in a sentence. PoS tags usually differ from language to language\footnote{As an example, the Penn Treebank project defines 36 PoS tags for English, which can be seen here https://www.ling.upenn.edu/courses/Fall\_2003/ling001/penn\_treebank\_pos.html}, however, the most predominant tags, such as verb, adjective or noun, exist among all the languages. An example of Part of Speech tagging can be seen in Table \ref{tab:postagging}.
+
+
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
+did & they & win & the & olimpics & ? \\ \hline
+Verb & Pronoun & Verb & Determiner & Noun & Symbol \\ \hline
+\end{tabular}
+\caption{Part of Speech tagging example}
+\label{tab:postagging}
+\end{table}
+
+
+
 \subsection{Shallow parsing}
-das
-\subsection{Depencecy parsing}
-asd
+Shallow parsing, also called chunking, refers to the process of grouping tokens into chunks. A chunk consists usually a small phrase of about 1 to 4 terms. Those terms are somehow connected to each other and together express a senseful concept. There are two types of chunks, depending if they express a noun or verb phrase. An example of a shallow parsing of a sentence can be seen in figure \ref{fig:shallow}.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=\textwidth]{shallow}
+\caption{Shallow parsing example}
+\label{fig:shallow}
+\end{figure}
+
+
+
+\subsection{Dependency parsing}
+Dependency parsing goes further than shallow parsing, determining relationships between tokens rather than just grouping them. Given these relationships, a dependency tree is generated, which usually has a root node representing the main verb of the sentence, which has the subject and objects of the sentence as children. An example of a dependency parsed sentence can be seen in figure \ref{fig:dependency}.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.8\textwidth]{dependency}
+\caption{Dependency parsing example}
+\label{fig:dependency}
+\end{figure}
+
 \subsection{Named entity detection}
-sdfsadf
+A named entity is a token or group of tokens that represent and known entity such as a person, a location, or an organization. Depending on the complexity of the tool that performs this analysis, those entities can also be linked to a knowledge base such as Dbpedia \cite{dbpedia} where more structured information about the entity can be found.
+
+
+
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|}
+\hline
+Usain & Bolt & won & the & race & in & Rio & de & Janeiro & . \\ \hline
+person & person &   &   &   &   & location & location & location &   \\ \hline
+\end{tabular}
+\caption{Named entity detection example}
+\label{tab:postagging}
+\end{table}
+
+
 \section{Feature extraction}
 \label{sec:featureExtraction}
+Feature engineering is one of the most important aspects of this thesis. A good feature set determines the the quality of a classifier, and therefore the quality of a readability assessment system. A description of each feature included in \projectName is provided below separated in different linguistic levels.
+
+
+\subsection{Shallow features}
+
+Shallow features \cite{flesch1948new,chall1995readability,albright1996readability} have historically shown to be of good use when predicting readability. Even if they sometimes lack precision \cite{davison1982failure}, they serve as a good baseline for readability assessment systems. A description for each shallow feature is provided below.
+
+\subsubsection*{Word length}
+
+\subsubsection*{Sentence length}
+
+\subsubsection*{Simple terms}
+
+
+\subsection{Morphological features}
+
+
+\subsection{Structural features}
+\subsection{Semantic features}
+\subsection{Social features}
+\subsection{Metadata features}
+
+
+
+
+\textbf{Morphological features} capture how terms are formed from their root. Even if this  aspect is not relevant in some languages, such as English, it has been shown to be a strong predictor for readability scores in morphology rich languages such as Basque \cite{gonzalez2014simple}. Different morphological phenomena will be analyzed in order to create features in this category.\\
+
+\noindent
+\textbf{Structural features} are the ones that describe how a text is organized. They can both describe structure within the sentence (syntactical structure) or structure between sentences (pragmatical structure). Depth of the syntactic tree or ratios of different types of connectors between sentences are some examples of the features that are going to be explored under this category.\\
+
+\noindent
+\textbf{Semantic features} go beyond the tokens and structure of the text in order to analyse the concepts laying on it. %This permits to create an abstraction level that leave behind the dependence other features have respect to the text.
+ Features such as concept density or concept follow-ability are some examples of the features that will be analyzed under this category.\\
+
+\noindent
+RA can be used in more than just plain text. Internet is evolving into a new social era and so are text resources. Increasingly more resources contain \textbf{social information}, such as hashtags, mentions, or links, a type of information that is usually ignored by readability formulas. We propose to investigate how the aforementioned information can be used for readability prediction.
+
+\noindent
+\textbf{Metadata} based features can be useful in environments where text access is limited (i.e. copyrighted material). An exploration of this type of features will also be done in order expand the types of texts MRAS can handle.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
