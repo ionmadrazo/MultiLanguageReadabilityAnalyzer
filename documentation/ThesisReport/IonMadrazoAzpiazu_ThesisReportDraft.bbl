@@ -113,11 +113,6 @@ Kevyn Collins-Thompson and James~P Callan.
 \newblock In {\em North American Chapter of the Association for Computational
   Linguistics: Human Language Technologies}, pages 193--200, 2004.
 
-\bibitem{cortes1995support}
-Corinna Cortes and Vladimir Vapnik.
-\newblock Support-vector networks.
-\newblock {\em Machine learning}, 20(3):273--297, 1995.
-
 \bibitem{croft2010search}
 W~Bruce Croft, Donald Metzler, and Trevor Strohman.
 \newblock {\em Search engines: Information Retrieval in Practice}, volume 283.
@@ -171,11 +166,6 @@ Thomas Fran{\c{c}}ois and C{\'e}drick Fairon.
   in Natural Language Processing and Computational Natural Language Learning},
   pages 466--477. Association for Computational Linguistics, 2012.
 
-\bibitem{frank2001simple}
-Eibe Frank and Mark Hall.
-\newblock {\em A Simple Approach to Ordinal Classification}.
-\newblock Springer, 2001.
-
 \bibitem{gonzalez2014simple}
 Itziar Gonzalez-Dios, Mar{\i}a~Jes{\'u}s Aranzabe, Arantza~D{\i}az de~Ilarraza,
   and Haritz Salaberri.
@@ -209,16 +199,6 @@ Colleen Lennon and Hal Burdick.
 George~A Miller.
 \newblock Wordnet: a lexical database for english.
 \newblock {\em Communications of the ACM}, 38(11):39--41, 1995.
-
-\bibitem{neter1996applied}
-John Neter, Michael~H Kutner, Christopher~J Nachtsheim, and William Wasserman.
-\newblock {\em Applied Linear Statistical Models}, volume~4.
-\newblock Irwin Chicago, 1996.
-
-\bibitem{nielsen2009bayesian}
-Thomas~Dyhre Nielsen and Finn~Verner Jensen.
-\newblock {\em Bayesian Networks and Decision Graphs}.
-\newblock Springer Science \& Business Media, 2009.
 
 \bibitem{legalreadability}
 James~RP Ogloff and Randy~K Otto.
@@ -293,12 +273,6 @@ Sanja {\v{S}}tajner and Horacio Saggion.
 \newblock In {\em Proceedings of the 6th International Joint Conference on
   Natural Language Processing (IJCNLP 2013), Nagoya, Japan}, pages 374--382,
   2013.
-
-\bibitem{walker1967estimation}
-Strother~H Walker and David~B Duncan.
-\newblock Estimation of the probability of an event as a function of several
-  independent variables.
-\newblock {\em Biometrika}, 54(1-2):167--179, 1967.
 
 \bibitem{literacy1}
 Barry~D Weiss, Mary~Z Mays, William Martz, Kelley~Merriam Castro, Darren~A

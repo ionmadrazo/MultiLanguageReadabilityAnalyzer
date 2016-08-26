@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.1.12)  24 AUG 2016 16:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.1.12)  26 AUG 2016 13:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -254,107 +254,72 @@ Underfull \vbox (badness 4416) has occurred while \output is active []
  [6]
 [7]
 CHAPTER 3.
-<pipelineGraph.png, id=67, 2241.37375pt x 2503.3525pt>
-File: pipelineGraph.png Graphic file (type png)
- <use pipelineGraph.png>
-Package pdftex.def Info: pipelineGraph.png used on input line 394.
-(pdftex.def)             Requested size: 433.62pt x 484.27467pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 [8
 
-]
-Overfull \vbox (0.15125pt too high) has occurred while \output is active []
-
-
-[9 <./pipelineGraph.png>] <wordnet.png, id=77, 1228.59pt x 828.09375pt>
+] <wordnet.png, id=71, 1228.59pt x 828.09375pt>
 File: wordnet.png Graphic file (type png)
-
-<use wordnet.png>
-Package pdftex.def Info: wordnet.png used on input line 437.
+ <use wordnet.png>
+Package pdftex.def Info: wordnet.png used on input line 432.
 (pdftex.def)             Requested size: 303.53267pt x 204.58424pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \vbox (badness 3078) has occurred while \output is active []
+Underfull \vbox (badness 6927) has occurred while \output is active []
 
- [10]
+ [9]
 Underfull \vbox (badness 1270) has occurred while \output is active []
 
- [11 <./wordnet.png>] [12] <shallow.png, id=88, 1179.40625pt x 631.35875pt>
+ [10 <./wordnet.png>] [11]
+Underfull \vbox (badness 3547) has occurred while \output is active []
+
+ [12]
+<shallow.png, id=86, 1179.40625pt x 631.35875pt>
 File: shallow.png Graphic file (type png)
-
-<use shallow.png>
-Package pdftex.def Info: shallow.png used on input line 498.
+ <use shallow.png>
+Package pdftex.def Info: shallow.png used on input line 502.
 (pdftex.def)             Requested size: 433.62pt x 232.1251pt.
- <dependency.png, id=89, 772.8875pt x 567.11874pt>
-File: dependency.png Graphic file (type png)
 
-<use dependency.png>
-Package pdftex.def Info: dependency.png used on input line 510.
+<dependency.png, id=87, 772.8875pt x 567.11874pt>
+File: dependency.png Graphic file (type png)
+ <use dependency.png>
+Package pdftex.def Info: dependency.png used on input line 514.
 (pdftex.def)             Requested size: 346.89731pt x 254.54341pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
+[13 <./shallow.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13 <./shallow.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [14 <./dependency.png>] <pipelineGraph.png, id=95, 2241.37375pt x 2907.86375pt
+>
+File: pipelineGraph.png Graphic file (type png)
 
- [14 <./dependency.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 560--561
-
- []
-
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 562--564
-
- []
+<use pipelineGraph.png>
+Package pdftex.def Info: pipelineGraph.png used on input line 550.
+(pdftex.def)             Requested size: 346.89731pt x 450.04868pt.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 565--568
+LaTeX Warning: Reference `sec:preprocessing' on page 15 undefined on input line
+ 557.
 
- []
 
+LaTeX Warning: Reference `sec:featureExtraction' on page 15 undefined on input 
+line 557.
 
+[15 <./pipelineGraph.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16]
-Underfull \hbox (badness 10000) in paragraph at lines 610--611
+Underfull \vbox (badness 2799) has occurred while \output is active []
 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 613--615
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 618--620
-
- []
-
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 621--623
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 624--627
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [17]
+Underfull \vbox (badness 2582) has occurred while \output is active []
 
  [18]
-[19]
+Excluding 'comment' comment. [19]
 CHAPTER 4.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -395,18 +360,19 @@ ra \ _lectores /
 
 [25
 
-] [26] [27]
-Underfull \hbox (badness 3000) in paragraph at lines 201--207
+] [26]
+Underfull \hbox (badness 3000) in paragraph at lines 191--197
 []\OT1/cmr/m/n/12 Colleen Lennon and Hal Bur-dick.  The lex-ile frame-work as a
 n ap-
  []
 
 
-Underfull \hbox (badness 1308) in paragraph at lines 201--207
+Underfull \hbox (badness 1308) in paragraph at lines 191--197
 \OT1/cmr/m/n/12 proach for read-ing mea-sure-ment and suc-cess.  \OT1/cmr/m/it/
 12 Elec-tronic pub-li-ca-tion on
  []
 
+[27]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ­ in font cmr12!
 Missing character: There is no Ã in font cmr12!
@@ -417,16 +383,19 @@ Missing character: There is no Ã in font cmr12!
 Missing character: There is no ­ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ³ in font cmr12!
-[28]) [29] [30] (./IonMadrazoAzpiazu_ThesisReportDraft.aux)
+ [28]) [29] [30] (./IonMadrazoAzpiazu_ThesisReportDraft.aux)
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1986 strings out of 494957
- 28975 string characters out of 6180028
- 87895 words of memory out of 5000000
- 5198 multiletter control sequences out of 15000+600000
+ 1985 strings out of 494957
+ 28938 string characters out of 6180028
+ 87898 words of memory out of 5000000
+ 5197 multiletter control sequences out of 15000+600000
  7804 words of font info for 28 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  38i,11n,23p,1700b,285s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -439,7 +408,7 @@ onts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmtt12.pfb>
-Output written on IonMadrazoAzpiazu_ThesisReportDraft.pdf (41 pages, 396586 byt
+Output written on IonMadrazoAzpiazu_ThesisReportDraft.pdf (41 pages, 411421 byt
 es).
 PDF statistics:
  181 PDF objects out of 1000 (max. 8388607)

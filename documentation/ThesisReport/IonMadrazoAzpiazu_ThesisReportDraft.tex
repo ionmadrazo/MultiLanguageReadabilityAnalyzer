@@ -382,30 +382,25 @@ Even if the number of RA systems that tackle individual languages is high, they 
 
 
 
-\section{Overview}
-
-
-\projectName is based on a supervised learning approach that relies on knowledge acquired from a leveled corpora. In designing \projectName we followed the steps illustrated in Figure \ref{fig:pipeline} and discussed below.
+\projectName is a readability assessment system capable of automatically predicting the readability level of any given document, being able to handle multiple document types, differing in format, length and language. For doing so \projectName takes advantage of several tools described in section \ref{sec:tools}, as well as various text processing strategies described in \ref{sec:textprocessing}. This chapter also provides an overview of the design of \projectName in section \ref{sec:overview} and further in-depth detail in sections \ref{sec:features} and \ref{sec:fusion}.
 
 
 
-\begin{figure}[h!]
-\centering
-\includegraphics[width=\textwidth]{pipelineGraph}
-\caption{\projectName}
-\label{fig:pipeline}
-\end{figure}
-
-
-
-\projectName receives two different inputs: a collection $C$ of documents for each of which a readability label is already assigned, and a document $d$ which its readability is unknown for \projectName and, thus, will be predicted. Both inputs are taken through a preprocessing step described in section \ref{sec:preprocessing}, which cleans, filters and normalizes their content, to prepare them for the feature extraction step described in section \ref{sec:featureExtraction}. These features, serve as a numeric representation for each document. \projectName is capable of learning patterns over the representations extracted from each document in $C$ and use these patters to predict readability scores for new unlabelled documents such as $d$.
 
 
 
 \section{Tools}
 \label{sec:tools}
 
-Whether for preprocessing or for feature extraction, \projectName takes advantage of several existing tools and techniques. Each of those tools is described below.
+Whether for text processing or for feature extraction, \projectName takes advantage of several existing tools and techniques, which we describe below.
+
+\subsection{NLP Toolkits}
+For developing \projectName we analysed several NLP toolkits available in he market.
+%TODO Create a table of all the ones analyzed
+
+
+
+
 
 \subsubsection*{Freeling NLP}
 Freeling \cite{padro12,padro10b} is a NLP tookit developed for the easing various natural language analysis tasks. Freeling includes, but is not limited to, tokenization, PoS tagging, syntactic parsing, dependency parsing and semantic labelling. Furthermore, Freeling is, to the best of our knowledge, the only tool kit supporting 14 languages with this depth of analysis, supporting Asturian (as), Catalan (ca), German (de), English (en),  French (fr), Galician (gl), Croatian (hr), Italian (it), Norwegian (nb), Portuguese (pt), Russian (ru), Slovene (sl), Spanish (es), and Welsh (cy).
@@ -426,7 +421,7 @@ Katea is set of NLP tools developed for Basque. Katea is composed by Morpheus \c
 
 
 
-\subsubsection*{WordNet}
+\subsection{WordNet}
 Wordnet \cite{miller1995wordnet} is a lexical database for English where terms, i.e., nouns, verbs and adjectives, are grouped into sets of synonyms, expressing different concepts. These concepts are related by each other by several semantic relationships, such as hyperonymie or hyponimie. An example of this structure can be seen in figure \ref{fig:wordnet}, where \emph{motor vehicle} has \emph{vehicle} as hypernym and \emph{car} and \emph{truck} as hyponyms. Note that this structure forms a tree. This fact will be used later, for building some features.
 
 
@@ -444,8 +439,8 @@ Wordnet \cite{miller1995wordnet} is a lexical database for English where terms, 
 
 
 
-\section{Preprocessing}
-\label{sec:preprocessing}
+\section{Text processing}
+\label{sec:textprocessing}
 The preprocessing step is the one that takes place first for any document handled by \projectName . The aim of preprocessing is to identify the document to decide further process \projectName needs to perform over it, and to prepare the document for future feature extraction. More detail of mentioned processes is given below.
 
 \subsection{Document type detection}
@@ -468,6 +463,15 @@ did & they & win & the & olimpics & ? \\ \hline
 \caption{Tokenization example}
 \label{tab:tokenization}
 \end{table}
+
+\subsection{Stopping}
+Stopping or stopword removal refer to the process of removing stopwords from a text. A stopword is a term that does not add any important information to the task that is performed, usually adding unnecessary noise that hinders valuable information among a document. The frequency of a term is a good indicator for stopwords since, usually the terms that most appear in a text are the ones that less information contain. Some examples of general purpose stopwords are \emph{a}, \emph{the} or \emph{is}, however depending on the domain, terms such as \emph{computer} can also be stopwords given its high frequency. The purpose stopping is usually 2-way, speeding up later processes and noise reduction, and is usually performed without the need of any specific tool, just using a stopword list.
+
+
+
+\subsection{Stemming/Lemmatization}
+The goal of both stemming and lemmatization is to achieve a normalized version of a term. This normalization, is usually helpful for search and comparison task as it reduced the search space among all the terms. As an example, when computing a metric about the verb \emph{play} it might be interesting to compute it for all its word-forms (\emph{play}, \emph{plays}, \emph{played}). This process is usually simpler if all the word-forms are normalized to one canonical form. Stemming and Lemmatization differ in the way the normalized form is obtained. While lemmatization is able to achieve real canonical form (i.e. lemma) of a word (the one appearing in the dictionary), stemming simply chops common prefixes and suffixes to obtain an approximation of it. When both techniques are available \projectName will use lemmatization over stemming, however, some languages do not have any lemmatization technique available. Freeling will be used for lemmatization in Spanish and English, while katea will serve for the same purpose in Basque.
+
 
 
 
@@ -530,8 +534,46 @@ person & person &   &   &   &   & location & location & location &   \\ \hline
 \end{table}
 
 
+\section{Design overview}
+\label{sec:overview}
+
+
+
+
+
+\projectName is based on a supervised learning approach that relies on knowledge acquired from a leveled corpora. In designing \projectName we followed the steps illustrated in Figure \ref{fig:pipeline} and discussed below.
+
+
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.8\textwidth]{pipelineGraph}
+\caption{\projectName}
+\label{fig:pipeline}
+\end{figure}
+
+
+
+\projectName receives two different inputs: a collection $C$ of documents for each of which a readability label is already assigned, and a document $d$ which its readability is unknown for \projectName and, thus, will be predicted. Both inputs are taken through a preprocessing step described in section \ref{sec:preprocessing}, which cleans, filters and normalizes their content, to prepare them for the feature extraction step described in section \ref{sec:featureExtraction}. These features, serve as a numeric representation for each document. \projectName is capable of learning patterns over the representations extracted from each document in $C$ and use these patters to predict readability scores for new unlabelled documents such as $d$.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 \section{Feature extraction}
-\label{sec:featureExtraction}
+\label{sec:features}
 Feature engineering is one of the most important aspects of this thesis. A good feature set determines the the quality of a classifier, and therefore the quality of a readability assessment system. A description of each feature included in \projectName is provided below separated in different linguistic levels.
 
 
@@ -540,19 +582,72 @@ Feature engineering is one of the most important aspects of this thesis. A good 
 Shallow features \cite{flesch1948new,chall1995readability,albright1996readability} have historically shown to be of good use when predicting readability. Even if they sometimes lack precision \cite{davison1982failure}, they serve as a good baseline for readability assessment systems. A description for each shallow feature is provided below.
 
 \subsubsection*{Word length}
+Everyday terms are usually short in most languages, they are preferred for spoken language over their longer analogues, in order to maintain more fluent conversations. In the opposite side, difficult terms are longer the more technical or scientific they are. Therefore, short terms the one youngsters first learn and better comprehend. To take advantage of this fact, \projectName bases 4 features on it,  average length of terms and average length of their lemmas, considering or not stopwords for both cases.
+
+
 
 \subsubsection*{Sentence length}
+Sentences oriented people with low understanding skill are usually short. They just focus on simple ideas and facts with very simple argumentations. On the opposite side, documents oriented to more technical and complex aspects contain more argumentation and therefore more subclauses in the sentences, resulting in longer sentences. \projectName benefits of this fact generating two features, average word length of sentence with and without stop words.
 
 \subsubsection*{Simple terms}
 
+%TODO
+
+
+
+
+
 
 \subsection{Morphological features}
+Morphological features capture how terms are formed from their root. Even if this  aspect is not relevant in some languages, such as English, it has been shown to be a strong predictor for readability scores in morphology rich languages such as Basque \cite{gonzalez2014simple}. A description of morphological features included in \projectName is described below.
+
+
+\subsubsection*{Morphological phenomena frequencies}
+
+\subsubsection*{Inflection ratio}
+difference in size between the wordform and the lemma
 
 
 \subsection{Structural features}
+Structural features are the ones that describe how a text is organized. They can both describe structure within the sentence (syntactical structure) or structure between sentences (pragmatical structure). The features that have been implemented in \projectName can be seen below.
+
+
+\subsubsection*{Structural complexity}
+based on a neural network and distributional semantics
+
 \subsection{Semantic features}
+Semantic features go beyond the tokens and structure of the text in order to analyse the concepts laying on it.
+
+\subsubsection*{Semantic closeness}
+How close is a text from the terms of each group?
+Using simple cosine similarity and using the cloud of points created using distributional semantics.
+\subsubsection*{Concept densisty}
+\subsubsection*{Followability}
+\subsubsection*{Ngram frequencies}
 \subsection{Social features}
+RA can be used in more than just plain text. Internet is evolving into a new social era and so are text resources. Increasingly more resources contain social information, such as hashtags, mentions, or links, a type of information that is usually ignored by readability formulas.
+
 \subsection{Metadata features}
+Metadata based features can be useful in environments where text access is limited (i.e. copyrighted material). An exploration of this type of features will also be done in order expand the types of texts MRAS can handle.
+
+
+
+
+\section{Fusioning Strategy}
+\label{sec:fusion}
+
+
+
+
+
+
+
+
+
+
+
+
+\begin{comment}
 
 
 
@@ -642,7 +737,7 @@ RA can be used in more than just plain text. Internet is evolving into a new soc
 
 Individually, each of the aforementioned features can only provide a rough estimate of the readability of a text. However, considering these features in-tandem can lead to a more accurate and robust readability assessment. Consequently, we will analyze different fusion strategies for MRAS, which will make possible to identify the most suitable strategies for readability prediction. The problem of assessing readability can be seen as a classification problem where a discrete categorical class needs to be predicted. Therefore, we would like to  explore different \textbf{classification} algorithms, such as bayesian networks \cite{nielsen2009bayesian} or support vector machines \cite{cortes1995support} for readability level prediction.  The RA task can also be seen as a \textbf{regression} problem, given that the class contains an inherent order on it. Therefore, we would also like to test different regression algorithms, including, but not limited to, linear regression \cite{neter1996applied} and logistic regression \cite{walker1967estimation}. Finally, we would also like to  explore a \textbf{hybrid} approach by using classification algorithms that take order in the class into account, such as the ordinal classification approach presented in \cite{frank2001simple}.
 
-
+\end{comment}
 
 \chapter{Evaluation}
 %framework, dataset, metrics, gorund truth, crosss-val
