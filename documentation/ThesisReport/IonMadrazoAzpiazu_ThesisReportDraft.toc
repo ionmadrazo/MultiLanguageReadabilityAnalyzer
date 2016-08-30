@@ -10,27 +10,27 @@
 \contentsline {subsection}{\numberline {3.1.1}NLP Toolkits}{8}
 \contentsline {subsection}{\numberline {3.1.2}WordNet}{9}
 \contentsline {section}{\numberline {3.2}Text processing}{10}
-\contentsline {subsection}{\numberline {3.2.1}Document type detection}{10}
-\contentsline {subsection}{\numberline {3.2.2}Tokenization}{11}
-\contentsline {subsection}{\numberline {3.2.3}Stopping}{11}
-\contentsline {subsection}{\numberline {3.2.4}Stemming/Lemmatization}{11}
-\contentsline {subsection}{\numberline {3.2.5}Part of Speech Tagging}{12}
-\contentsline {subsection}{\numberline {3.2.6}Shallow parsing}{13}
-\contentsline {subsection}{\numberline {3.2.7}Dependency parsing}{13}
-\contentsline {subsection}{\numberline {3.2.8}Named entity detection}{14}
-\contentsline {section}{\numberline {3.3}Design overview}{15}
-\contentsline {section}{\numberline {3.4}Feature extraction}{16}
-\contentsline {subsection}{\numberline {3.4.1}Shallow features}{16}
-\contentsline {subsection}{\numberline {3.4.2}Morphological features}{17}
-\contentsline {subsection}{\numberline {3.4.3}Structural features}{18}
-\contentsline {subsection}{\numberline {3.4.4}Semantic features}{18}
-\contentsline {subsection}{\numberline {3.4.5}Social features}{19}
-\contentsline {subsection}{\numberline {3.4.6}Metadata features}{19}
-\contentsline {section}{\numberline {3.5}Fusioning Strategy}{19}
-\contentsline {chapter}{\numberline {4}Evaluation}{20}
-\contentsline {subsection}{\numberline {4.0.1}Datasets}{20}
-\contentsline {subsection}{\numberline {4.0.2}Metrics}{20}
-\contentsline {subsection}{\numberline {4.0.3}Overall Assessment}{21}
-\contentsline {chapter}{\numberline {5}MRAS in Action}{23}
-\contentsline {chapter}{\numberline {6}Conclusions}{24}
-\contentsline {chapter}{REFERENCES}{25}
+\contentsline {subsection}{\numberline {3.2.1}Tokenization}{11}
+\contentsline {subsection}{\numberline {3.2.2}Stopping}{11}
+\contentsline {subsection}{\numberline {3.2.3}Stemming/Lemmatization}{12}
+\contentsline {subsection}{\numberline {3.2.4}Part of Speech Tagging}{13}
+\contentsline {subsection}{\numberline {3.2.5}Shallow parsing}{13}
+\contentsline {subsection}{\numberline {3.2.6}Dependency parsing}{13}
+\contentsline {subsection}{\numberline {3.2.7}Named entity detection}{14}
+\contentsline {section}{\numberline {3.3}Design overview}{14}
+\contentsline {section}{\numberline {3.4}Document type detection}{16}
+\contentsline {section}{\numberline {3.5}Feature extraction}{17}
+\contentsline {subsection}{\numberline {3.5.1}Shallow features}{17}
+\contentsline {subsection}{\numberline {3.5.2}Morphological features}{18}
+\contentsline {subsection}{\numberline {3.5.3}Structural features}{18}
+\contentsline {subsection}{\numberline {3.5.4}Semantic features}{19}
+\contentsline {subsection}{\numberline {3.5.5}Social features}{19}
+\contentsline {subsection}{\numberline {3.5.6}Metadata features}{19}
+\contentsline {section}{\numberline {3.6}Fusioning Strategy}{20}
+\contentsline {chapter}{\numberline {4}Evaluation}{21}
+\contentsline {subsection}{\numberline {4.0.1}Datasets}{21}
+\contentsline {subsection}{\numberline {4.0.2}Metrics}{21}
+\contentsline {subsection}{\numberline {4.0.3}Overall Assessment}{22}
+\contentsline {chapter}{\numberline {5}MRAS in Action}{24}
+\contentsline {chapter}{\numberline {6}Conclusions}{25}
+\contentsline {chapter}{REFERENCES}{26}

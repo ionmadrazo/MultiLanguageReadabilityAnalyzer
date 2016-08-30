@@ -56,8 +56,7 @@
 \citation{collins2004language}
 \citation{dell2011read}
 \citation{franccois2012ai}
-\citation{padro12}
-\citation{padro10b}
+\citation{universaldependencies}
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}Method}{8}}
 \@writefile{lof}{\addvspace {12\p@ }}
 \@writefile{lot}{\addvspace {12\p@ }}
@@ -69,50 +68,62 @@
 \citation{eihera}
 \citation{morpheus}
 \citation{maltixa}
+\citation{nltk}
+\citation{corenlp}
+\citation{opennlp}
+\citation{syntaxnetimplementation}
+\citation{syntaxnetmodels}
+\citation{padro10b}
+\citation{padro12}
+\citation{morpheus}
+\citation{eustagger}
+\citation{maltixa}
 \citation{miller1995wordnet}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}WordNet}{9}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Wordnet example}}{10}}
+\@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces Comparison of existing NLP tools}}{10}}
+\newlabel{tab:toolComparison}{{3.1}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Example of a reduced tree generated around the vehicle concept in Wordnet.}}{10}}
 \newlabel{fig:wordnet}{{3.1}{10}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.2}Text processing}{10}}
 \newlabel{sec:textprocessing}{{3.2}{10}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Document type detection}{10}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Tokenization}{11}}
-\@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces Tokenization example}}{11}}
-\newlabel{tab:tokenization}{{3.1}{11}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Stopping}{11}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.4}Stemming/Lemmatization}{11}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.5}Part of Speech Tagging}{12}}
-\@writefile{lot}{\contentsline {table}{\numberline {3.2}{\ignorespaces Part of Speech tagging example}}{12}}
-\newlabel{tab:postagging}{{3.2}{12}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Tokenization}{11}}
+\@writefile{lot}{\contentsline {table}{\numberline {3.2}{\ignorespaces Tokenization of sentences in different languages.}}{11}}
+\newlabel{tab:tokenization}{{3.2}{11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Stopping}{11}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Stemming/Lemmatization}{12}}
 \citation{dbpedia}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.6}Shallow parsing}{13}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Shallow parsing example}}{13}}
-\newlabel{fig:shallow}{{3.2}{13}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.7}Dependency parsing}{13}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Dependency parsing example}}{14}}
-\newlabel{fig:dependency}{{3.3}{14}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.8}Named entity detection}{14}}
-\@writefile{lot}{\contentsline {table}{\numberline {3.3}{\ignorespaces Named entity detection example}}{14}}
-\newlabel{tab:postagging}{{3.3}{14}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}Design overview}{15}}
-\newlabel{sec:overview}{{3.3}{15}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces MRAS\xspace  }}{15}}
-\newlabel{fig:pipeline}{{3.4}{15}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.4}Part of Speech Tagging}{13}}
+\@writefile{lot}{\contentsline {table}{\numberline {3.3}{\ignorespaces Part of Speech tagging of the sentence ``Did they win the race?"}}{13}}
+\newlabel{tab:postagging}{{3.3}{13}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.5}Shallow parsing}{13}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.6}Dependency parsing}{13}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Shallow parsing of the sentence ``Did they win the race?"}}{14}}
+\newlabel{fig:shallow}{{3.2}{14}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.7}Named entity detection}{14}}
+\@writefile{lot}{\contentsline {table}{\numberline {3.4}{\ignorespaces Named entity detection of the sentence ``Salvador Dali was born in the city of Figures"}}{14}}
+\newlabel{tab:postagging}{{3.4}{14}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Design overview}{14}}
+\newlabel{sec:overview}{{3.3}{14}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Dependency parsing of the sentence ``Did they win the race?"}}{15}}
+\newlabel{fig:dependency}{{3.3}{15}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces MRAS\xspace  }}{16}}
+\newlabel{fig:pipeline}{{3.4}{16}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}Document type detection}{16}}
 \citation{flesch1948new}
 \citation{chall1995readability}
 \citation{albright1996readability}
 \citation{davison1982failure}
-\@writefile{toc}{\contentsline {section}{\numberline {3.4}Feature extraction}{16}}
-\newlabel{sec:features}{{3.4}{16}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}Shallow features}{16}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.5}Feature extraction}{17}}
+\newlabel{sec:features}{{3.5}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.1}Shallow features}{17}}
 \citation{gonzalez2014simple}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.2}Morphological features}{17}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.3}Structural features}{18}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.4}Semantic features}{18}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.5}Social features}{19}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.6}Metadata features}{19}}
-\@writefile{toc}{\contentsline {section}{\numberline {3.5}Fusioning Strategy}{19}}
-\newlabel{sec:fusion}{{3.5}{19}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.2}Morphological features}{18}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.3}Structural features}{18}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.4}Semantic features}{19}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.5}Social features}{19}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5.6}Metadata features}{19}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.6}Fusioning Strategy}{20}}
+\newlabel{sec:fusion}{{3.6}{20}}
 \citation{datasetEuOther1}
 \citation{datasetEnExams1}
 \citation{datasetEnExams2}
@@ -128,68 +139,74 @@
 \citation{croft2010search}
 \citation{croft2010search}
 \citation{franccois2012ai}
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Evaluation}{20}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Evaluation}{21}}
 \@writefile{lof}{\addvspace {12\p@ }}
 \@writefile{lot}{\addvspace {12\p@ }}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.0.1}Datasets}{20}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.0.2}Metrics}{20}}
-\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Data resources identified for MRAS development and validation}}{21}}
-\newlabel{table:datastetTable}{{4.1}{21}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.0.3}Overall Assessment}{21}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {5}MRAS in Action}{23}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.0.1}Datasets}{21}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.0.2}Metrics}{21}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Data resources identified for MRAS development and validation}}{22}}
+\newlabel{table:datastetTable}{{4.1}{22}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.0.3}Overall Assessment}{22}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}MRAS in Action}{24}}
 \@writefile{lof}{\addvspace {12\p@ }}
 \@writefile{lot}{\addvspace {12\p@ }}
 \bibstyle{plain}
 \bibdata{bibliography}
-\@writefile{toc}{\contentsline {chapter}{\numberline {6}Conclusions}{24}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {6}Conclusions}{25}}
 \@writefile{lof}{\addvspace {12\p@ }}
 \@writefile{lot}{\addvspace {12\p@ }}
-\bibcite{datasetEuOther1}{1}
-\bibcite{datasetEnExams1}{2}
-\bibcite{datasetEnExams2}{3}
-\bibcite{datasetEnOther1}{4}
-\bibcite{datasetEnOther2}{5}
-\bibcite{datasetEnOther3}{6}
-\bibcite{datasetEsOther1}{7}
-\bibcite{datasetEsOther2}{8}
-\bibcite{datasetEsOther3}{9}
-\bibcite{datasetParallel1}{10}
-\bibcite{morpheus}{11}
-\bibcite{al2008towards}{12}
-\bibcite{albright1996readability}{13}
-\bibcite{eihera}{14}
-\@writefile{toc}{\contentsline {chapter}{REFERENCES}{25}}
-\bibcite{eustagger}{15}
-\bibcite{aluisio2010readability}{16}
-\bibcite{anula2007tipos}{17}
-\bibcite{maltixa}{18}
-\bibcite{benjamin2012reconstructing}{19}
-\bibcite{bonsall2015plain}{20}
-\bibcite{chall1995readability}{21}
-\bibcite{chen2011chinese}{22}
-\bibcite{collins2004language}{23}
-\bibcite{croft2010search}{24}
-\bibcite{davison1982failure}{25}
-\bibcite{dell2011read}{26}
-\bibcite{drndarevic2013automatic}{27}
-\bibcite{textsimplificationWithDisabilities1}{28}
-\bibcite{feng2010comparison}{29}
-\bibcite{flesch1948new}{30}
-\bibcite{franccois2012ai}{31}
-\bibcite{gonzalez2014simple}{32}
-\bibcite{medicalReadability1}{33}
-\bibcite{dbpedia}{34}
-\bibcite{lennon2004lexile}{35}
-\bibcite{miller1995wordnet}{36}
-\bibcite{legalreadability}{37}
-\bibcite{padro10b}{38}
-\bibcite{padro12}{39}
-\bibcite{medicalReadability3}{40}
-\bibcite{pera2014automating}{41}
-\bibcite{medicalReadability2}{42}
-\bibcite{robinson2000issues}{43}
-\bibcite{textsimplification2}{44}
-\bibcite{spaulding1956spanish}{45}
-\bibcite{textsimplification1}{46}
-\bibcite{vstajner2013readability}{47}
-\bibcite{literacy1}{48}
+\bibcite{universaldependencies}{1}
+\bibcite{opennlp}{2}
+\bibcite{syntaxnetimplementation}{3}
+\bibcite{datasetEuOther1}{4}
+\bibcite{datasetEnExams1}{5}
+\bibcite{datasetEnExams2}{6}
+\bibcite{datasetEnOther1}{7}
+\bibcite{datasetEnOther2}{8}
+\bibcite{datasetEnOther3}{9}
+\bibcite{datasetEsOther1}{10}
+\bibcite{datasetEsOther2}{11}
+\bibcite{datasetEsOther3}{12}
+\bibcite{datasetParallel1}{13}
+\bibcite{morpheus}{14}
+\bibcite{al2008towards}{15}
+\bibcite{albright1996readability}{16}
+\@writefile{toc}{\contentsline {chapter}{REFERENCES}{26}}
+\bibcite{eihera}{17}
+\bibcite{eustagger}{18}
+\bibcite{aluisio2010readability}{19}
+\bibcite{syntaxnetmodels}{20}
+\bibcite{anula2007tipos}{21}
+\bibcite{maltixa}{22}
+\bibcite{benjamin2012reconstructing}{23}
+\bibcite{nltk}{24}
+\bibcite{bonsall2015plain}{25}
+\bibcite{chall1995readability}{26}
+\bibcite{chen2011chinese}{27}
+\bibcite{collins2004language}{28}
+\bibcite{croft2010search}{29}
+\bibcite{davison1982failure}{30}
+\bibcite{dell2011read}{31}
+\bibcite{drndarevic2013automatic}{32}
+\bibcite{textsimplificationWithDisabilities1}{33}
+\bibcite{feng2010comparison}{34}
+\bibcite{flesch1948new}{35}
+\bibcite{franccois2012ai}{36}
+\bibcite{gonzalez2014simple}{37}
+\bibcite{medicalReadability1}{38}
+\bibcite{dbpedia}{39}
+\bibcite{lennon2004lexile}{40}
+\bibcite{corenlp}{41}
+\bibcite{miller1995wordnet}{42}
+\bibcite{legalreadability}{43}
+\bibcite{padro10b}{44}
+\bibcite{padro12}{45}
+\bibcite{medicalReadability3}{46}
+\bibcite{pera2014automating}{47}
+\bibcite{medicalReadability2}{48}
+\bibcite{robinson2000issues}{49}
+\bibcite{textsimplification2}{50}
+\bibcite{spaulding1956spanish}{51}
+\bibcite{textsimplification1}{52}
+\bibcite{vstajner2013readability}{53}
+\bibcite{literacy1}{54}

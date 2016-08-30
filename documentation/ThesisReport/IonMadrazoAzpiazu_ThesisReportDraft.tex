@@ -249,9 +249,14 @@ partially supported by some particular grant, if there was one.
 
 % The (optional) list of abbreviations goes here
 \begin{listAbbreviations}
+  \item[EN] English
+  \item[EU] Basque 
+  \item[ES] Spanish 
   \item[IR] Information Retrieval
+  \item[NE] Named Entity
   \item[NLP] Natural Language Processing
   \item[PoS] Part of Speech
+
 \end{listAbbreviations}
 
 
@@ -395,26 +400,50 @@ Even if the number of RA systems that tackle individual languages is high, they 
 Whether for text processing or for feature extraction, \projectName takes advantage of several existing tools and techniques, which we describe below.
 
 \subsection{NLP Toolkits}
-For developing \projectName we analysed several NLP toolkits available in he market.
-%TODO Create a table of all the ones analyzed
+For developing \projectName we analysed several existing NLP toolkits. The goal of this analysis was to find a suitable NLP toolkit than can work in a widest variety of languages with enough functionalities so that \projectName could be developed.
+
+We narrowed our search to the 6 toolkits presented in table \ref{tab:toolComparison}. NLTK,  OpenNLP and CoreNLP are  tools that were originally designed for English, with the possibility of extension for other languages. However, even if they can be extended, they require models specifically designed for them, with very limited languages available currently. On the other side, SyntaxNet adopts an standards based approach, being compatible with the Universal Dependency Treebank \cite{universaldependencies} which contains model for more than 70 languages. However, given the recency of its development, it does not offer support for some common NLP tasks that \projectName requires yet. 
+
+Freeling is a more consolidated project offering a good balance between languages and functionalities. Freeling includes tokenization, PoS tagging, syntactic parsing, dependency parsing and semantic labelling, and supports 14 languages: Asturian (as), Catalan (ca), German (de), English (en),  French (fr), Galician (gl), Croatian (hr), Italian (it), Norwegian (nb), Portuguese (pt), Russian (ru), Slovene (sl), Spanish (es), and Welsh (cy). 
+
+Katea is the only set of NLP tools developed for Basque. Katea is composed by Morpheus \cite{morpheus} (morpho-syntactic analysis), eustagger \cite{eustagger} (lemmatization and syntactic function indentification), eihera \cite{eihera} (named entity detection), ixati \cite{morpheus} (shallow parsing) and maltixa \cite{maltixa} (dependency parsing).
+
+
+Showing support for the three languages analyzed in this thesis (English, Spanish and Basque), SyntaxNet could be the perfect tool for developing it. However, given that it still does not offer some basic features we decided to discard it from \projectName for now. However, this tool might be of interest in the near future. In order to implement \projectName we decided to use two tools that complement each other, Freeling and Katea. Together they fullfill both the language and functionality needs of \projectName .
+
+
+\begin{table}[h]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|l|l|l|l|l|l|l|}
+\hline
+\textbf{Tool}      & \textbf{Lang.} & \textbf{Tok.} & \textbf{Stem. \textbackslash Lemm.} & \textbf{PoS} & \textbf{Shallow Par.} & \textbf{Dependency} & \textbf{NE detection} \\ \hline
+\textbf{NLTK \cite{nltk}}      & English +      & Yes           & No                                  & Yes          & Yes                   & In dev.             & Poor                  \\ \hline
+\textbf{CoreNLP \cite{corenlp}}   & English +        & Yes           & Some lang.                          & Yes          & Yes                   & Some lang.          & No                    \\ \hline
+\textbf{OpenNLP \cite{opennlp}}   & English +       & Yes           & Yes                                 & Yes          & Yes                   & Yes                 & Yes                   \\ \hline
+\textbf{SyntaxNet \cite{syntaxnetimplementation,syntaxnetmodels}} & 70+ lang.      & Yes           & No                                  & Yes          & No                    & Yes                 & No                    \\ \hline
+\textbf{Freeling \cite{padro10b,padro12}}  & 14 lang.       & Yes           & Yes                                 & Yes          & Yes                   & Yes                 & Yes                   \\ \hline
+\textbf{Katea \cite{morpheus,eustagger,maltixa}}  & Basque       & Yes           & Yes                                 & Yes          & Yes                   & Yes                 & Yes                   \\ \hline
+\end{tabular}%
+}
+\caption{Comparison of existing NLP tools}
+\label{tab:toolComparison}
+\end{table}
 
 
 
-
-
-\subsubsection*{Freeling NLP}
-Freeling \cite{padro12,padro10b} is a NLP tookit developed for the easing various natural language analysis tasks. Freeling includes, but is not limited to, tokenization, PoS tagging, syntactic parsing, dependency parsing and semantic labelling. Furthermore, Freeling is, to the best of our knowledge, the only tool kit supporting 14 languages with this depth of analysis, supporting Asturian (as), Catalan (ca), German (de), English (en),  French (fr), Galician (gl), Croatian (hr), Italian (it), Norwegian (nb), Portuguese (pt), Russian (ru), Slovene (sl), Spanish (es), and Welsh (cy).
+%\subsubsection*{Freeling NLP}
+%Freeling \cite{padro12,padro10b} is a NLP tookit developed for the easing various natural language analysis tasks. Freeling includes, but is not limited to, tokenization, PoS tagging, syntactic parsing, dependency parsing and semantic labelling. Furthermore, Freeling is, to the best of our knowledge, the only tool kit supporting 14 languages with this depth of analysis, supporting Asturian (as), Catalan (ca), German (de), English (en),  French (fr), Galician (gl), Croatian (hr), Italian (it), Norwegian (nb), Portuguese (pt), Russian (ru), Slovene (sl), Spanish (es), and Welsh (cy).
 %\subsubsection*{Latent Semantic Analysis}
 
 
-\subsection*{SyntaxNet}
-%TODO do we use this?
+
 %http://universaldependencies.org/
-{\color{red} should I mention why not this one?}
 
 
-\subsection*{Katea}
-Katea is set of NLP tools developed for Basque. Katea is composed by Morpheus \cite{morpheus} (morpho-syntactic analysis), eustagger \cite{eustagger} (lemmatization and syntactic function indentification), eihera \cite{eihera} (named entity detection), ixati \cite{morpheus} (shallow parsing) and maltixa \cite{maltixa} (dependency parsing).
+
+%\subsection*{Katea}
+%Katea is set of NLP tools developed for Basque. Katea is composed by Morpheus \cite{morpheus} (morpho-syntactic analysis), eustagger \cite{eustagger} (lemmatization and syntactic function indentification), eihera \cite{eihera} (named entity detection), ixati \cite{morpheus} (shallow parsing) and maltixa \cite{maltixa} (dependency parsing).
 
 
 
@@ -422,7 +451,7 @@ Katea is set of NLP tools developed for Basque. Katea is composed by Morpheus \c
 
 
 \subsection{WordNet}
-Wordnet \cite{miller1995wordnet} is a lexical database for English where terms, i.e., nouns, verbs and adjectives, are grouped into sets of synonyms, expressing different concepts. These concepts are related by each other by several semantic relationships, such as hyperonymie or hyponimie. An example of this structure can be seen in figure \ref{fig:wordnet}, where \emph{motor vehicle} has \emph{vehicle} as hypernym and \emph{car} and \emph{truck} as hyponyms. Note that this structure forms a tree. This fact will be used later, for building some features.
+Wordnet \cite{miller1995wordnet} is a lexical database for English where terms, i.e., nouns, verbs and adjectives, are grouped into sets of synonyms, expressing different concepts. These concepts are related by each other by several semantic relationships, such as hyperonymie or hyponimie. An example of this structure can be seen in figure \ref{fig:wordnet}, where \emph{motor vehicle} has \emph{vehicle} as hypernym and \emph{car} and \emph{truck} as hyponyms. Note that this structure forms a tree, permitting basic operations such as distance or similarity measuring between concepts.
 
 
 
@@ -430,7 +459,7 @@ Wordnet \cite{miller1995wordnet} is a lexical database for English where terms, 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.7\textwidth]{wordnet}
-\caption{Wordnet example}
+\caption{Example of a reduced tree generated around the vehicle concept in Wordnet.}
 \label{fig:wordnet}
 \end{figure}
 
@@ -441,31 +470,37 @@ Wordnet \cite{miller1995wordnet} is a lexical database for English where terms, 
 
 \section{Text processing}
 \label{sec:textprocessing}
-The preprocessing step is the one that takes place first for any document handled by \projectName . The aim of preprocessing is to identify the document to decide further process \projectName needs to perform over it, and to prepare the document for future feature extraction. More detail of mentioned processes is given below.
+Natural language text is generally unstructured, making it hard to handle for computers. The aim of text processing is to infer inherent structures in text in order to ease later processes. This section describes the text processing operation used in \projectName .
 
-\subsection{Document type detection}
-One of the main features of \projectName is its versatility, since \projectName is capable to predict readability values for documents of different format, length and language. Given this variety of documents, each of them cannot be treated the same way, different strategies need to be applied for different texts. Therefore, each document used by \projectName  is classified using 3 criteria: format, length and language.
-
-
-{\color{red} should we go deeper? explain how each criteria is determined?}
 
 
 \subsection{Tokenization}
-Tokenization is the process of splitting a text into smaller parts, i.e. tokens. A token represents each sensical part of a text, which usually corresponds to a term, a number, or a punctuation mark. However, sometimes tokens can be formed by a combination of the previous, i.e., \emph{aren't} or \emph{people's}. An example of how a sentence is tokenized can be seen in Table \ref{tab:tokenization}.
+Tokenization is the process of splitting a text into smaller parts, i.e. tokens. A token represents each sensical part of a text, which usually corresponds to a term, a number, or a punctuation mark. 
+
+Even if tokenization may look trivial, the reality proofs that is not. Looking at the examples in Table \ref{tab:tokenization}, it can be seen how tokenization needs to go further than splitting a sentence by spaces. Both the words  \emph{aren't} and \emph{student's} need to be split into two tokens, while the dot following the year 1991 needs to be keep together to show ordinality in Basque numbers. 
+
+A precise tokenization is important for most tasks, since most of the processes described later, require of a previous tokenization step. 
 
 \begin{table}[h]
 \centering
-\begin{tabular}{|l|l|l|l|l|l|}
+\begin{tabular}{|l|l|l|l|l|l|l|}
 \hline
-\multicolumn{6}{|l|}{Did they win the olimpics?} \\ \hline
-did & they & win & the & olimpics & ? \\ \hline
+\multicolumn{7}{|l|}{1991. urtean jaio zen.} \\ \hline
+1991. & urtean & jaio & zen & . &  &  \\ 
+\hline \hline
+\multicolumn{7}{|l|}{La O.T.A.N. ha firmado el acuerdo.} \\ \hline
+la & O.T.A.N. & ha & firmado & el & acuerdo & . \\ 
+
+ \hline \hline
+\multicolumn{7}{|l|}{Those aren't student's tables.} \\ \hline
+those & are & n't & student & 's & tables & . \\ \hline
 \end{tabular}
-\caption{Tokenization example}
+\caption{Tokenization of sentences in different languages.}
 \label{tab:tokenization}
 \end{table}
 
 \subsection{Stopping}
-Stopping or stopword removal refer to the process of removing stopwords from a text. A stopword is a term that does not add any important information to the task that is performed, usually adding unnecessary noise that hinders valuable information among a document. The frequency of a term is a good indicator for stopwords since, usually the terms that most appear in a text are the ones that less information contain. Some examples of general purpose stopwords are \emph{a}, \emph{the} or \emph{is}, however depending on the domain, terms such as \emph{computer} can also be stopwords given its high frequency. The purpose stopping is usually 2-way, speeding up later processes and noise reduction, and is usually performed without the need of any specific tool, just using a stopword list.
+Stopping or stopword removal refer to the process of removing stopwords from a text. A stopword is a term that does not add any important information to the task that is performed, usually adding unnecessary noise that hinders valuable information among a document. The frequency of a term is a good indicator for stopwords since, usually the terms that most appear in a text are the ones that less information contain. Some examples of general purpose stopwords are \emph{a}, \emph{the} or \emph{is}, however depending on the domain, terms such as \emph{computer} can also be stopwords given its high frequency. The purpose stopping is usually 2-way, speeding up later processes and noise reduction, and is usually performed without the need of any specific tool, just using a stopword list. 
 
 
 
@@ -485,10 +520,10 @@ Part of Speech Tagging is the process of labelling each token with a tag that re
 \centering
 \begin{tabular}{|l|l|l|l|l|l|}
 \hline
-did & they & win & the & olimpics & ? \\ \hline
+did & they & win & the & race & ? \\ \hline
 Verb & Pronoun & Verb & Determiner & Noun & Symbol \\ \hline
 \end{tabular}
-\caption{Part of Speech tagging example}
+\caption{Part of Speech tagging of the sentence ``Did they win the race?"}
 \label{tab:postagging}
 \end{table}
 
@@ -500,7 +535,7 @@ Shallow parsing, also called chunking, refers to the process of grouping tokens 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=\textwidth]{shallow}
-\caption{Shallow parsing example}
+\caption{Shallow parsing of the sentence ``Did they win the race?"}
 \label{fig:shallow}
 \end{figure}
 
@@ -512,7 +547,7 @@ Dependency parsing goes further than shallow parsing, determining relationships 
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.8\textwidth]{dependency}
-\caption{Dependency parsing example}
+\caption{Dependency parsing of the sentence ``Did they win the race?"}
 \label{fig:dependency}
 \end{figure}
 
@@ -526,10 +561,10 @@ A named entity is a token or group of tokens that represent and known entity suc
 \centering
 \begin{tabular}{|l|l|l|l|l|l|l|l|l|l|}
 \hline
-Usain & Bolt & won & the & race & in & Rio & de & Janeiro & . \\ \hline
-person & person &   &   &   &   & location & location & location &   \\ \hline
+Salvador & Dali & was & born & in & the & city & of & Figures & . \\ \hline
+person & person &   &   &   &   &  &  & location &   \\ \hline
 \end{tabular}
-\caption{Named entity detection example}
+\caption{Named entity detection of the sentence ``Salvador Dali was born in the city of Figures"}
 \label{tab:postagging}
 \end{table}
 
@@ -563,7 +598,13 @@ person & person &   &   &   &   & location & location & location &   \\ \hline
 
 
 
+\section{Document type detection}
+One of the main features of \projectName is its versatility, since \projectName is capable to predict readability values for documents of different format, length and language. Consequently, not all documents handled by \projectName can be treated the same way.
 
+%Given this variety of documents, each of them cannot be treated the same way, different strategies need to be applied for different texts. Therefore, each document used by \projectName  is classified using 3 criteria: format, length and language.
+
+
+{\color{red} I need to figure out how we will do this, before writing further}
 
 
 

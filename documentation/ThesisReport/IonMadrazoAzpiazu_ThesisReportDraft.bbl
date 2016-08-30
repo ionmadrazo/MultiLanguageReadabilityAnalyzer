@@ -1,5 +1,14 @@
 \begin{thebibliography}{10}
 
+\bibitem{universaldependencies}
+\url{http://universaldependencies.org/ }.
+
+\bibitem{opennlp}
+\url{http://opennlp.apache.org }.
+
+\bibitem{syntaxnetimplementation}
+\url{https://github.com/tensorflow/models/tree/master/syntaxnet }.
+
 \bibitem{datasetEuOther1}
 \url{http://www.ikasbil.eus}.
 
@@ -71,6 +80,12 @@ Sandra Aluisio, Lucia Specia, Caroline Gasperin, and Carolina Scarton.
   Innovative Use of NLP for Building Educational Applications}, pages 1--9.
   Association for Computational Linguistics, 2010.
 
+\bibitem{syntaxnetmodels}
+Daniel Andor, Chris Alberti, David Weiss, Aliaksei Severyn, Alessandro Presta,
+  Kuzman Ganchev, Slav Petrov, and Michael Collins.
+\newblock Globally normalized transition-based neural networks.
+\newblock {\em arXiv preprint arXiv:1603.06042}, 2016.
+
 \bibitem{anula2007tipos}
 Alberto Anula.
 \newblock Tipos de textos, complejidad ling{\"u}{\i}stica y facilicitaci{\'o}n
@@ -90,6 +105,11 @@ Rebekah~George Benjamin.
 \newblock Reconstructing readability: Recent developments and recommendations
   in the analysis of text difficulty.
 \newblock {\em Educational Psychology Review}, 24(1):63--88, 2012.
+
+\bibitem{nltk}
+Steven Bird, Ewan Klein, and Edward Loper.
+\newblock {\em Natural language processing with Python}.
+\newblock " O'Reilly Media, Inc.", 2009.
 
 \bibitem{bonsall2015plain}
 Samuel~B Bonsall, Andrew~J Leone, and Brian~P Miller.
@@ -194,6 +214,12 @@ Colleen Lennon and Hal Burdick.
 \newblock {\em Electronic publication on
   https://cdn.lexile.com/m/resources/materials/Lennon\_\_Burdick\_2004.pdf},
   2004.
+
+\bibitem{corenlp}
+Christopher~D Manning, Mihai Surdeanu, John Bauer, Jenny~Rose Finkel, Steven
+  Bethard, and David McClosky.
+\newblock The stanford corenlp natural language processing toolkit.
+\newblock In {\em ACL (System Demonstrations)}, pages 55--60, 2014.
 
 \bibitem{miller1995wordnet}
 George~A Miller.
