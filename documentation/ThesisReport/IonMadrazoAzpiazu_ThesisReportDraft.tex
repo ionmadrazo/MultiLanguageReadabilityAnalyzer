@@ -505,32 +505,67 @@ Stopping or stopword removal refer to the process of removing stopwords from a t
 
 
 \subsection{Stemming/Lemmatization}
-The goal of both stemming and lemmatization is to achieve a normalized version of a term. This normalization, is usually helpful for search and comparison task as it reduced the search space among all the terms. As an example, when computing a metric about the verb \emph{play} it might be interesting to compute it for all its word-forms (\emph{play}, \emph{plays}, \emph{played}). This process is usually simpler if all the word-forms are normalized to one canonical form. Stemming and Lemmatization differ in the way the normalized form is obtained. While lemmatization is able to achieve real canonical form (i.e. lemma) of a word (the one appearing in the dictionary), stemming simply chops common prefixes and suffixes to obtain an approximation of it. When both techniques are available \projectName will use lemmatization over stemming, however, some languages do not have any lemmatization technique available. Freeling will be used for lemmatization in Spanish and English, while katea will serve for the same purpose in Basque.
+The goal of both stemming and lemmatization is to achieve a normalized version of a term. This normalization, is usually helpful for search and comparison task as it reduced the search space among all the terms. As an example, when computing a metric about the verb \emph{play} it might be interesting to compute it for all its word-forms (\emph{play}, \emph{plays}, \emph{played}). This process is usually simpler if all the word-forms are normalized to one canonical form. Stemming and Lemmatization differ in the way the normalized form is obtained. While lemmatization is able to achieve real canonical form (i.e. lemma) of a word (the one appearing in the dictionary), stemming simply chops common prefixes and suffixes to obtain an approximation of it. When both techniques are available \projectName will use lemmatization over stemming, however, some languages do not have any lemmatization technique available. Freeling will be used for lemmatization in Spanish and English, while katea will serve for the same purpose in Basque. Several examples of lemmatization can be seen in Table \ref{tab:lemmatization}.
 
-
-
-
-\subsection{Part of Speech Tagging}
-%https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html
-Part of Speech Tagging is the process of labelling each token with a tag that represent the function each token has in a sentence. PoS tags usually differ from language to language\footnote{As an example, the Penn Treebank project defines 36 PoS tags for English, which can be seen here https://www.ling.upenn.edu/courses/Fall\_2003/ling001/penn\_treebank\_pos.html}, however, the most predominant tags, such as verb, adjective or noun, exist among all the languages. An example of Part of Speech tagging can be seen in Table \ref{tab:postagging}.
 
 
 
 \begin{table}[h]
 \centering
-\begin{tabular}{|l|l|l|l|l|l|}
-\hline
-did & they & win & the & race & ? \\ \hline
-Verb & Pronoun & Verb & Determiner & Noun & Symbol \\ \hline
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{l|l|l|l|l|l|l|l|l|l|}
+\cline{2-10}
+                                          & \multicolumn{3}{l|}{\textbf{English}} & \multicolumn{3}{l|}{\textbf{Spanish}} & \multicolumn{3}{l|}{\textbf{Basque}} \\ \hline
+\multicolumn{1}{|l|}{\textbf{Original}}   & plays        & are        & won       & fuiste     & vine      & comieron     & nator      & balituzte    & dakit    \\ \hline
+\multicolumn{1}{|l|}{\textbf{Lemmatized}} & play         & be         & win       & ir         & venir     & comer        & etorri     & edun         & jakin    \\ \hline
 \end{tabular}
-\caption{Part of Speech tagging of the sentence ``Did they win the race?"}
+}
+\caption{Example of lemmatization for different languages.}
+\label{tab:lemmatization}
+\end{table}
+
+\subsection{Part of Speech Tagging}
+%https://www.ling.upenn.edu/courses/Fall_2003/ling001/penn_treebank_pos.html
+Part of Speech (PoS) Tagging is the process of labelling each token with a tag that represent the function each token has in a sentence. PoS tags usually differ from language to language\footnote{As an example, the Penn Treebank project defines 36 PoS tags for English, which can be seen here https://www.ling.upenn.edu/courses/Fall\_2003/ling001/penn\_treebank\_pos.html}, however, the most predominant tags, such as verb, adjective or noun, exist among all the languages. As it is shown  Table \ref{tab:postagging}, for the sentence "Did they won the race?", most of the PoS tags userd in the 3 languages are similar, despite slight differences, such as, the presence of auxiliary verbs or particles.
+
+PoS tags are the building block of structure in text, since they define the first organizational layer on it. They can be used alone for applications that need to consider very basic structure in text or need to better identify terms (a term can have different meaning depending its PoS){\color{red} TODO Cannot come up with an example}. However PoS tagging usually constitutes  a preliminary step used as part of further text analysis processes.
+
+
+
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+% \usepackage{graphicx}
+\begin{table}[]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lllllll}
+\hline
+\multicolumn{1}{|l|}{\multirow{2}{*}{\textbf{English}}} & \multicolumn{1}{l|}{Did}             & \multicolumn{1}{l|}{they}               & \multicolumn{1}{l|}{won}         & \multicolumn{1}{l|}{the}             & \multicolumn{1}{l|}{race}               & \multicolumn{1}{l|}{?}      \\ \cline{2-7} 
+\multicolumn{1}{|l|}{}                                  & \multicolumn{1}{l|}{Verb (Auxiliar)} & \multicolumn{1}{l|}{Pronoun}            & \multicolumn{1}{l|}{Verb}        & \multicolumn{1}{l|}{Determinant}     & \multicolumn{1}{l|}{Noun}               & \multicolumn{1}{l|}{Symbol} \\ \hline
+                                                        &                                      &                                         &                                  &                                      &                                         &                             \\ \hline
+\multicolumn{1}{|l|}{\multirow{2}{*}{\textbf{Spanish}}} & \multicolumn{1}{l|}{Ganaron}         & \multicolumn{1}{l|}{(ellos)}            & \multicolumn{1}{l|}{la}          & \multicolumn{1}{l|}{carrera}         & \multicolumn{1}{l|}{}                   & \multicolumn{1}{l|}{?}      \\ \cline{2-7} 
+\multicolumn{1}{|l|}{}                                  & \multicolumn{1}{l|}{Verb}            & \multicolumn{1}{l|}{Pronoun (Elliptic)} & \multicolumn{1}{l|}{Determinant} & \multicolumn{1}{l|}{Noun}            & \multicolumn{1}{l|}{}                   & \multicolumn{1}{l|}{Symbol} \\ \hline
+                                                        &                                      &                                         &                                  &                                      &                                         &                             \\ \hline
+\multicolumn{1}{|l|}{\multirow{2}{*}{\textbf{Basque}}}  & \multicolumn{1}{l|}{Lasterketa}      & \multicolumn{1}{l|}{irabazi}            & \multicolumn{1}{l|}{al}          & \multicolumn{1}{l|}{zuten}           & \multicolumn{1}{l|}{(haiek)}            & \multicolumn{1}{l|}{?}      \\ \cline{2-7} 
+\multicolumn{1}{|l|}{}                                  & \multicolumn{1}{l|}{Noun}            & \multicolumn{1}{l|}{Verb}               & \multicolumn{1}{l|}{Particle}    & \multicolumn{1}{l|}{Verb (Auxiliar)} & \multicolumn{1}{l|}{Pronoun (Elliptic)} & \multicolumn{1}{l|}{Symbol} \\ \hline
+\end{tabular}%
+}
+\caption{Part of Speech tagging of the sentence ``Did they win the race?" in multiple languages.}
 \label{tab:postagging}
 \end{table}
 
 
 
-\subsection{Shallow parsing}
-Shallow parsing, also called chunking, refers to the process of grouping tokens into chunks. A chunk consists usually a small phrase of about 1 to 4 terms. Those terms are somehow connected to each other and together express a senseful concept. There are two types of chunks, depending if they express a noun or verb phrase. An example of a shallow parsing of a sentence can be seen in figure \ref{fig:shallow}.
+
+
+
+
+
+
+\subsection{Shallow Parsing}
+Shallow parsing, also called chunking, refers to the process of grouping tokens into chunks. A chunk usually consists of a small phrase of about 1 to 4 terms. The terms in each chunk are somehow connected to each other and together express a senseful concept. There are two types of chunks, depending if they express a noun or a verb phrase. An example of a shallow parsing of a sentence can be seen in Figure \ref{fig:shallow}. The example is only shown for English since this shallow parsing works the same way among most languages.
+
+Shallow parsing is interesting for tasks that require to use bigger chunks of text than just tokens. One simple example could be autocompletion, where full senseful chunks can be suggested to the user instead on just separate tokens. Named entity recognition also benefits from shallow parsing, since for most of the Named Entities are usually exact noun-chunks.
 
 \begin{figure}[h!]
 \centering
@@ -541,8 +576,11 @@ Shallow parsing, also called chunking, refers to the process of grouping tokens 
 
 
 
-\subsection{Dependency parsing}
-Dependency parsing goes further than shallow parsing, determining relationships between tokens rather than just grouping them. Given these relationships, a dependency tree is generated, which usually has a root node representing the main verb of the sentence, which has the subject and objects of the sentence as children. An example of a dependency parsed sentence can be seen in figure \ref{fig:dependency}.
+\subsection{Dependency Parsing}
+Dependency parsing goes further than shallow parsing, determining relationships between tokens rather than just grouping them. Given these relationships, a dependency tree is generated, which usually has a root node representing the main verb of the sentence, which has the subject and objects of the sentence as children. An example of a dependency parsed sentence can be seen in Figure \ref{fig:dependency}. Only one language is presented in the example since dependency parsing is very similar for the 3 languages.
+
+
+One of the benefits of dependency parsing over shallow parsing is the possibility to select a granularity when selecting sensical chunks. Using the tree generated by the dependencies, any cut will cause the sub-trees to be fully sensical. As an example, cutting the tree in the node \emph{did}, would create sensical chunks \emph{they} and \emph{win the race} while cutting the tree in the node \emph{win} would create \emph{the race}. Because of this possibility, dependency parsing is highly used in language transformation applications, e.g. transforming a statement into a question.
 
 \begin{figure}[h!]
 \centering
@@ -554,7 +592,7 @@ Dependency parsing goes further than shallow parsing, determining relationships 
 \subsection{Named entity detection}
 A named entity is a token or group of tokens that represent and known entity such as a person, a location, or an organization. Depending on the complexity of the tool that performs this analysis, those entities can also be linked to a knowledge base such as Dbpedia \cite{dbpedia} where more structured information about the entity can be found.
 
-
+A Named Entity is usually a relevant term in a text, something that a user may be interested or looking for. For this reason, it is common give preference to  Named Entities, or consider them as key points for a document, when searching or indexing documents.
 
 
 \begin{table}[h]

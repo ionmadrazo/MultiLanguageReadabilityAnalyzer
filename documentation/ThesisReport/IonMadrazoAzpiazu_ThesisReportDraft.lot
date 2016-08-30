@@ -3,9 +3,10 @@
 \addvspace {12\p@ }
 \contentsline {table}{\numberline {3.1}{\ignorespaces Comparison of existing NLP tools}}{10}
 \contentsline {table}{\numberline {3.2}{\ignorespaces Tokenization of sentences in different languages.}}{11}
-\contentsline {table}{\numberline {3.3}{\ignorespaces Part of Speech tagging of the sentence ``Did they win the race?"}}{13}
-\contentsline {table}{\numberline {3.4}{\ignorespaces Named entity detection of the sentence ``Salvador Dali was born in the city of Figures"}}{14}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Example of lemmatization for different languages.}}{13}
+\contentsline {table}{\numberline {3.4}{\ignorespaces Part of Speech tagging of the sentence ``Did they win the race?" in multiple languages.}}{13}
+\contentsline {table}{\numberline {3.5}{\ignorespaces Named entity detection of the sentence ``Salvador Dali was born in the city of Figures"}}{16}
 \addvspace {12\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Data resources identified for MRAS development and validation}}{22}
+\contentsline {table}{\numberline {4.1}{\ignorespaces Data resources identified for MRAS development and validation}}{23}
 \addvspace {12\p@ }
 \addvspace {12\p@ }
